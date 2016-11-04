@@ -1,0 +1,40 @@
+********************************************************************************
+PACKAGE-LOG: 2016-10-12 16:09:15
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.1.18
+WORDPRESS:	4.6.1
+PHP INFO:	5.6.23 | SAPI: litespeed
+SERVER:		LiteSpeed 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: Unabled to set php memory_limit 
+MEMORY STACK: 87.75MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 2000)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+TABLES: total:70 | filtered:0 | create:70 
+FILTERED: [] 
+SQL CREATED: 20161012_truongsinh_57fe5fafefdfc6361161012160711_database.sql 
+SQL FILE SIZE: 2.24MB (2345001) 
+SQL FILE TIME: 2016-10-12 16:09:24 
+SQL RUNTIME: 8.56 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/mishkaco/public_html/truongsinh 
+ARCHIVE FILE: 20161012_truongsinh_57fe5fafefdfc6361161012160711_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	234.36MB 
+STATS:	Dirs 2,345 | Files 15,752 
+SQL ADDED: 20161012_truongsinh_57fe5fafefdfc6361161012160711_database.sql 
+Items archived [3345] flushing response. 
+Items archived [4346] flushing response. 

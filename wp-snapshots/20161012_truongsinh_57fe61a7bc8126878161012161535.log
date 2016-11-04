@@ -1,0 +1,75 @@
+********************************************************************************
+PACKAGE-LOG: 2016-10-12 16:15:51
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.1.18
+WORDPRESS:	4.6.1
+PHP INFO:	5.6.23 | SAPI: litespeed
+SERVER:		LiteSpeed 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: Unabled to set php memory_limit 
+MEMORY STACK: 87.25MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 2000)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+TABLES: total:70 | filtered:0 | create:70 
+FILTERED: [] 
+SQL CREATED: 20161012_truongsinh_57fe61a7bc8126878161012161535_database.sql 
+SQL FILE SIZE: 2.24MB (2349246) 
+SQL FILE TIME: 2016-10-12 16:15:54 
+SQL RUNTIME: 2.97 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/mishkaco/public_html/truongsinh 
+ARCHIVE FILE: 20161012_truongsinh_57fe61a7bc8126878161012161535_archive.zip 
+FILTERS: *ON* 
+DIRS:  /home/mishkaco/public_html/truongsinh; 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	0B 
+STATS:	Dirs 0 | Files 0 
+SQL ADDED: 20161012_truongsinh_57fe61a7bc8126878161012161535_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 1
+    [filename] => /home/mishkaco/public_html/truongsinh/wp-snapshots/tmp/20161012_truongsinh_57fe61a7bc8126878161012161535_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 354.06KB 
+ARCHIVE RUNTIME: 0.80 sec. 
+MEMORY STACK: 90MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [/home/mishkaco/public_html/truongsinh/wp-snapshots/tmp/20161012_truongsinh_57fe61a7bc8126878161012161535_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 2.24MB 
+Installer File: 347.83KB 
+Archive File: 354.06KB  
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 10.83 sec.
+PEAK PHP MEMORY USED: 92.75MB
+DONE PROCESSING => 20161012_truongsinh 2016-10-12 16:16:02
+ 

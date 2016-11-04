@@ -1,0 +1,2276 @@
+# Copyright (C) 2016 popup-maker
+# This file is distributed under the same license as the popup-maker package.
+msgid ""
+msgstr ""
+"Project-Id-Version: popup-maker\n"
+"Report-Msgid-Bugs-To: https://wppopupmaker.com/support\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-09-05 09:55+0700\n"
+"Language-Team: WP Popup Maker <support@wppopupmaker.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"POT-Creation-Date: \n"
+"X-Generator: Poedit 1.8.9\n"
+"Last-Translator: \n"
+"Language: vi\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/admin-pages.php:30, includes/admin/admin-pages.php:83,
+#: includes/admin/admin-setup.php:24,
+#: includes/admin/popups/class-metabox-cookies.php:69,
+#: includes/admin/popups/class-metabox-triggers.php:66
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: includes/admin/admin-pages.php:32, includes/admin/admin-pages.php:84
+msgid "Tools"
+msgstr "Công cụ"
+
+#: includes/admin/admin-pages.php:34, includes/admin/admin-pages.php:82
+msgid "Extend"
+msgstr "Mở rộng"
+
+#: includes/admin/admin-pages.php:36, includes/admin/admin-pages.php:36
+msgid "Popup Themes"
+msgstr "Chủ đề popup"
+
+#: includes/admin/admin-pages.php:75
+msgid "All Popups"
+msgstr "Tất cả Popups"
+
+#: includes/admin/admin-pages.php:76
+msgid "Add New"
+msgstr "Thêm mới"
+
+#: includes/admin/admin-pages.php:77
+msgid "All Themes"
+msgstr "Tất cả chủ đề"
+
+#: includes/admin/admin-pages.php:78,
+#: includes/admin/popups/dashboard-columns.php:43,
+#: includes/class-pum-conditions.php:74
+msgid "Categories"
+msgstr "Tìm kiếm Danh mục Portfolio"
+
+#: includes/admin/admin-pages.php:79,
+#: includes/admin/popups/dashboard-columns.php:39,
+#: includes/class-pum-conditions.php:75
+msgid "Tags"
+msgstr "Thẻ"
+
+#: includes/admin/admin-setup.php:25,
+#: includes/admin/extensions/extensions-page.php:27,
+#: includes/admin/settings/register-settings.php:309
+msgid "Extensions"
+msgstr "Phần mở rộng"
+
+#: includes/admin/admin-setup.php:57
+msgid "A Popup Preview"
+msgstr "Một bản xem trước Popup"
+
+#: includes/admin/class-pum-admin-helpers.php:14, includes/scripts.php:204
+msgid "Cancel"
+msgstr "Huỷ"
+
+#: includes/admin/class-pum-admin-helpers.php:16, includes/scripts.php:200
+msgid "Add"
+msgstr "Thêm túi sản phẩm mới"
+
+#: includes/admin/class-pum-admin-helpers.php:30,
+#: includes/admin/shortcode-ui/templates/helpers.php:14,
+#: includes/shortcodes/class-pum-shortcode-popup.php:50, templates/popup.php:44
+msgid "Close"
+msgstr "Đóng"
+
+#: includes/admin/class-pum-admin-upgrades.php:110,
+#: includes/admin/class-pum-admin-upgrades.php:111,
+#: includes/admin/class-pum-admin-upgrades.php:256
+msgid "Popup Maker"
+msgstr "Popup Maker"
+
+#: includes/admin/class-pum-admin-upgrades.php:123,
+#: includes/admin/class-pum-admin-upgrades.php:124
+msgid "Popup Maker Upgrades"
+msgstr "Popup Maker nâng cấp"
+
+#: includes/admin/class-pum-admin-upgrades.php:248
+msgid ""
+"Popup Maker needs to complete a database upgrade that was previously started, "
+"click <a href=\"%s\">here</a> to resume the upgrade."
+msgstr ""
+"Popup Maker cần để hoàn tất quá trình nâng cấp cơ sở dữ liệu trước đó đã được "
+"bắt đầu, bấm vào <a href=\"%s\">đây</a> để tiếp tục nâng cấp."
+
+#: includes/admin/class-pum-admin-upgrades.php:257
+msgid "Important"
+msgstr "Quan trọng"
+
+#: includes/admin/class-pum-admin-upgrades.php:258
+msgid "Database upgrades required."
+msgstr "Nâng cấp cơ sở dữ liệu cần thiết."
+
+#: includes/admin/class-pum-admin-upgrades.php:260
+msgid "Please click %shere%s to complete these changes now."
+msgstr "Xin vui lòng bấm vào %shere %s để hoàn tất các thay đổi này bây giờ."
+
+#: includes/admin/class-pum-admin-upgrades.php:280,
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-2.php:32,
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-3.php:43,
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-4.php:43,
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-5.php:38,
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-6.php:50
+msgid "You do not have permission to do upgrades"
+msgstr "Bạn không có quyền để nâng cấp"
+
+#: includes/admin/class-pum-admin-upgrades.php:280,
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-2.php:32,
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-3.php:43,
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-4.php:43,
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-5.php:38,
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-6.php:50,
+#: includes/plugin-updater.php:337
+msgid "Error"
+msgstr "Lỗi"
+
+#: includes/admin/class-pum-admin-upgrades.php:301
+msgid "Upgrades have been completed successfully."
+msgstr "Nâng cấp đã được hoàn tất thành công."
+
+#: includes/admin/class-pum-admin-upgrades.php:562
+msgid "Popup Maker - Upgrades"
+msgstr "Popup Maker - nâng cấp"
+
+#: includes/admin/class-pum-admin-upgrades.php:577
+msgid ""
+"The upgrade process has started, please be patient. This could take several "
+"minutes. You will be automatically redirected when the upgrade is finished."
+msgstr ""
+"Quá trình nâng cấp đã bắt đầu, xin vui lòng kiên nhẫn. Điều này có thể mất "
+"vài phút. Bạn sẽ được tự động chuyển hướng khi n├óng cß║Ñp xong."
+
+#: includes/admin/class-pum-admin-upgrades.php:652
+msgid "Upgrade failed, please try again."
+msgstr "Nâng cấp thất bại, hãy thử một lần nữa."
+
+#: includes/admin/extensions/extensions-page.php:19
+msgid "Extend Popup Maker"
+msgstr "Mở rộng Popup Maker"
+
+#: includes/admin/extensions/extensions-page.php:28,
+#: includes/admin/extensions/extensions-page.php:150,
+#: includes/admin/extensions/extensions-page.php:150
+msgid "Browse All Extensions"
+msgstr "Duyệt qua các phần mở rộng"
+
+#: includes/admin/extensions/extensions-page.php:30
+msgid ""
+"These extensions <strong>add extra functionality</strong> to your popups."
+msgstr ""
+"Tiện ích mở rộng <strong>Thêm các chức năng phụ</strong> cho quảng cáo của "
+"bạn."
+
+#: includes/admin/extensions/extensions-page.php:140
+msgid "Get this Extension"
+msgstr "Nhận phần mở rộng này"
+
+#: includes/admin/extensions/extensions-page.php:159
+msgid "Other Compatible Plugins"
+msgstr "Các plugin tương thích khác"
+
+#: includes/admin/extensions/extensions-page.php:161
+msgid "These plugins should work in popups with no extra setup."
+msgstr "Các plugin nên làm việc trong các quảng cáo không có thiết lập thêm."
+
+#: includes/admin/extensions/extensions-page.php:167
+msgid "Gravity Forms"
+msgstr "Gravity Forms"
+
+#: includes/admin/extensions/extensions-page.php:169
+msgid "Gravity Forms is one of the most popular form building plugins."
+msgstr ""
+"Các hình thức của lực hấp dẫn là một trong các hình thức phổ biến nhất xây "
+"dựng bổ sung."
+
+#: includes/admin/extensions/extensions-page.php:173
+msgid "Ninja Forms"
+msgstr "Biểu mẫu"
+
+#: includes/admin/extensions/extensions-page.php:175
+msgid ""
+"Ninja Forms has fast become the most extensible form plugin available. Build "
+"super custom forms and integrate with your favorite services."
+msgstr ""
+"Hình thức ninja nhanh chóng trở thành hình thức đặt mở rộng plugin có sẵn. "
+"Xây dựng các hình thức tùy chỉnh siêu và tích hợp với dịch vụ yêu thích của "
+"bạn."
+
+#: includes/admin/extensions/extensions-page.php:179
+msgid "Contact Form 7"
+msgstr "Liên hệ"
+
+#: includes/admin/extensions/extensions-page.php:181
+msgid ""
+"CF7 is one of the most downloaded plugins on the WordPress repo. Make simple "
+"forms with ease and plenty of free addons available."
+msgstr ""
+"CF7 là một trong những plugins tải về nhất trên WordPress repo. Làm cho các "
+"hình thức đơn giản với một cách dễ dàng và rất nhiều miễn phí addons có sẵn."
+
+#: includes/admin/extensions/extensions-page.php:185
+msgid "Quiz & Survey Master"
+msgstr "Bài kiểm tra & khảo sát Master"
+
+#: includes/admin/extensions/extensions-page.php:187
+msgid ""
+"If you need more from your forms data look no further, QSM is all about the "
+"statistics & collective data, something other form plugins neglect."
+msgstr ""
+"Nếu bạn cần thêm từ hình thức tìm kiếm dữ liệu của bạn không có thêm, QSM là "
+"tất cả về thống kê & tập dữ liệu, một cái gì đó khác bỏ bê plugins form."
+
+#: includes/admin/extensions/extensions-page.php:206
+msgid "Check it out"
+msgstr "Ngày Trả phòng"
+
+#: includes/admin/metabox-support.php:30
+msgid "Documentation"
+msgstr "i"
+
+#: includes/admin/metabox-support.php:36
+msgid "Free Support Forums"
+msgstr "Diễn đàn hỗ trợ"
+
+#: includes/admin/metabox-support.php:42
+msgid "Extension Support"
+msgstr "Hỗ trợ tiện ích mở rộng"
+
+#: includes/admin/metabox-support.php:48
+msgid "Priority Support"
+msgstr "Hỗ trợ ưu tiên"
+
+#: includes/admin/popups/class-metabox-analytics.php:39
+msgid "Analytics"
+msgstr "Phân tích"
+
+#: includes/admin/popups/class-metabox-analytics.php:60
+msgid "Opens"
+msgstr "Mở ra"
+
+#: includes/admin/popups/class-metabox-analytics.php:67
+msgid "Reset Open Count"
+msgstr "Đặt lại bộ đếm mở"
+
+#: includes/admin/popups/class-metabox-analytics.php:71
+msgid "Last Reset"
+msgstr "Cuối cùng đặt lại"
+
+#: includes/admin/popups/class-metabox-analytics.php:73
+msgid "Previous Opens"
+msgstr "Mở ra trước"
+
+#: includes/admin/popups/class-metabox-analytics.php:75
+msgid "Lifetime Opens"
+msgstr "Mở ra đời"
+
+#: includes/admin/popups/class-metabox-conditions.php:39
+msgid "Conditions"
+msgstr "Điều kiện"
+
+#: includes/admin/popups/class-metabox-conditions.php:69
+msgid ""
+"Conditions are used to limit where and who will see a popup. %sLearn More!%s"
+msgstr ""
+"Điều kiện được sử dụng để hạn chế nơi và những người sẽ nhìn thấy một popup. "
+"%sLearn hơn! %s"
+
+#: includes/admin/popups/class-metabox-conditions.php:93,
+#: includes/admin/popups/class-metabox-conditions.php:131,
+#: includes/admin/popups/class-metabox-conditions.php:200
+msgid "Enable the Not Operand"
+msgstr "Sử Operand không"
+
+#: includes/admin/popups/class-metabox-conditions.php:108,
+#: includes/admin/popups/class-metabox-conditions.php:226
+msgid "Remove Condition"
+msgstr "Loại bỏ các điều kiện"
+
+#: includes/admin/popups/class-metabox-conditions.php:116,
+#: includes/admin/popups/class-metabox-conditions.php:173
+msgctxt "aria-label for add new OR condition button"
+msgid "Add another OR condition"
+msgstr "Thêm điều kiện OR khác"
+
+#: includes/admin/popups/class-metabox-conditions.php:116,
+#: includes/admin/popups/class-metabox-conditions.php:173
+msgid "or"
+msgstr "hoặc"
+
+#: includes/admin/popups/class-metabox-conditions.php:120,
+#: includes/admin/popups/class-metabox-conditions.php:177
+msgctxt "aria-label for add new AND condition button"
+msgid "Add another AND condition group"
+msgstr "Thêm nhóm khác và điều kiện"
+
+#: includes/admin/popups/class-metabox-conditions.php:120,
+#: includes/admin/popups/class-metabox-conditions.php:177
+msgid "and"
+msgstr "và"
+
+#: includes/admin/popups/class-metabox-conditions.php:129
+msgid "Choose a condition to get started."
+msgstr "Chọn một điều kiện để bắt đầu."
+
+#: includes/admin/popups/class-metabox-conditions.php:205,
+#: includes/class-pum-conditions.php:132
+msgid "Select a condition"
+msgstr "Chọn một điều kiện"
+
+#: includes/admin/popups/class-metabox-cookies.php:31
+msgid "Cookies"
+msgstr "Cookies"
+
+#: includes/admin/popups/class-metabox-cookies.php:53,
+#: includes/pum-trigger-functions.php:32
+msgid "Add New Cookie"
+msgstr "Thêm mới Cookie"
+
+#: includes/admin/popups/class-metabox-cookies.php:56
+msgid "Cookies are used to prevent a trigger from opening the popup."
+msgstr "Cookie được sử dụng để ngăn chặn một kích hoạt từ việc mở các popup."
+
+#: includes/admin/popups/class-metabox-cookies.php:67
+msgid "Event"
+msgstr "Sự kiện"
+
+#: includes/admin/popups/class-metabox-cookies.php:68,
+#: includes/admin/popups/dashboard-columns.php:32
+msgid "Name"
+msgstr "Họ tên"
+
+#: includes/admin/popups/class-metabox-cookies.php:70,
+#: includes/admin/popups/class-metabox-triggers.php:67
+msgid "Actions"
+msgstr "Hoạt động"
+
+#: includes/admin/popups/class-metabox-cookies.php:101
+msgid "Choose when you want to set a cookie to get started."
+msgstr "Chọn khi bạn muốn thiết lập một cookie để bắt đầu."
+
+#: includes/admin/popups/class-metabox-cookies.php:102
+msgid "Select an event."
+msgstr "Chọn một sự kiện."
+
+#: includes/admin/popups/class-metabox-cookies.php:130,
+#: includes/pum-cookie-functions.php:75
+msgid "On Popup Close"
+msgstr "Trên Popup đóng"
+
+#: includes/admin/popups/class-metabox-cookies.php:132
+msgid "Time: 1 Month"
+msgstr "Thời gian: 1 tháng"
+
+#: includes/admin/popups/class-metabox-cookies.php:145,
+#: includes/admin/popups/class-metabox-cookies.php:156
+msgid "Edit this cookie"
+msgstr "Edit cookie này"
+
+#: includes/admin/popups/class-metabox-cookies.php:157
+msgid "Delete` this cookie"
+msgstr "Xóa ' cookie này"
+
+#: includes/admin/popups/class-metabox-cookies.php:206
+msgid "What will trigger your cookie to be created?"
+msgstr "Những gì sẽ kích hoạt cookie của bạn sẽ được tạo ra?"
+
+#: includes/admin/popups/class-metabox-cookies.php:251,
+#: includes/class-pum-cookie.php:48
+msgid "Cookie Settings"
+msgstr "Cài đặt cookie"
+
+#: includes/admin/popups/class-metabox-triggers.php:32
+msgid "Triggers"
+msgstr "Kích hoạt"
+
+#: includes/admin/popups/class-metabox-triggers.php:51
+msgid "Add New Trigger"
+msgstr "Thêm mới kích hoạt"
+
+#: includes/admin/popups/class-metabox-triggers.php:54
+msgid "Triggers are what make your popup open."
+msgstr "Gây nên là những gì làm cho popup của bạn mở."
+
+#: includes/admin/popups/class-metabox-triggers.php:64
+msgid "Type"
+msgstr "Loại"
+
+#: includes/admin/popups/class-metabox-triggers.php:65,
+#: includes/class-pum-cookie.php:47, includes/pum-trigger-functions.php:57
+msgid "Cookie"
+msgstr "Cookie"
+
+#: includes/admin/popups/class-metabox-triggers.php:98
+msgid "Choose a type of trigger to get started."
+msgstr "Chọn một loại các kích hoạt để bắt đầu."
+
+#: includes/admin/popups/class-metabox-triggers.php:99
+msgid "Select a trigger type."
+msgstr "Chọn một loại kích hoạt."
+
+#: includes/admin/popups/class-metabox-triggers.php:154
+msgid "Choose what type of trigger to add?"
+msgstr "Chọn loại kích hoạt để thêm không?"
+
+#: includes/admin/popups/class-metabox-triggers.php:215,
+#: includes/pum-trigger-functions.php:83
+msgid "Auto Open"
+msgstr "Tự động mở"
+
+#: includes/admin/popups/class-metabox-triggers.php:217
+msgid "Delay: 0"
+msgstr "Trễ"
+
+#: includes/admin/popups/class-metabox-triggers.php:229,
+#: includes/admin/popups/class-metabox-triggers.php:244
+msgid "Edit this trigger"
+msgstr "Chỉnh sửa này kích hoạt"
+
+#: includes/admin/popups/class-metabox-triggers.php:245
+msgid "Delete` this trigger"
+msgstr "Xóa ' kích hoạt này"
+
+#: includes/admin/popups/dashboard-columns.php:33
+msgid "CSS Classes"
+msgstr "Các lớp CSS"
+
+#: includes/admin/popups/dashboard-columns.php:34
+msgid "Opened"
+msgstr "Mở"
+
+#: includes/admin/popups/dashboard-columns.php:35
+msgid "Title"
+msgstr "Tiêu đề"
+
+#: includes/admin/popups/dashboard-columns.php:193
+msgid "Show all categories"
+msgstr "Tất cả danh mục"
+
+#: includes/admin/popups/dashboard-columns.php:206
+msgid "Show all tags"
+msgstr "Hiển thị tất cả các thẻ"
+
+#: includes/admin/popups/metabox-close-fields.php:20,
+#: includes/class-popmake-popup-fields.php:209
+msgid "Close Text"
+msgstr "Đóng văn bản"
+
+#: includes/admin/popups/metabox-close-fields.php:23,
+#: includes/class-popmake-popup-fields.php:210,
+#: includes/class-popmake-popup-theme-fields.php:295,
+#: includes/class-popmake-popup-theme-fields.php:297, includes/defaults.php:156
+msgid "CLOSE"
+msgstr "Đóng"
+
+#: includes/admin/popups/metabox-close-fields.php:25,
+#: includes/class-popmake-popup-fields.php:211
+msgid "Use this to override the default text set in the popup theme."
+msgstr ""
+"Sử dụng điều này để ghi đè lên các văn bản mặc định được thiết lập trong chủ "
+"đề popup."
+
+#: includes/admin/popups/metabox-close-fields.php:35,
+#: includes/class-popmake-popup-fields.php:216
+msgid "Close Button Delay"
+msgstr "Nút đóng chậm trễ"
+
+#: includes/admin/popups/metabox-close-fields.php:49,
+#: includes/class-popmake-popup-fields.php:217
+msgid "This delays the display of the close button."
+msgstr "Này hoãn Hiển thị nút đóng."
+
+#: includes/admin/popups/metabox-close-fields.php:57,
+#: includes/class-popmake-popup-fields.php:227,
+#: includes/shortcodes/class-pum-shortcode-popup.php:218
+msgid "Click Overlay to Close"
+msgstr "Nhấp vào lớp phủ để đóng"
+
+#: includes/admin/popups/metabox-close-fields.php:60,
+#: includes/class-popmake-popup-fields.php:228,
+#: includes/shortcodes/class-pum-shortcode-popup.php:219
+msgid "Checking this will cause popup to close when user clicks on overlay."
+msgstr "Kiểm tra này sẽ gây ra popup để đóng khi người dùng nhấp vào lớp phủ."
+
+#: includes/admin/popups/metabox-close-fields.php:69,
+#: includes/class-popmake-popup-fields.php:234
+msgid "Press ESC to Close"
+msgstr "Nhấn ESC để đóng"
+
+#: includes/admin/popups/metabox-close-fields.php:72,
+#: includes/class-popmake-popup-fields.php:235
+msgid "Checking this will cause popup to close when user presses ESC key."
+msgstr "Kiểm tra này sẽ gây ra popup để đóng khi ép người sử dụng phím ESC."
+
+#: includes/admin/popups/metabox-close-fields.php:81,
+#: includes/class-popmake-popup-fields.php:241
+msgid "Press F4 to Close"
+msgstr "Nhấn F4 để đóng"
+
+#: includes/admin/popups/metabox-close-fields.php:84,
+#: includes/class-popmake-popup-fields.php:242
+msgid "Checking this will cause popup to close when user presses F4 key."
+msgstr "Kiểm tra này sẽ gây ra popup để đóng khi người dùng nhấn phím F4."
+
+#: includes/admin/popups/metabox-display-fields.php:20,
+#: includes/admin/themes/metabox-close-fields.php:196,
+#: includes/admin/themes/metabox-title-fields.php:31,
+#: includes/class-popmake-popup-fields.php:16,
+#: includes/class-popmake-popup-theme-fields.php:395,
+#: includes/shortcodes/class-pum-shortcode-popup.php:103
+msgid "Size"
+msgstr "Diện tích"
+
+#: includes/admin/popups/metabox-display-fields.php:34,
+#: includes/class-popmake-popup-fields.php:17,
+#: includes/shortcodes/class-pum-shortcode-popup.php:104
+msgid "Select the size of the popup."
+msgstr "Chọn kích thước của các popup."
+
+#: includes/admin/popups/metabox-display-fields.php:45,
+#: includes/class-popmake-popup-fields.php:24
+msgid "Min Width"
+msgstr "Chiều rộng nhỏ"
+
+#: includes/admin/popups/metabox-display-fields.php:59,
+#: includes/class-popmake-popup-fields.php:25
+msgid "Set a minimum width for the popup."
+msgstr "Thiết lập chiều rộng tối thiểu cho các popup."
+
+#: includes/admin/popups/metabox-display-fields.php:64,
+#: includes/class-popmake-popup-fields.php:35
+msgid "Max Width"
+msgstr "Chiều rộng tối đa"
+
+#: includes/admin/popups/metabox-display-fields.php:78,
+#: includes/class-popmake-popup-fields.php:36
+msgid "Set a maximum width for the popup."
+msgstr "Thiết lập chiều rộng tối đa cho các popup."
+
+#: includes/admin/popups/metabox-display-fields.php:89,
+#: includes/admin/themes/metabox-close-fields.php:70,
+#: includes/class-popmake-popup-fields.php:46,
+#: includes/class-popmake-popup-theme-fields.php:321,
+#: includes/shortcodes/class-pum-shortcode-popup.php:111
+msgid "Width"
+msgstr "Độ rộng"
+
+#: includes/admin/popups/metabox-display-fields.php:103,
+#: includes/class-popmake-popup-fields.php:47
+msgid "Set a custom width for the popup."
+msgstr "Thiết lập chiều rộng tuỳ chỉnh cho các popup."
+
+#: includes/admin/popups/metabox-display-fields.php:109,
+#: includes/class-popmake-popup-fields.php:57
+msgid "Auto Adjusted Height"
+msgstr "Tự động điều chỉnh chiều cao"
+
+#: includes/admin/popups/metabox-display-fields.php:123,
+#: includes/class-popmake-popup-fields.php:58
+msgid "Checking this option will set height to fit the content."
+msgstr ""
+"Kiểm tra các tùy chọn này sẽ thiết lập chiều cao để phù hợp với nội dung."
+
+#: includes/admin/popups/metabox-display-fields.php:129,
+#: includes/class-popmake-popup-fields.php:64
+msgid "Scrollable Content"
+msgstr "Cuộn nội dung"
+
+#: includes/admin/popups/metabox-display-fields.php:143,
+#: includes/class-popmake-popup-fields.php:65
+msgid "Checking this option will add a scroll bar to your content."
+msgstr "Kiểm tra các tùy chọn này sẽ thêm một thanh cuộn nội dung của bạn."
+
+#: includes/admin/popups/metabox-display-fields.php:150,
+#: includes/admin/themes/metabox-close-fields.php:53,
+#: includes/class-popmake-popup-fields.php:71,
+#: includes/class-popmake-popup-theme-fields.php:311,
+#: includes/shortcodes/class-pum-shortcode-popup.php:122
+msgid "Height"
+msgstr "Độ cao"
+
+#: includes/admin/popups/metabox-display-fields.php:164,
+#: includes/class-popmake-popup-fields.php:72
+msgid "Set a custom height for the popup."
+msgstr "Thiết lập chiều cao tùy chỉnh cho các popup."
+
+#: includes/admin/popups/metabox-display-fields.php:174
+msgid "Overlay"
+msgstr "Overlay"
+
+#: includes/admin/popups/metabox-display-fields.php:177,
+#: includes/class-popmake-popup-fields.php:82,
+#: includes/shortcodes/class-pum-shortcode-popup.php:96
+msgid "Disable Overlay"
+msgstr "Vô hiệu hoá lớp phủ"
+
+#: includes/admin/popups/metabox-display-fields.php:191,
+#: includes/class-popmake-popup-fields.php:83,
+#: includes/shortcodes/class-pum-shortcode-popup.php:97
+msgid "Checking this will disable and hide the overlay for this popup."
+msgstr "Kiểm tra này sẽ vô hiệu hóa và ẩn lớp phủ cho popup này."
+
+#: includes/admin/popups/metabox-display-fields.php:200,
+#: includes/shortcodes/class-pum-shortcode-popup.php:49
+msgid "Animation"
+msgstr "Hoạt hình"
+
+#: includes/admin/popups/metabox-display-fields.php:205,
+#: includes/class-popmake-popup-fields.php:89,
+#: includes/shortcodes/class-pum-shortcode-popup.php:189
+msgid "Animation Type"
+msgstr "Loại Animation"
+
+#: includes/admin/popups/metabox-display-fields.php:219,
+#: includes/class-popmake-popup-fields.php:90,
+#: includes/shortcodes/class-pum-shortcode-popup.php:190
+msgid "Select an animation type for your popup."
+msgstr "Chọn một loại hoạt hình cho popup của bạn."
+
+#: includes/admin/popups/metabox-display-fields.php:225,
+#: includes/class-popmake-popup-fields.php:97,
+#: includes/shortcodes/class-pum-shortcode-popup.php:197
+msgid "Animation Speed"
+msgstr "Tốc độ hoạt cảnh"
+
+#: includes/admin/popups/metabox-display-fields.php:240,
+#: includes/class-popmake-popup-fields.php:98,
+#: includes/shortcodes/class-pum-shortcode-popup.php:198
+msgid "Set the animation speed for the popup."
+msgstr "Thiết lập tốc độ hoạt hình cho các popup."
+
+#: includes/admin/popups/metabox-display-fields.php:246,
+#: includes/class-popmake-popup-fields.php:108,
+#: includes/shortcodes/class-pum-shortcode-popup.php:208
+msgid "Animation Origin"
+msgstr "Phim hoạt hình gốc"
+
+#: includes/admin/popups/metabox-display-fields.php:259,
+#: includes/class-popmake-popup-fields.php:109,
+#: includes/shortcodes/class-pum-shortcode-popup.php:209
+msgid "Choose where the animation will begin."
+msgstr "Chọn nơi mà những hình ảnh động sẽ bắt đầu."
+
+#: includes/admin/popups/metabox-display-fields.php:270,
+#: includes/admin/themes/metabox-close-fields.php:107,
+#: includes/shortcodes/class-pum-shortcode-popup.php:48
+msgid "Position"
+msgstr "Vị trí"
+
+#: includes/admin/popups/metabox-display-fields.php:273,
+#: includes/class-popmake-popup-fields.php:116
+msgid "Stackable"
+msgstr "Xếp lớp"
+
+#: includes/admin/popups/metabox-display-fields.php:287,
+#: includes/class-popmake-popup-fields.php:117
+msgid "This enables other popups to remain open."
+msgstr "Điều này cho phép các quảng cáo vẫn còn mở."
+
+#: includes/admin/popups/metabox-display-fields.php:291,
+#: includes/class-popmake-popup-fields.php:123
+msgid "Disable Repositioning"
+msgstr "Vô hiệu hóa tái định vị"
+
+#: includes/admin/popups/metabox-display-fields.php:305,
+#: includes/class-popmake-popup-fields.php:124
+msgid ""
+"This will disable automatic repositioning of the popup on window resizing."
+msgstr ""
+"Điều này sẽ vô hiệu hoá tự động định vị lại các popup trên cửa sổ thay đổi "
+"kích thước."
+
+#: includes/admin/popups/metabox-display-fields.php:309,
+#: includes/class-popmake-popup-fields.php:130
+msgid "Fixed Postioning"
+msgstr "Cố định Postioning"
+
+#: includes/admin/popups/metabox-display-fields.php:323,
+#: includes/class-popmake-popup-fields.php:131
+msgid "Checking this sets the positioning of the popup to fixed."
+msgstr "Kiểm tra này tập hợp các vị trí của các popup để cố định."
+
+#: includes/admin/popups/metabox-display-fields.php:328,
+#: includes/admin/themes/metabox-close-fields.php:92,
+#: includes/class-popmake-popup-fields.php:137,
+#: includes/class-popmake-popup-theme-fields.php:331,
+#: includes/shortcodes/class-pum-shortcode-popup.php:135
+msgid "Location"
+msgstr "Vị trí"
+
+#: includes/admin/popups/metabox-display-fields.php:340,
+#: includes/class-popmake-popup-fields.php:138,
+#: includes/shortcodes/class-pum-shortcode-popup.php:136
+msgid "Choose where the popup will be displayed."
+msgstr "Chọn nơi các popup sẽ được hiển thị."
+
+#: includes/admin/popups/metabox-display-fields.php:345,
+#: includes/admin/popups/metabox-display-fields.php:359,
+#: includes/admin/themes/metabox-close-fields.php:111,
+#: includes/class-popmake-popup-fields.php:145,
+#: includes/class-popmake-popup-fields.php:146,
+#: includes/class-popmake-popup-theme-fields.php:339,
+#: includes/input-options.php:129,
+#: includes/shortcodes/class-pum-shortcode-popup.php:143,
+#: includes/shortcodes/class-pum-shortcode-popup.php:144
+msgid "Top"
+msgstr "Padding Top (px):"
+
+#: includes/admin/popups/metabox-display-fields.php:359,
+#: includes/admin/popups/metabox-display-fields.php:378,
+#: includes/admin/popups/metabox-display-fields.php:397,
+#: includes/admin/popups/metabox-display-fields.php:416,
+#: includes/class-popmake-popup-fields.php:146,
+#: includes/class-popmake-popup-fields.php:157,
+#: includes/class-popmake-popup-fields.php:168,
+#: includes/class-popmake-popup-fields.php:179,
+#: includes/shortcodes/class-pum-shortcode-popup.php:144,
+#: includes/shortcodes/class-pum-shortcode-popup.php:155,
+#: includes/shortcodes/class-pum-shortcode-popup.php:166,
+#: includes/shortcodes/class-pum-shortcode-popup.php:177
+msgctxt "Screen Edge: top, bottom"
+msgid "Distance from the %s edge of the screen."
+msgstr "Khoảng cách từ mép %s của màn hình."
+
+#: includes/admin/popups/metabox-display-fields.php:364,
+#: includes/admin/popups/metabox-display-fields.php:378,
+#: includes/admin/themes/metabox-close-fields.php:145,
+#: includes/class-popmake-popup-fields.php:156,
+#: includes/class-popmake-popup-fields.php:157,
+#: includes/class-popmake-popup-theme-fields.php:359,
+#: includes/input-options.php:131,
+#: includes/shortcodes/class-pum-shortcode-popup.php:154,
+#: includes/shortcodes/class-pum-shortcode-popup.php:155
+msgid "Bottom"
+msgstr "Dưới cùng"
+
+#: includes/admin/popups/metabox-display-fields.php:383,
+#: includes/admin/popups/metabox-display-fields.php:397,
+#: includes/admin/themes/metabox-close-fields.php:128,
+#: includes/class-popmake-popup-fields.php:167,
+#: includes/class-popmake-popup-fields.php:168,
+#: includes/class-popmake-popup-theme-fields.php:349,
+#: includes/input-options.php:85, includes/input-options.php:130,
+#: includes/shortcodes/class-pum-shortcode-popup.php:165,
+#: includes/shortcodes/class-pum-shortcode-popup.php:166
+msgid "Left"
+msgstr "Sao chép mã này và dán nó vào form bên trái."
+
+#: includes/admin/popups/metabox-display-fields.php:402,
+#: includes/admin/popups/metabox-display-fields.php:416,
+#: includes/admin/themes/metabox-close-fields.php:162,
+#: includes/class-popmake-popup-fields.php:178,
+#: includes/class-popmake-popup-fields.php:179,
+#: includes/class-popmake-popup-theme-fields.php:369,
+#: includes/input-options.php:87, includes/input-options.php:132,
+#: includes/shortcodes/class-pum-shortcode-popup.php:176,
+#: includes/shortcodes/class-pum-shortcode-popup.php:177
+msgid "Right"
+msgstr "Phải"
+
+#: includes/admin/popups/metabox-display-fields.php:425
+msgid "Z Index"
+msgstr "Chỉ số Z"
+
+#: includes/admin/popups/metabox-display-fields.php:429,
+#: includes/class-popmake-popup-fields.php:189
+msgid "Overlay Z-Index"
+msgstr "Lớp phủ Z-Index"
+
+#: includes/admin/popups/metabox-display-fields.php:434,
+#: includes/class-popmake-popup-fields.php:190
+msgid "Change the z-index layer level for the overlay."
+msgstr "Thay đổi cấp độ lớp z-index cho lớp phủ."
+
+#: includes/admin/popups/metabox-display-fields.php:439,
+#: includes/class-popmake-popup-fields.php:198
+msgid "Popup Z-Index"
+msgstr "Popup Z-Index"
+
+#: includes/admin/popups/metabox-display-fields.php:444,
+#: includes/class-popmake-popup-fields.php:199
+msgid "Change the z-index layer level for the popup."
+msgstr "Thay đổi cấp độ lớp z-index cho popup."
+
+#: includes/admin/popups/metabox-themes-fields.php:12
+msgid "Theme"
+msgstr "Giao diện"
+
+#: includes/admin/popups/metabox-themes-fields.php:21
+msgid "Choose a theme for this popup."
+msgstr "Chọn một chủ đề cho popup này."
+
+#: includes/admin/popups/metabox-themes-fields.php:23
+msgid "Customize This Theme"
+msgstr "Tùy chỉnh Giao diện"
+
+#: includes/admin/popups/metabox.php:28
+msgid "Display Settings"
+msgstr "Hiển thị thiết lập"
+
+#: includes/admin/popups/metabox.php:31, includes/admin/themes/metabox.php:46
+msgid "Close Settings"
+msgstr "Đóng thiết đặt"
+
+#: includes/admin/popups/metabox.php:34
+msgid "Theme Settings"
+msgstr "Cài đặt SEO"
+
+#: includes/admin/popups/metabox.php:156, includes/admin/popups/metabox.php:157
+msgid "Enter popup title here"
+msgstr "Nhập popup tiêu đề ở đây"
+
+#: includes/admin/settings/register-settings.php:140
+msgid "Don't Load Google Fonts"
+msgstr "Không tải Google Fonts"
+
+#: includes/admin/settings/register-settings.php:141
+msgid ""
+"Check this disable loading of google fonts, useful if the fonts you chose are "
+"already loaded with your theme."
+msgstr ""
+"Kiểm tra này vô hiệu hóa tải của google fonts, hữu ích nếu phông chữ mà bạn "
+"đã chọn đã được nạp với chủ đề của bạn."
+
+#: includes/admin/settings/register-settings.php:146
+msgid "Don't load popup theme styles to the head."
+msgstr "Không nạp bật lên chủ đề phong cách cho người đứng đầu."
+
+#: includes/admin/settings/register-settings.php:147
+msgid ""
+"Check this if you have copied the popup theme styles to your own stylesheet "
+"or are using custom styles."
+msgstr ""
+"Kiểm tra này nếu bạn đã sao chép phong cách chủ đề popup để stylesheet của "
+"riêng bạn hoặc đang sử dụng phong cách tùy chỉnh."
+
+#: includes/admin/settings/register-settings.php:157
+msgid "Enable Easy Modal v2 Compatibility Mode"
+msgstr "Kích hoạt chế độ tương thích v2 cách thức dễ dàng"
+
+#: includes/admin/settings/register-settings.php:158
+msgid ""
+"This will automatically make any eModal classes you have added to your site "
+"launch the appropriate Popup after import."
+msgstr ""
+"Điều này tự động sẽ làm cho bất kỳ eModal các lớp học bạn đã thêm vào trang "
+"web của bạn launch Popup thích hợp sau khi nhập khẩu."
+
+#: includes/admin/settings/register-settings.php:163
+msgid "Hide Admin Support Widget"
+msgstr "Ẩn Admin hỗ trợ Widget"
+
+#: includes/admin/settings/register-settings.php:164
+msgid "This will hide the support widget on all popup maker admin pages."
+msgstr ""
+"Điều này sẽ ẩn các tiện ích hỗ trợ trên tất cả các trang popup maker admin."
+
+#: includes/admin/settings/register-settings.php:169
+msgid "Disable categories & tags?"
+msgstr "Vô hiệu hóa các thể loại & tags?"
+
+#: includes/admin/settings/register-settings.php:170
+msgid "This will disable the popup tags & categories."
+msgstr "Điều này sẽ vô hiệu hóa các popup tags & thể loại."
+
+#: includes/admin/settings/register-settings.php:271
+msgid "Settings updated."
+msgstr "Cập Nhật Cài đặt xong."
+
+#: includes/admin/settings/register-settings.php:303,
+#: includes/class-popmake-fields.php:57, includes/class-pum-conditions.php:71,
+#: includes/class-pum-shortcode.php:144,
+#: includes/pum-condition-functions.php:33,
+#: includes/pum-trigger-functions.php:54,
+#: includes/shortcodes/class-pum-shortcode-popup.php:46
+msgid "General"
+msgstr "Chung"
+
+#: includes/admin/settings/register-settings.php:306
+msgid "Assets"
+msgstr "Thuộc tính"
+
+#: includes/admin/settings/register-settings.php:312
+msgid "Licenses"
+msgstr "Giấy phép"
+
+#: includes/admin/settings/register-settings.php:315
+msgid "Misc"
+msgstr "Linh tinh"
+
+#: includes/admin/settings/register-settings.php:565
+msgid ""
+"The callback function used for the <strong>%s</strong> setting is missing."
+msgstr ""
+"Chức năng gọi lại được sử dụng cho các thiết lập <strong>%s</strong> bị thiếu."
+
+#: includes/admin/settings/register-settings.php:698
+msgid "Upload File"
+msgstr "Tải lên tệp tin"
+
+#: includes/admin/settings/register-settings.php:776
+msgid "Deactivate License"
+msgstr "Ngừng kích hoạt giấy phép"
+
+#: includes/admin/settings/settings-page.php:21
+msgid "__Popup Maker Settings"
+msgstr "__Popup nhà sản xuất cài đặt"
+
+#: includes/admin/settings/settings-page.php:21
+msgid "Popup Maker Settings"
+msgstr "Popup trình cài đặt"
+
+#: includes/admin/settings/settings-page.php:52,
+#: includes/admin/settings/settings-page.php:58,
+#: includes/admin/tools/tools-page.php:54,
+#: includes/admin/tools/tools-page.php:61, includes/scripts.php:201
+msgid "Save"
+msgstr "Lưu lại"
+
+#: includes/admin/settings/settings-page.php:68,
+#: includes/admin/tools/tools-page.php:71
+msgid "Support"
+msgstr "Hỗ trợ"
+
+#: includes/admin/shortcode-ui/class-pum-admin-shortcode-ui.php:225
+msgid "You do not have access to preview this post."
+msgstr "Bạn không có quyền truy cập để xem trước bài đăng này."
+
+#: includes/admin/themes/metabox-close-fields.php:10
+msgid "Theme the close button for the popups."
+msgstr "Chủ đề nút đóng cho các quảng cáo."
+
+#: includes/admin/themes/metabox-close-fields.php:17,
+#: includes/class-popmake-popup-theme-fields.php:294
+msgid "Text"
+msgstr "Văn bản"
+
+#: includes/admin/themes/metabox-close-fields.php:21,
+#: includes/class-popmake-popup-theme-fields.php:296
+msgid "Enter the close button text."
+msgstr "Nhập văn bản nút close."
+
+#: includes/admin/themes/metabox-close-fields.php:31,
+#: includes/admin/themes/metabox-container-fields.php:17,
+#: includes/class-popmake-popup-theme-fields.php:33,
+#: includes/class-popmake-popup-theme-fields.php:301
+msgid "Padding"
+msgstr "Khoảng cách lề"
+
+#: includes/admin/themes/metabox-close-fields.php:103,
+#: includes/class-popmake-popup-theme-fields.php:332
+msgid "Choose which corner the close button will be positioned."
+msgstr "Chọn góc mà nút đóng sẽ được vị trí."
+
+#: includes/admin/themes/metabox-close-fields.php:183,
+#: includes/admin/themes/metabox-content-fields.php:17,
+#: includes/admin/themes/metabox-title-fields.php:19
+msgid "Font"
+msgstr "Sử dụng phông chữ tùy chỉnh?"
+
+#: includes/admin/themes/metabox-close-fields.php:187,
+#: includes/admin/themes/metabox-close-fields.php:286,
+#: includes/admin/themes/metabox-close-fields.php:363,
+#: includes/admin/themes/metabox-close-fields.php:483,
+#: includes/admin/themes/metabox-close-fields.php:567,
+#: includes/admin/themes/metabox-container-fields.php:43,
+#: includes/admin/themes/metabox-container-fields.php:119,
+#: includes/admin/themes/metabox-container-fields.php:238,
+#: includes/admin/themes/metabox-content-fields.php:23,
+#: includes/admin/themes/metabox-overlay-fields.php:16,
+#: includes/admin/themes/metabox-title-fields.php:23,
+#: includes/admin/themes/metabox-title-fields.php:186,
+#: includes/class-popmake-popup-theme-fields.php:15,
+#: includes/class-popmake-popup-theme-fields.php:43,
+#: includes/class-popmake-popup-theme-fields.php:78,
+#: includes/class-popmake-popup-theme-fields.php:145,
+#: includes/class-popmake-popup-theme-fields.php:163,
+#: includes/class-popmake-popup-theme-fields.php:247,
+#: includes/class-popmake-popup-theme-fields.php:265,
+#: includes/class-popmake-popup-theme-fields.php:389,
+#: includes/class-popmake-popup-theme-fields.php:426,
+#: includes/class-popmake-popup-theme-fields.php:461,
+#: includes/class-popmake-popup-theme-fields.php:528,
+#: includes/class-popmake-popup-theme-fields.php:574
+msgid "Color"
+msgstr "Nút Màu đường viền:"
+
+#: includes/admin/themes/metabox-close-fields.php:213,
+#: includes/admin/themes/metabox-title-fields.php:48,
+#: includes/class-popmake-popup-theme-fields.php:169,
+#: includes/class-popmake-popup-theme-fields.php:379
+msgid "Line Height"
+msgstr "Chiều cao dòng"
+
+#: includes/admin/themes/metabox-close-fields.php:230,
+#: includes/admin/themes/metabox-content-fields.php:31,
+#: includes/admin/themes/metabox-title-fields.php:65,
+#: includes/class-popmake-popup-theme-fields.php:189,
+#: includes/class-popmake-popup-theme-fields.php:271,
+#: includes/class-popmake-popup-theme-fields.php:405
+msgid "Family"
+msgstr "Chọn font"
+
+#: includes/admin/themes/metabox-close-fields.php:246,
+#: includes/admin/themes/metabox-content-fields.php:46,
+#: includes/admin/themes/metabox-title-fields.php:81,
+#: includes/class-popmake-popup-theme-fields.php:196,
+#: includes/class-popmake-popup-theme-fields.php:278,
+#: includes/class-popmake-popup-theme-fields.php:412
+msgid "Weight"
+msgstr "Độ đậm"
+
+#: includes/admin/themes/metabox-close-fields.php:262,
+#: includes/admin/themes/metabox-close-fields.php:347,
+#: includes/admin/themes/metabox-container-fields.php:103,
+#: includes/admin/themes/metabox-content-fields.php:62,
+#: includes/admin/themes/metabox-title-fields.php:96,
+#: includes/class-popmake-popup-theme-fields.php:70,
+#: includes/class-popmake-popup-theme-fields.php:203,
+#: includes/class-popmake-popup-theme-fields.php:285,
+#: includes/class-popmake-popup-theme-fields.php:419,
+#: includes/class-popmake-popup-theme-fields.php:453
+msgid "Style"
+msgstr "Bạn cũng có thể sử dụng đoạn mã nhúng kiểu cũ này:"
+
+#: includes/admin/themes/metabox-close-fields.php:282,
+#: includes/admin/themes/metabox-container-fields.php:39
+msgid "Background"
+msgstr "Mầu nền Nút bấm"
+
+#: includes/admin/themes/metabox-close-fields.php:294,
+#: includes/admin/themes/metabox-close-fields.php:491,
+#: includes/admin/themes/metabox-close-fields.php:575,
+#: includes/admin/themes/metabox-container-fields.php:51,
+#: includes/admin/themes/metabox-container-fields.php:246,
+#: includes/admin/themes/metabox-overlay-fields.php:25,
+#: includes/admin/themes/metabox-title-fields.php:194,
+#: includes/class-popmake-popup-theme-fields.php:21,
+#: includes/class-popmake-popup-theme-fields.php:49,
+#: includes/class-popmake-popup-theme-fields.php:151,
+#: includes/class-popmake-popup-theme-fields.php:253,
+#: includes/class-popmake-popup-theme-fields.php:432,
+#: includes/class-popmake-popup-theme-fields.php:534,
+#: includes/class-popmake-popup-theme-fields.php:580
+msgid "Opacity"
+msgstr "Độ trong suốt"
+
+#: includes/admin/themes/metabox-close-fields.php:317,
+#: includes/admin/themes/metabox-container-fields.php:73,
+#: includes/admin/themes/metabox-overlay-fields.php:48
+msgid "Want to use background images?"
+msgstr "Bạn muốn sử dụng hình nền?"
+
+#: includes/admin/themes/metabox-close-fields.php:317,
+#: includes/admin/themes/metabox-container-fields.php:73,
+#: includes/admin/themes/metabox-overlay-fields.php:48
+msgid "Check out Advanced Theme Builder!"
+msgstr "Kiểm tra xây dựng chủ đề nâng cao!"
+
+#: includes/admin/themes/metabox-close-fields.php:325,
+#: includes/admin/themes/metabox-container-fields.php:81
+msgid "Border"
+msgstr "Nút Màu đường viền:"
+
+#: includes/admin/themes/metabox-close-fields.php:329,
+#: includes/admin/themes/metabox-container-fields.php:85,
+#: includes/class-popmake-popup-theme-fields.php:59,
+#: includes/class-popmake-popup-theme-fields.php:442
+msgid "Radius"
+msgstr "Bán kính"
+
+#: includes/admin/themes/metabox-close-fields.php:358,
+#: includes/class-popmake-popup-theme-fields.php:454
+msgid "Choose a border style for your close button."
+msgstr "Chọn một phong cách biên giới cho button của bạn thân."
+
+#: includes/admin/themes/metabox-close-fields.php:371,
+#: includes/admin/themes/metabox-container-fields.php:127,
+#: includes/class-popmake-popup-theme-fields.php:84,
+#: includes/class-popmake-popup-theme-fields.php:467
+msgid "Thickness"
+msgstr "thickness/ Sửa độ dày của con lăn phẳng"
+
+#: includes/admin/themes/metabox-close-fields.php:392,
+#: includes/admin/themes/metabox-container-fields.php:147
+msgid "Drop Shadow"
+msgstr "Drop Shadow"
+
+#: includes/admin/themes/metabox-close-fields.php:396,
+#: includes/admin/themes/metabox-container-fields.php:151,
+#: includes/class-popmake-popup-theme-fields.php:94,
+#: includes/class-popmake-popup-theme-fields.php:477,
+#: includes/input-options.php:32
+msgid "Inset"
+msgstr "Inset"
+
+#: includes/admin/themes/metabox-close-fields.php:401,
+#: includes/admin/themes/metabox-container-fields.php:156,
+#: includes/class-popmake-popup-theme-fields.php:100,
+#: includes/class-popmake-popup-theme-fields.php:483
+msgid "No"
+msgstr "Không"
+
+#: includes/admin/themes/metabox-close-fields.php:402,
+#: includes/admin/themes/metabox-container-fields.php:157,
+#: includes/class-popmake-popup-theme-fields.php:101,
+#: includes/class-popmake-popup-theme-fields.php:484
+msgid "Yes"
+msgstr "Được"
+
+#: includes/admin/themes/metabox-close-fields.php:410,
+#: includes/admin/themes/metabox-container-fields.php:165,
+#: includes/class-popmake-popup-theme-fields.php:95,
+#: includes/class-popmake-popup-theme-fields.php:478
+msgid "Set the box shadow to inset (inner shadow)."
+msgstr "Đặt hộp bóng để Glossy (bên trong bóng tối)."
+
+#: includes/admin/themes/metabox-close-fields.php:415,
+#: includes/admin/themes/metabox-close-fields.php:516,
+#: includes/admin/themes/metabox-container-fields.php:170,
+#: includes/admin/themes/metabox-title-fields.php:135,
+#: includes/class-popmake-popup-theme-fields.php:105,
+#: includes/class-popmake-popup-theme-fields.php:217,
+#: includes/class-popmake-popup-theme-fields.php:488,
+#: includes/class-popmake-popup-theme-fields.php:544
+msgid "Horizontal Position"
+msgstr "Vị trí ngang"
+
+#: includes/admin/themes/metabox-close-fields.php:432,
+#: includes/admin/themes/metabox-close-fields.php:533,
+#: includes/admin/themes/metabox-container-fields.php:187,
+#: includes/admin/themes/metabox-title-fields.php:152,
+#: includes/class-popmake-popup-theme-fields.php:115,
+#: includes/class-popmake-popup-theme-fields.php:227,
+#: includes/class-popmake-popup-theme-fields.php:498,
+#: includes/class-popmake-popup-theme-fields.php:554
+msgid "Vertical Position"
+msgstr "Vị trí thẳng đứng"
+
+#: includes/admin/themes/metabox-close-fields.php:449,
+#: includes/admin/themes/metabox-close-fields.php:550,
+#: includes/admin/themes/metabox-container-fields.php:204,
+#: includes/admin/themes/metabox-title-fields.php:169,
+#: includes/class-popmake-popup-theme-fields.php:125,
+#: includes/class-popmake-popup-theme-fields.php:237,
+#: includes/class-popmake-popup-theme-fields.php:508,
+#: includes/class-popmake-popup-theme-fields.php:564
+msgid "Blur Radius"
+msgstr "Bán kính mờ"
+
+#: includes/admin/themes/metabox-close-fields.php:466,
+#: includes/admin/themes/metabox-container-fields.php:221,
+#: includes/class-popmake-popup-theme-fields.php:135,
+#: includes/class-popmake-popup-theme-fields.php:179,
+#: includes/class-popmake-popup-theme-fields.php:518
+msgid "Spread"
+msgstr "độ phân bổ"
+
+#: includes/admin/themes/metabox-close-fields.php:512,
+#: includes/admin/themes/metabox-title-fields.php:131
+msgid "Text Shadow"
+msgstr "Đổ bóng chữ"
+
+#: includes/admin/themes/metabox-container-fields.php:10
+msgid "Theme the container inside the popups."
+msgstr "Chủ đề các thùng chứa bên trong các quảng cáo."
+
+#: includes/admin/themes/metabox-container-fields.php:98,
+#: includes/class-popmake-popup-theme-fields.php:60
+msgid "Choose a corner radius for your container button."
+msgstr "Chọn một bán kính góc cho nút container của bạn."
+
+#: includes/admin/themes/metabox-container-fields.php:114,
+#: includes/class-popmake-popup-theme-fields.php:71
+msgid "Choose a border style for your container button."
+msgstr "Chọn một phong cách biên giới cho nút container của bạn."
+
+#: includes/admin/themes/metabox-content-fields.php:10
+msgid "Theme the content inside the popups."
+msgstr "Chủ đề nội dung bên trong các quảng cáo."
+
+#: includes/admin/themes/metabox-overlay-fields.php:9
+msgid "Theme the overlay behind the popups."
+msgstr "Chủ đề lớp phủ đằng sau những quảng cáo."
+
+#: includes/admin/themes/metabox-overlay-fields.php:20
+msgid "Choose the overlay color."
+msgstr "Chọn lớp phủ màu."
+
+#: includes/admin/themes/metabox-title-fields.php:10
+msgid "Theme the title of the popups."
+msgstr "Chủ đề tiêu đề của các quảng cáo."
+
+#: includes/admin/themes/metabox-title-fields.php:111,
+#: includes/class-popmake-popup-theme-fields.php:210
+msgid "Align"
+msgstr "Căn dòng"
+
+#: includes/admin/themes/metabox.php:31
+msgid "Theme Preview"
+msgstr "Xem trước Chủ đề"
+
+#: includes/admin/themes/metabox.php:34
+msgid "Overlay Settings"
+msgstr "Cài đặt lớp phủ"
+
+#: includes/admin/themes/metabox.php:37
+msgid "Container Settings"
+msgstr "Cài đặt container"
+
+#: includes/admin/themes/metabox.php:40
+msgid "Title Settings"
+msgstr "Cài đặt tiêu đề"
+
+#: includes/admin/themes/metabox.php:43
+msgid "Content Settings"
+msgstr "Cài đặt nội dung"
+
+#: includes/admin/themes/metabox.php:167
+msgid "Title Text"
+msgstr "Chuỗi tựa"
+
+#: includes/admin/tools/tools-page.php:21
+msgid "__Popup Maker Tools"
+msgstr "__Popup nhà sản xuất công cụ"
+
+#: includes/admin/tools/tools-page.php:21
+msgid "Popup Maker Tools"
+msgstr "Popup Maker công cụ"
+
+#: includes/admin/tools/tools-page.php:98
+msgid "System Info"
+msgstr "Thông tin hệ thống"
+
+#: includes/admin/tools/tools-page.php:99
+msgid "Import / Export"
+msgstr "Nhập/ Xuất"
+
+#: includes/admin/tools/tools-page.php:106
+msgid "Import From Easy Modal v2"
+msgstr "Nhập khẩu từ dễ dàng Modal v2"
+
+#: includes/admin/tools/tools-page.php:130
+msgid ""
+"To copy the system info, click below then press Ctrl + C (PC) or Cmd + C "
+"(Mac)."
+msgstr ""
+"Để sao chép các thông tin hệ thống, bấm vào bên dưới sau đó nhấn Ctrl   C "
+"(PC) hoặc Cmd   C (Mac)."
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-2.php:27
+msgid "Update your popups & themes settings."
+msgstr "Cập Nhật cài đặt quảng cáo & chủ đề của bạn."
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-3.php:32
+msgid "Upgrade popup triggers &amp; cookies."
+msgstr "Nâng cấp gây nên popup và cookie."
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-4.php:32
+msgid "Upgrade popup targeting conditions."
+msgstr "Nâng cấp popup nhắm mục tiêu theo điều kiện."
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-5.php:30
+msgid "Initialize popup analytics."
+msgstr "Khởi tạo popup analytics."
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine-6.php:42
+msgid "Clean up old data and verify data integrity."
+msgstr "Làm sạch dữ liệu cũ và xác minh tính toàn vẹn dữ liệu."
+
+#: includes/admin/upgrades/class-pum-admin-upgrade-routine.php:60
+msgid "Step %d of approximately %d running"
+msgstr "Bước %d của %d khoảng chạy"
+
+#: includes/class-popmake-cron.php:49
+msgid "Once Weekly"
+msgstr "Hang tuần"
+
+#: includes/class-popmake-fields.php:174,
+#: includes/class-popmake-popup-fields.php:105,
+#: includes/class-popmake-popup-fields.php:224,
+#: includes/shortcodes/class-pum-shortcode-popup.php:205
+msgid "ms"
+msgstr "Cô"
+
+#: includes/class-popmake-popup-theme-fields.php:443
+msgid "Choose a corner radius for your close button."
+msgstr "Chọn một bán kính góc cho button của bạn thân."
+
+#: includes/class-pum-condition.php:67
+msgid "Condition"
+msgstr "Tình trạng"
+
+#: includes/class-pum-conditions.php:72
+msgid "Pages"
+msgstr ""
+"Howdy! Tải lên WordPress của bạn eXtended RSS (WXR) tập tin và chúng tôi sẽ "
+"nhập khẩu các bài viết, các trang, ý kiến, lĩnh vực tùy chỉnh, chuyên mục, và "
+"các thẻ vào trang web này."
+
+#: includes/class-pum-conditions.php:73
+msgid "Posts"
+msgstr "Bài chia sẻ"
+
+#: includes/class-pum-conditions.php:76
+msgid "Format"
+msgstr "Định dạng"
+
+#: includes/class-pum-conditions.php:151
+msgid "Invalid condition[target]."
+msgstr "[Mục tiêu] điều kiện không hợp lệ."
+
+#: includes/class-pum-cookie.php:51
+msgid "Sessions"
+msgstr "Phiên đăng nhập"
+
+#: includes/class-pum-cookie.php:134, includes/class-pum-cookie.php:163
+msgid "Reset Cookie Key"
+msgstr "Thiết lập lại phím Cookie"
+
+#: includes/class-pum-fields.php:53
+msgid "Submit"
+msgstr "Gửi"
+
+#: includes/class-pum-freemius.php:97
+msgid "Usage Statistics"
+msgstr "Thống kê sử dụng"
+
+#: includes/class-pum-freemius.php:98
+msgid "Popup & Theme Counts, Open Counts"
+msgstr "Popup & Theme đếm, tính mở"
+
+#: includes/class-pum-freemius.php:121
+msgid ""
+"Allow %3$sPopup Maker%4$s​ to collect some usage data with %2$s to make the "
+"plugin even more awesome. If you skip this, that's okay! ​%3$sPopup Maker%4$s "
+"will still work just fine."
+msgstr ""
+"Cho phép %3$sPopup Maker %4$s để thu thập một số dữ liệu sử dụng với %2$s để "
+"làm cho các plugin tuyệt vời hơn nữa. Nếu bạn bỏ qua điều này, đó là được "
+"rồi! %3$sPopup Maker %4$s sẽ vẫn chỉ làm việc tốt."
+
+#: includes/class-pum-post.php:139
+msgid "Can't get property %s"
+msgstr "Không thể có được tài sản %s"
+
+#: includes/class-pum-shortcode.php:145
+msgid "Options"
+msgstr "Các tùy chọn"
+
+#: includes/class-pum-trigger.php:56
+msgid "Trigger"
+msgstr "Bộ gây nên"
+
+#: includes/class-pum-trigger.php:57
+msgid "Trigger Settings"
+msgstr "Kích hoạt cài đặt"
+
+#: includes/deprecated/v4.php:72
+msgid "Targeting Conditions"
+msgstr "Nhắm mục tiêu theo điều kiện"
+
+#: includes/deprecated/v4.php:75
+msgid "Click Open Settings"
+msgstr "Nhấp vào cài đặt mở"
+
+#: includes/deprecated/v4.php:78, includes/pum-trigger-functions.php:84
+msgid "Auto Open Settings"
+msgstr "Cài đặt tự động mở"
+
+#: includes/deprecated/v4.php:81
+msgid "Admin Debug Settings"
+msgstr "Admin gỡ lỗi cài đặt"
+
+#: includes/deprecated/v4.php:356, includes/pum-trigger-functions.php:111
+msgid "Extra CSS Selectors"
+msgstr "Phụ CSS Selectors"
+
+#: includes/deprecated/v4.php:360, includes/pum-trigger-functions.php:113
+msgid ".my-class, #button2"
+msgstr "lớp .my, #button2"
+
+#: includes/deprecated/v4.php:362
+msgid ""
+"This allows custom css classes, ids or selector strings to trigger the popup "
+"when clicked. Seperate multiple selectors using commas."
+msgstr ""
+"Điều này cho phép tùy chỉnh css các lớp học, ID hoặc chọn dây kích hoạt popup "
+"khi nhấp vào. Riêng biệt nhiều vấn đề bằng cách sử dụng dấu phẩy."
+
+#: includes/deprecated/v4.php:377
+msgid "Enable Auto Open Popups"
+msgstr "Sử quảng cáo mở tự động"
+
+#: includes/deprecated/v4.php:380
+msgid "Checking this will cause popup to open automatically."
+msgstr "Kiểm tra này sẽ gây ra popup tự động mở."
+
+#: includes/deprecated/v4.php:391, includes/pum-trigger-functions.php:85,
+#: includes/pum-trigger-functions.php:129
+msgid "Delay"
+msgstr "Trễ"
+
+#: includes/deprecated/v4.php:405, includes/pum-trigger-functions.php:130
+msgid "The delay before the popup will open in milliseconds."
+msgstr "Sự chậm trễ trước khi các popup sẽ mở trong mili giây."
+
+#: includes/deprecated/v4.php:417
+msgid "Cookie Trigger"
+msgstr "Kích hoạt cookie"
+
+#: includes/deprecated/v4.php:430, includes/pum-trigger-functions.php:26
+msgid "When do you want to create the cookie."
+msgstr "Khi bạn muốn để tạo ra cookie."
+
+#: includes/deprecated/v4.php:442, includes/pum-cookie-functions.php:35
+msgid "Use Session Cookie?"
+msgstr "Sử dụng Cookie phiên?"
+
+#: includes/deprecated/v4.php:447, includes/pum-cookie-functions.php:36
+msgid "Session cookies expire when the user closes their browser."
+msgstr "Phiên cookie hết hạn khi người dùng đóng trình duyệt của họ."
+
+#: includes/deprecated/v4.php:459, includes/pum-cookie-functions.php:42
+msgid "Cookie Time"
+msgstr "Thời gian cookie"
+
+#: includes/deprecated/v4.php:465
+msgid ""
+"Enter a plain english time before cookie expires. <br/>Example \"364 days 23 "
+"hours 59 minutes 59 seconds\" will reset just before 1 year exactly."
+msgstr ""
+"Nhập một thời gian là đồng bằng tiếng Anh, trước khi cookie hết hạn.<br>Ví dụ "
+"\"364 ngày 23 giờ 59 phút 59 giây\" sẽ đặt lại ngay trước năm 1 cách chính "
+"xác."
+
+#: includes/deprecated/v4.php:475, includes/pum-cookie-functions.php:49
+msgid "Sitewide Cookie"
+msgstr "Toàn site Cookie"
+
+#: includes/deprecated/v4.php:478
+msgid ""
+"This will prevent the popup from auto opening on any page until the cookie "
+"expires."
+msgstr ""
+"Điều này sẽ ngăn chặn popup từ tự động mở trên bất kỳ trang nào cho đến khi "
+"cookie hết hạn."
+
+#: includes/deprecated/v4.php:490, includes/pum-cookie-functions.php:28
+msgid "Cookie Key"
+msgstr "Cookie chính"
+
+#: includes/deprecated/v4.php:494
+msgid "Reset"
+msgstr "Đặt lại"
+
+#: includes/deprecated/v4.php:495
+msgid ""
+"This changes the key used when setting and checking cookies. Resetting this "
+"will cause all existing cookies to be invalid."
+msgstr ""
+"Điều này thay đổi quan trọng được sử dụng khi thiết lập và kiểm tra các tập "
+"tin cookie. Đặt lại điều này sẽ gây ra tất cả các cookie hiện tại là không "
+"hợp lệ."
+
+#: includes/deprecated/v4.php:510
+msgid "Enable Admin Debug"
+msgstr "Sử Admin gỡ lỗi"
+
+#: includes/deprecated/v4.php:513
+msgid ""
+"When Enabled, the popup will show immediately on the given page for admins."
+msgstr ""
+"Khi kích hoạt, các popup sẽ hiển thị ngay lập tức trên trang nhất định cho "
+"quản trị viên."
+
+#: includes/deprecated/v4.php:546
+msgid "On Entire Site"
+msgstr "Trên toàn bộ trang web"
+
+#: includes/deprecated/v4.php:561
+msgid "On Home Page"
+msgstr "Trên trang chủ"
+
+#: includes/deprecated/v4.php:576
+msgid "Exclude on Home Page"
+msgstr "Loại trừ trên trang chủ"
+
+#: includes/deprecated/v4.php:591
+msgid "On Blog Index"
+msgstr "Trên danh mục Blog"
+
+#: includes/deprecated/v4.php:606
+msgid "Exclude on Blog Index"
+msgstr "Loại trừ chỉ mục Blog"
+
+#: includes/deprecated/v4.php:641, includes/deprecated/v4.php:651,
+#: includes/deprecated/v4.php:663
+msgid "$label"
+msgstr "Label"
+
+#: includes/deprecated/v4.php:712
+msgid "On Search Pages"
+msgstr "Tìm trang"
+
+#: includes/deprecated/v4.php:727
+msgid "Exclude on Search Pages"
+msgstr "Loại trừ trên trang tìm kiếm"
+
+#: includes/deprecated/v4.php:742
+msgid "On 404 Pages"
+msgstr "các trang 404"
+
+#: includes/deprecated/v4.php:757
+msgid "Exclude on 404 Pages"
+msgstr "Loại trừ trang 404"
+
+#: includes/google-fonts.php:58
+msgid "Google Web Fonts&#10549;"
+msgstr "Google Web phông chữ &#10549;"
+
+#: includes/input-options.php:26, includes/input-options.php:115,
+#: includes/scripts.php:212
+msgid "None"
+msgstr "Không"
+
+#: includes/input-options.php:27
+msgid "Solid"
+msgstr "Chắc"
+
+#: includes/input-options.php:28
+msgid "Dotted"
+msgstr "Chấm chấm"
+
+#: includes/input-options.php:29
+msgid "Dashed"
+msgstr "Thùng rác"
+
+#: includes/input-options.php:30
+msgid "Double"
+msgstr "kép"
+
+#: includes/input-options.php:31
+msgid "Groove"
+msgstr "Đường rãnh"
+
+#: includes/input-options.php:33
+msgid "Outset"
+msgstr "Ngay từ đầu"
+
+#: includes/input-options.php:34
+msgid "Ridge"
+msgstr "Ridge"
+
+#: includes/input-options.php:43
+msgid "Use Your Themes"
+msgstr "Sử dụng chủ đề của bạn"
+
+#: includes/input-options.php:58, includes/input-options.php:75
+msgid "Normal"
+msgstr "Bình thường"
+
+#: includes/input-options.php:76
+msgid "Italic"
+msgstr "Nghiêng"
+
+#: includes/input-options.php:86
+msgid "Center"
+msgstr "Giữa"
+
+#: includes/input-options.php:95
+msgid "Responsive Sizes&#10549;"
+msgstr "Đáp ứng các kích cỡ &#10549;"
+
+#: includes/input-options.php:96
+msgid "Nano - 10%"
+msgstr "Nano - 10%"
+
+#: includes/input-options.php:97
+msgid "Micro - 20%"
+msgstr "Micro - 20%"
+
+#: includes/input-options.php:98
+msgid "Tiny - 30%"
+msgstr "Tiny - 30%"
+
+#: includes/input-options.php:99
+msgid "Small - 40%"
+msgstr "Nhỏ - 40%"
+
+#: includes/input-options.php:100
+msgid "Medium - 60%"
+msgstr "Vừa - 60%"
+
+#: includes/input-options.php:101
+msgid "Normal - 70%"
+msgstr "Bình thường - 70%"
+
+#: includes/input-options.php:102
+msgid "Large - 80%"
+msgstr "Large - 80%"
+
+#: includes/input-options.php:103
+msgid "X Large - 95%"
+msgstr "X lớn - 95%"
+
+#: includes/input-options.php:104
+msgid "Non Responsive Sizes&#10549;"
+msgstr "Không đáp ứng các kích cỡ &#10549;"
+
+#: includes/input-options.php:105
+msgid "Auto"
+msgstr "Tự động"
+
+#: includes/input-options.php:106
+msgid "Custom"
+msgstr "Custom"
+
+#: includes/input-options.php:116
+msgid "Slide"
+msgstr "Trình chiếu"
+
+#: includes/input-options.php:117
+msgid "Fade"
+msgstr "Làm mờ"
+
+#: includes/input-options.php:118
+msgid "Fade and Slide"
+msgstr "Mờ dần và trượt"
+
+#: includes/input-options.php:119
+msgid "Grow"
+msgstr "Lớn lên"
+
+#: includes/input-options.php:120
+msgid "Grow and Slide"
+msgstr "Phát triển và trượt"
+
+#: includes/input-options.php:133, includes/input-options.php:150,
+#: includes/input-options.php:167
+msgid "Top Left"
+msgstr "Trên cùng bên trái"
+
+#: includes/input-options.php:134, includes/input-options.php:151
+msgid "Top Center"
+msgstr "Trên cùng ở Giữa"
+
+#: includes/input-options.php:135, includes/input-options.php:152,
+#: includes/input-options.php:168
+msgid "Top Right"
+msgstr "Trên cùng bên phải"
+
+#: includes/input-options.php:136, includes/input-options.php:153
+msgid "Middle Left"
+msgstr "Ở giữa bên trái"
+
+#: includes/input-options.php:137, includes/input-options.php:154
+msgid "Middle Center"
+msgstr "Chính Giữa"
+
+#: includes/input-options.php:138, includes/input-options.php:155
+msgid "Middle Right"
+msgstr "Ở giữa bên phải"
+
+#: includes/input-options.php:139, includes/input-options.php:156,
+#: includes/input-options.php:169
+msgid "Bottom Left"
+msgstr "Bên dưới trái"
+
+#: includes/input-options.php:140, includes/input-options.php:157
+msgid "Bottom Center"
+msgstr "Bên dưới ở giữa"
+
+#: includes/input-options.php:141, includes/input-options.php:158,
+#: includes/input-options.php:170
+msgid "Bottom Right"
+msgstr "Bên dưới phải"
+
+#: includes/input-options.php:142
+msgid "Mouse"
+msgstr "Chuột nhắt"
+
+#: includes/input-options.php:179
+msgid "Disabled"
+msgstr "Tắt"
+
+#: includes/input-options.php:180
+msgid "On Open"
+msgstr "Ngày mở"
+
+#: includes/input-options.php:181
+msgid "On Close"
+msgstr "Đóng"
+
+#: includes/input-options.php:182
+msgid "Manual"
+msgstr "Binh thường"
+
+#: includes/install.php:28
+msgid "Default Theme"
+msgstr "Chủ đề mặc định"
+
+#: includes/integrations/class-popmake-woocommerce-integration.php:29
+msgid "On All WooCommerce"
+msgstr "Trên tất cả WooCommerce"
+
+#: includes/integrations/class-popmake-woocommerce-integration.php:44
+msgid "Exclude on All WooCommerce"
+msgstr "Loại trừ trên tất cả WooCommerce"
+
+#: includes/integrations/class-popmake-woocommerce-integration.php:59
+msgid "On Shop Page"
+msgstr "Cửa hàng trang"
+
+#: includes/integrations/class-popmake-woocommerce-integration.php:74
+msgid "Exclude on Shop Page"
+msgstr "Loại trừ trang Shop"
+
+#: includes/integrations/class-pum-buddypress-integration.php:35
+msgid "BP: Is a BuddyPress Page"
+msgstr "BP: Là một trang BuddyPress"
+
+#: includes/integrations/class-pum-buddypress-integration.php:43
+msgid "BP: Is User Page"
+msgstr "BP: Là trang người dùng"
+
+#: includes/integrations/class-pum-buddypress-integration.php:51
+msgid "BP: Is Group Page"
+msgstr "BP: Là nhóm trang"
+
+#: includes/integrations/class-pum-buddypress-integration.php:59
+msgid "BP: Is User Messages Page"
+msgstr "BP: Là người dùng thư trang"
+
+#: includes/integrations/class-pum-buddypress-integration.php:67
+msgid "BP: Is Activation Page"
+msgstr "BP: Là kích hoạt trang"
+
+#: includes/integrations/class-pum-buddypress-integration.php:75
+msgid "BP: Is Register Page"
+msgstr "BP: Là đăng ký trang"
+
+#: includes/integrations/class-pum-buddypress-integration.php:83
+msgid "BP: Is Item Admin"
+msgstr "BP: Mục là Admin"
+
+#: includes/integrations/class-pum-buddypress-integration.php:91
+msgid "BP: Is Item Mod"
+msgstr "BP: Là mục Mod"
+
+#: includes/integrations/class-pum-buddypress-integration.php:99
+msgid "BP: Is Directory"
+msgstr "BP: Là thư mục"
+
+#: includes/integrations/class-pum-buddypress-integration.php:113
+msgid "BP: Is Current Component"
+msgstr "BP: Là thành phần hiện tại"
+
+#: includes/integrations/class-pum-buddypress-integration.php:131
+msgid "BP: Is Current Action"
+msgstr "BP: Là hành động hiện thời"
+
+#: includes/integrations/class-pum-buddypress-integration.php:145
+msgid "BP: Is Action Variable"
+msgstr "BP: Là hành động biến"
+
+#: includes/integrations/class-pum-woocommerce-integration.php:23
+msgid "All WooCommerce"
+msgstr "Tất cả WooCommerce"
+
+#: includes/integrations/class-pum-woocommerce-integration.php:30
+msgid "Shop Page"
+msgstr "Trang mua bán"
+
+#: includes/integrations/class-pum-woocommerce-integration.php:37
+msgid "Cart Page"
+msgstr "Trang giỏ hàng"
+
+#: includes/integrations/class-pum-woocommerce-integration.php:44
+msgid "Checkout Page"
+msgstr "Trang thanh toán"
+
+#: includes/integrations/class-pum-woocommerce-integration.php:51
+msgid "Account Page"
+msgstr "Trang tài khoản"
+
+#: includes/plugin-updater.php:181
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Có một phiên bản mới của %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">Xem phiên bản %3$s chi tiết</a>."
+
+#: includes/plugin-updater.php:188
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Có một phiên bản mới của %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">Xem phiên bản %3$s chi tiết</a> hoặc <a href=\"%4$s\">nâng cấp</a>."
+
+#: includes/plugin-updater.php:337
+msgid "You do not have permission to install plugin updates"
+msgstr "Bạn không có quyền cài đặt các bản cập nhật của gói mở rộng"
+
+#: includes/post-types.php:23, includes/post-types.php:55
+msgctxt "Post Type Singular: \"Popup\""
+msgid "Add New %1$s"
+msgstr "Thêm New%1$s"
+
+#: includes/post-types.php:24, includes/post-types.php:62
+msgctxt "Post Type Singular: \"Popup\""
+msgid "Add %1$s"
+msgstr "Thêm %1$s"
+
+#: includes/post-types.php:25, includes/post-types.php:56
+msgctxt "Post Type Singular: \"Popup\""
+msgid "Edit %1$s"
+msgstr "Sửa %1$s"
+
+#: includes/post-types.php:26, includes/post-types.php:57
+msgctxt "Post Type Singular: \"Popup\""
+msgid "New %1$s"
+msgstr "Mới %1$s"
+
+#: includes/post-types.php:27
+msgctxt "Post Type Plural: \"Popups\""
+msgid "All %2$s"
+msgstr "Tất cả %2$s"
+
+#: includes/post-types.php:28, includes/post-types.php:58
+msgctxt "Post Type Singular: \"Popup\""
+msgid "View %1$s"
+msgstr "Xem %1$s"
+
+#: includes/post-types.php:29, includes/post-types.php:59
+msgctxt "Post Type Plural: \"Popups\""
+msgid "Search %2$s"
+msgstr "Tìm %2$s"
+
+#: includes/post-types.php:30, includes/post-types.php:60
+msgctxt "Post Type Plural: \"Popups\""
+msgid "No %2$s found"
+msgstr "Không %s tìm thấy"
+
+#: includes/post-types.php:31, includes/post-types.php:61
+msgctxt "Post Type Plural: \"Popups\""
+msgid "No %2$s found in Trash"
+msgstr "Không %s tìm thấy trong thùng rác"
+
+#: includes/post-types.php:33
+msgid "POPMAKE_NAME"
+msgstr "POPMAKE_NAME"
+
+#: includes/post-types.php:54
+msgctxt "Post Type Menu Label"
+msgid "Popup Themes"
+msgstr "Chủ đề popup"
+
+#: includes/post-types.php:95
+msgctxt "Singular Post Type Label"
+msgid "Popup"
+msgstr "Cửa sổ bật lên"
+
+#: includes/post-types.php:96
+msgctxt "Plural Post Type Label"
+msgid "Popups"
+msgstr "popup"
+
+#: includes/post-types.php:99
+msgctxt "Singular Post Type Label"
+msgid "Theme"
+msgstr "Giao diện"
+
+#: includes/post-types.php:100
+msgctxt "Plural Post Type Label"
+msgid "Themes"
+msgstr "Themes"
+
+#: includes/post-types.php:153
+msgid "%s Name"
+msgstr "%s Tên"
+
+#: includes/post-types.php:218, includes/post-types.php:219
+msgctxt "Post Type Singular: Popup, Theme"
+msgid "%1$s updated."
+msgstr "%1$s Cập Nhật."
+
+#: includes/post-types.php:220
+msgctxt "Post Type Singular: Popup, Theme"
+msgid "%1$s published."
+msgstr "%1$s được công bố."
+
+#: includes/post-types.php:221
+msgctxt "Post Type Singular: Popup, Theme"
+msgid "%1$s saved."
+msgstr "%1$s lưu."
+
+#: includes/post-types.php:222
+msgctxt "Post Type Singular: Popup, Theme"
+msgid "%1$s submitted."
+msgstr "%1$s gửi."
+
+#: includes/pum-condition-functions.php:34
+msgctxt "condition: post type plural label ie. Posts: All"
+msgid "%s Archive"
+msgstr "lưu trữ %s"
+
+#: includes/pum-condition-functions.php:42
+msgctxt "condition: post type plural label ie. Posts: All"
+msgid "All %s"
+msgstr "Tất cả %s"
+
+#: includes/pum-condition-functions.php:48
+msgctxt "condition: post type plural label ie. Posts: Selected"
+msgid "%s: Selected"
+msgstr "%s: chọn lọc"
+
+#: includes/pum-condition-functions.php:51
+msgctxt "condition: post type plural label ie. Select Posts"
+msgid "Select %s."
+msgstr "Chọn %s"
+
+#: includes/pum-condition-functions.php:64
+msgctxt "condition: post type plural label ie. Posts: ID"
+msgid "%s: ID"
+msgstr "%s: ID"
+
+#: includes/pum-condition-functions.php:67
+msgctxt "condition: post type singular label ie. Posts IDs"
+msgid "%s IDs: 128, 129"
+msgstr "%s ID: 128, 129"
+
+#: includes/pum-condition-functions.php:79
+msgctxt "condition: post type plural label ie. Pages: With Template"
+msgid "%s: With Template"
+msgstr "%s: với mẫu"
+
+#: includes/pum-condition-functions.php:88
+msgid "Default"
+msgstr "Điểm dừng hệ số 1 (giá trị: 0-1, giá trị mặc định: 1)"
+
+#: includes/pum-condition-functions.php:118
+msgctxt ""
+"condition: post type plural and taxonomy singular label ie. Posts: With "
+"Category"
+msgid "%1$s: With %2$s"
+msgstr "%1$s: %2$s"
+
+#: includes/pum-condition-functions.php:121
+msgctxt "condition: post type plural label ie. Select categories"
+msgid "Select %s."
+msgstr "Chọn %s"
+
+#: includes/pum-condition-functions.php:150
+msgctxt "condition: taxonomy plural label ie. Categories: All"
+msgid "%s: All"
+msgstr "%s: tất cả"
+
+#: includes/pum-condition-functions.php:156
+msgctxt "condition: taxonomy plural label ie. Categories: Selected"
+msgid "%s: Selected"
+msgstr "%s: chọn lọc"
+
+#: includes/pum-condition-functions.php:159
+msgctxt "condition: taxonomy plural label ie. Select Categories"
+msgid "Select %s."
+msgstr "Chọn %s"
+
+#: includes/pum-condition-functions.php:172
+msgctxt "condition: taxonomy plural label ie. Categories: Selected"
+msgid "%s: IDs"
+msgstr "%s: ID"
+
+#: includes/pum-condition-functions.php:175
+msgctxt "condition: taxonomy plural label ie. Category IDs"
+msgid "%s IDs: 128, 129"
+msgstr "%s ID: 128, 129"
+
+#: includes/pum-condition-functions.php:199
+msgid "Home Page"
+msgstr "Trang chủ"
+
+#: includes/pum-condition-functions.php:206
+msgid "Blog Index"
+msgstr "Chỉ mục blog"
+
+#: includes/pum-condition-functions.php:213
+msgid "Search Pages"
+msgstr "Tìm trang"
+
+#: includes/pum-condition-functions.php:219
+msgid "404 Pages"
+msgstr "các trang 404"
+
+#: includes/pum-cookie-functions.php:21, includes/pum-trigger-functions.php:25
+msgid "Cookie Name"
+msgstr "Cookie tên"
+
+#: includes/pum-cookie-functions.php:22
+msgid "Cookie Name ex. popmaker-123"
+msgstr "Cookie tên ví dụ: popmaker-123"
+
+#: includes/pum-cookie-functions.php:23
+msgid "The name that will be used when checking for or saving this cookie."
+msgstr "Tên sẽ được sử dụng khi kiểm tra cho hoặc lưu cookie này."
+
+#: includes/pum-cookie-functions.php:29
+msgid "Changing this will cause all existing cookies to be invalid."
+msgstr "Thay đổi này sẽ gây ra tất cả các cookie hiện tại là không hợp lệ."
+
+#: includes/pum-cookie-functions.php:43
+msgid "364 days 23 hours 59 minutes 59 seconds"
+msgstr "364 ngày 23 giờ 59 phút 59 giây"
+
+#: includes/pum-cookie-functions.php:44
+msgid "Enter a plain english time before cookie expires."
+msgstr "Nhập một thời gian là đồng bằng tiếng Anh, trước khi cookie hết hạn."
+
+#: includes/pum-cookie-functions.php:50
+msgid ""
+"This will prevent the popup from triggering on all pages until the cookie "
+"expires."
+msgstr ""
+"Điều này sẽ ngăn chặn popup kích hoạt trên tất cả các trang cho đến khi "
+"cookie hết hạn."
+
+#: includes/pum-cookie-functions.php:69
+msgid "On Popup Open"
+msgstr "Trên Popup mở"
+
+#: includes/pum-cookie-functions.php:81
+msgid "Manual JavaScript"
+msgstr "Hướng dẫn sử dụng JavaScript"
+
+#: includes/pum-install-functions.php:23
+msgid "Light Box"
+msgstr "Hộp đèn"
+
+#: includes/pum-install-functions.php:33
+msgid "Enterprise Blue"
+msgstr "Doanh nghiệp xanh"
+
+#: includes/pum-install-functions.php:43
+msgid "Hello Box"
+msgstr "Xin chào hộp"
+
+#: includes/pum-install-functions.php:53
+msgid "Cutting Edge"
+msgstr "Cắt cạnh"
+
+#: includes/pum-install-functions.php:63
+msgid "Framed Border"
+msgstr "Khung biên giới"
+
+#: includes/pum-trigger-functions.php:78
+msgid "Click Open"
+msgstr "Nhấp vào mở"
+
+#: includes/pum-trigger-functions.php:79
+msgid "Click Trigger Settings"
+msgstr "Nhấp vào kích hoạt cài đặt"
+
+#: includes/pum-trigger-functions.php:80
+msgid "Extra Selectors"
+msgstr "Thêm Selectors"
+
+#: includes/pum-trigger-functions.php:112
+msgid ""
+"This allows custom css classes, ids or selector strings to trigger the popup "
+"when clicked. Separate multiple selectors using commas."
+msgstr ""
+"Điều này cho phép tùy chỉnh css các lớp học, ID hoặc chọn dây kích hoạt popup "
+"khi nhấp vào. Phân tách nhiều vấn đề bằng cách sử dụng dấu phẩy."
+
+#: includes/pum-trigger-functions.php:117
+msgid "Do not prevent the default click functionality."
+msgstr "Không ngăn cản các chức năng bấm vào mặc định."
+
+#: includes/pum-trigger-functions.php:118
+msgid ""
+"This prevents us from disabling the browsers default action when a trigger is "
+"clicked. It can be used to allow a link to a file to both trigger a popup and "
+"still download the file."
+msgstr ""
+"Điều này ngăn cản chúng tôi vô hiệu hóa các hành động mặc định của trình "
+"duyệt khi kích hoạt được nhấp. Nó có thể được sử dụng để cho phép một liên "
+"kết đến một tập tin để kích hoạt một popup lẫn vẫn tải các tập tin."
+
+#: includes/scripts.php:57
+msgid "Powered By Popup Maker"
+msgstr "Được tài trợ bởi Popup Maker"
+
+#: includes/scripts.php:202
+msgid "Update"
+msgstr "Cập nhật danh mục portfolio"
+
+#: includes/scripts.php:203
+msgid "Insert"
+msgstr "Sử dụng shortcode này để chèn nó vào trang"
+
+#: includes/scripts.php:205
+msgid "Popup Maker Shortcodes"
+msgstr "Popup Maker mã ngắn"
+
+#: includes/scripts.php:206
+msgid "Are you sure you want to delete this trigger?"
+msgstr "Bạn có chắc chắn là muốn xóa cái này không?"
+
+#: includes/scripts.php:207
+msgid "Are you sure you want to delete this cookie?"
+msgstr "Bạn có chắc chắn là muốn xóa cái này không?"
+
+#: includes/scripts.php:213
+msgid "Are you sure you want to reset the open count?"
+msgstr "Bạn có chắc bạn muốn đặt lại các tính mở?"
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:24
+msgid "Popup Close Button"
+msgstr "Popup Close Button"
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:28
+msgid "Make text or html a close trigger for your popup."
+msgstr "Thực hiện văn bản hoặc html một kích hoạt gần nhất của bạn bật lên."
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:33,
+#: includes/shortcodes/class-pum-shortcode-popup.php:35
+msgid "Content"
+msgstr "Nội dung"
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:46,
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:59
+msgid "HTML Tag"
+msgstr "Thẻ HTML"
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:47,
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:60
+msgid "HTML Tags: button, span etc."
+msgstr "HTML Tags: nút, span v.v..."
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:48,
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:61
+msgid "The HTML tag used to generate the trigger and wrap your text."
+msgstr "Thẻ HTML được sử dụng để tạo ra các kích hoạt và quấn văn bản của bạn."
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:55,
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:56,
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:68,
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:69
+msgid "CSS Class"
+msgstr "Lớp CSS"
+
+#: includes/shortcodes/class-pum-shortcode-popup-close.php:58,
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:71
+msgid "Add additional classes for styling."
+msgstr "Thêm các lớp học thêm cho phong cách."
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:24
+msgid "Popup Trigger"
+msgstr "Kích hoạt popup"
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:28
+msgid "Inserts a click-able popup trigger."
+msgstr "Chèn một kích hoạt nhấp chuột có thể bật lên."
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:33
+msgid "Trigger Content"
+msgstr "Kích hoạt nội dung"
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:46
+msgid "Targeted Popup"
+msgstr "Nhắm mục tiêu Popup"
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:47
+msgid "Choose a Popup"
+msgstr "Chọn một Popup"
+
+#: includes/shortcodes/class-pum-shortcode-popup-trigger.php:48
+msgid "Choose which popup will be targeted by this trigger."
+msgstr "Chọn popup mà sẽ được nhắm mục tiêu bằng cách kích hoạt này."
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:26,
+#: includes/shortcodes/class-pum-shortcode-popup.php:324
+msgid "Popup"
+msgstr "Cửa sổ bật lên"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:30
+msgid ""
+"Insert a popup inline rather. Great for simple popups used for supporting "
+"content."
+msgstr ""
+"Chèn popup inline khá. Tuyệt vời cho các quảng cáo đơn giản được sử dụng để "
+"hỗ trợ nội dung."
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:36
+msgid "Can contain other shortcodes, images, text or html content."
+msgstr "Có thể chứa nội dung khác mã ngắn, hình ảnh, văn bản hoặc html."
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:47
+msgid "Display"
+msgstr "hiển thị như"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:70
+msgid "Unique Popup ID"
+msgstr "Popup ID duy nhất"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:71
+msgid "`offer`, `more-info`"
+msgstr "'cung cấp', 'thêm thông tin'"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:72
+msgid "Used in popup triggers to target this popup"
+msgstr "Sử dụng trong gây nên popup để nhắm mục tiêu này popup"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:77
+msgid "Popup Title"
+msgstr "Tiêu đề popup"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:78
+msgid "Enter popup title text,"
+msgstr "Nhập văn bản tiêu đề popup,"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:79
+msgid "This will be displayed above the content. Leave it empty to disable it."
+msgstr ""
+"Điều này sẽ được hiển thị trên các nội dung. Để trống để vô hiệu hóa nó."
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:86
+msgid "Popup Theme"
+msgstr "Chủ đề popup"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:87
+msgid "Choose a theme,"
+msgstr "Chọn một chủ đề,"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:88
+msgid "Choose which popup theme will be used."
+msgstr "Chọn chủ đề popup mà sẽ được sử dụng."
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:115
+msgid "Width Unit"
+msgstr "Chiều rộng đơn vị"
+
+#: includes/shortcodes/class-pum-shortcode-popup.php:126
+msgid "Height Unit"
+msgstr "Đơn vị độ cao"
+
+#: popup-maker.php:98, popup-maker.php:110
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"

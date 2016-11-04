@@ -1,0 +1,3002 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bridge v8.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-08-29 11:36+0700\n"
+"Last-Translator: admin <support@qodeinteractive.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: vi\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ qode
+#: 404.php:17
+msgid "Back to homepage"
+msgstr "Quay lại trang chủ"
+
+# @ qode
+#: blog-vertical-loop.php:58 search.php:48 search.php:69 search.php:97
+#: templates/blog-structure.php:128
+msgid "No posts were found."
+msgstr "Không có bài viết nào!"
+
+# @ qode
+#: templates/blog_large_image-loop.php:55
+#: templates/blog_large_image-loop.php:98
+#: templates/blog_large_image-loop.php:152
+#: templates/blog_large_image-loop.php:189
+#: templates/blog_large_image-loop.php:226
+#: templates/blog_large_image-loop.php:272
+#: templates/blog_large_image_whole_post-loop.php:55
+#: templates/blog_large_image_whole_post-loop.php:98
+#: templates/blog_large_image_whole_post-loop.php:135
+#: templates/blog_large_image_whole_post-loop.php:191
+#: templates/blog_large_image_whole_post-loop.php:228
+#: templates/blog_large_image_whole_post-loop.php:274
+#: templates/blog_search-loop.php:35 templates/blog_single-loop.php:53
+#: templates/blog_single-loop.php:90 templates/blog_single-loop.php:122
+#: templates/blog_single-loop.php:176 templates/blog_single-loop.php:209
+#: templates/blog_single-loop.php:252 templates/blog_small_image-loop.php:55
+#: templates/blog_small_image-loop.php:99
+#: templates/blog_small_image-loop.php:143
+#: templates/blog_small_image-loop.php:196
+#: templates/blog_small_image-loop.php:240
+#: templates/blog_small_image-loop.php:286
+msgid "in"
+msgstr "&hercon;"
+
+# @ qode
+#: templates/blog_large_image-loop.php:58
+#: templates/blog_large_image-loop.php:101
+#: templates/blog_large_image-loop.php:155
+#: templates/blog_large_image-loop.php:192
+#: templates/blog_large_image-loop.php:229
+#: templates/blog_large_image-loop.php:275
+#: templates/blog_large_image_whole_post-loop.php:58
+#: templates/blog_large_image_whole_post-loop.php:101
+#: templates/blog_large_image_whole_post-loop.php:138
+#: templates/blog_large_image_whole_post-loop.php:194
+#: templates/blog_large_image_whole_post-loop.php:231
+#: templates/blog_large_image_whole_post-loop.php:277
+#: templates/blog_search-loop.php:41 templates/blog_single-loop.php:55
+#: templates/blog_single-loop.php:92 templates/blog_single-loop.php:124
+#: templates/blog_single-loop.php:178 templates/blog_single-loop.php:211
+#: templates/blog_single-loop.php:254 templates/blog_small_image-loop.php:58
+#: templates/blog_small_image-loop.php:102
+#: templates/blog_small_image-loop.php:146
+#: templates/blog_small_image-loop.php:199
+#: templates/blog_small_image-loop.php:243
+#: templates/blog_small_image-loop.php:289
+msgid "by"
+msgstr "&oast;"
+
+# @ qode
+#: comments.php:2 includes/shortcodes/shortcodes.php:1777
+#: includes/shortcodes/shortcodes.php:1949
+#: includes/shortcodes/shortcodes.php:1975
+#: includes/shortcodes/shortcodes.php:7163
+#: templates/blog_large_image-loop.php:63
+#: templates/blog_large_image-loop.php:106
+#: templates/blog_large_image-loop.php:160
+#: templates/blog_large_image-loop.php:197
+#: templates/blog_large_image-loop.php:234
+#: templates/blog_large_image-loop.php:280
+#: templates/blog_large_image_whole_post-loop.php:63
+#: templates/blog_large_image_whole_post-loop.php:106
+#: templates/blog_large_image_whole_post-loop.php:143
+#: templates/blog_large_image_whole_post-loop.php:199
+#: templates/blog_large_image_whole_post-loop.php:236
+#: templates/blog_large_image_whole_post-loop.php:282
+#: templates/blog_large_image_with_dividers-loop.php:83
+#: templates/blog_large_image_with_dividers-loop.php:138
+#: templates/blog_large_image_with_dividers-loop.php:204
+#: templates/blog_large_image_with_dividers-loop.php:252
+#: templates/blog_large_image_with_dividers-loop.php:301
+#: templates/blog_large_image_with_dividers-loop.php:358
+#: templates/blog_masonry-loop.php:50 templates/blog_masonry-loop.php:74
+#: templates/blog_masonry-loop.php:91 templates/blog_masonry-loop.php:128
+#: templates/blog_masonry-loop.php:145 templates/blog_masonry-loop.php:176
+#: templates/blog_search-loop.php:46 templates/blog_single-loop.php:59
+#: templates/blog_single-loop.php:96 templates/blog_single-loop.php:128
+#: templates/blog_single-loop.php:182 templates/blog_single-loop.php:215
+#: templates/blog_single-loop.php:258 templates/blog_small_image-loop.php:63
+#: templates/blog_small_image-loop.php:107
+#: templates/blog_small_image-loop.php:151
+#: templates/blog_small_image-loop.php:204
+#: templates/blog_small_image-loop.php:248
+#: templates/blog_small_image-loop.php:294 templates/blog_vertical-loop.php:83
+#: templates/blog_vertical-loop.php:153 templates/blog_vertical-loop.php:224
+#: templates/blog_vertical-loop.php:296 templates/blog_vertical-loop.php:369
+#: templates/blog_vertical-loop.php:442
+msgid "Comments"
+msgstr "Nhật xét"
+
+# @ qode
+#: comments.php:2 includes/shortcodes/shortcodes.php:1774
+#: includes/shortcodes/shortcodes.php:1946
+#: includes/shortcodes/shortcodes.php:1972
+#: includes/shortcodes/shortcodes.php:7160
+#: templates/blog_large_image-loop.php:63
+#: templates/blog_large_image-loop.php:106
+#: templates/blog_large_image-loop.php:160
+#: templates/blog_large_image-loop.php:197
+#: templates/blog_large_image-loop.php:234
+#: templates/blog_large_image-loop.php:280
+#: templates/blog_large_image_whole_post-loop.php:63
+#: templates/blog_large_image_whole_post-loop.php:106
+#: templates/blog_large_image_whole_post-loop.php:143
+#: templates/blog_large_image_whole_post-loop.php:199
+#: templates/blog_large_image_whole_post-loop.php:236
+#: templates/blog_large_image_whole_post-loop.php:282
+#: templates/blog_large_image_with_dividers-loop.php:83
+#: templates/blog_large_image_with_dividers-loop.php:138
+#: templates/blog_large_image_with_dividers-loop.php:204
+#: templates/blog_large_image_with_dividers-loop.php:252
+#: templates/blog_large_image_with_dividers-loop.php:301
+#: templates/blog_large_image_with_dividers-loop.php:358
+#: templates/blog_masonry-loop.php:50 templates/blog_masonry-loop.php:74
+#: templates/blog_masonry-loop.php:91 templates/blog_masonry-loop.php:128
+#: templates/blog_masonry-loop.php:145 templates/blog_masonry-loop.php:176
+#: templates/blog_search-loop.php:46 templates/blog_single-loop.php:59
+#: templates/blog_single-loop.php:96 templates/blog_single-loop.php:128
+#: templates/blog_single-loop.php:182 templates/blog_single-loop.php:215
+#: templates/blog_single-loop.php:258 templates/blog_small_image-loop.php:63
+#: templates/blog_small_image-loop.php:107
+#: templates/blog_small_image-loop.php:151
+#: templates/blog_small_image-loop.php:204
+#: templates/blog_small_image-loop.php:248
+#: templates/blog_small_image-loop.php:294 templates/blog_vertical-loop.php:83
+#: templates/blog_vertical-loop.php:153 templates/blog_vertical-loop.php:224
+#: templates/blog_vertical-loop.php:296 templates/blog_vertical-loop.php:369
+#: templates/blog_vertical-loop.php:442
+msgid "Comment"
+msgstr "Bình luận"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:7285
+#: templates/blog_large_image-loop.php:76
+#: templates/blog_large_image-loop.php:119
+#: templates/blog_large_image-loop.php:173
+#: templates/blog_large_image-loop.php:293
+#: templates/blog_large_image_whole_post-loop.php:76
+#: templates/blog_large_image_whole_post-loop.php:119
+#: templates/blog_large_image_whole_post-loop.php:212
+#: templates/blog_large_image_whole_post-loop.php:295
+#: templates/blog_search-loop.php:64 templates/blog_small_image-loop.php:76
+#: templates/blog_small_image-loop.php:120
+#: templates/blog_small_image-loop.php:217
+#: templates/blog_small_image-loop.php:307
+msgid "Read More"
+msgstr "Đọc tiếp…"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:1905
+#: templates/blog_large_image-loop.php:90
+#: templates/blog_large_image_simple-loop.php:68
+#: templates/blog_large_image_whole_post-loop.php:90
+#: templates/blog_large_image_with_dividers-loop.php:102
+#: templates/blog_masonry-loop.php:64
+#: templates/blog_masonry_date_in_image-loop.php:86
+#: templates/blog_single-loop.php:82
+msgid "Your browser don't support audio player"
+msgstr "Trình duyệt của bạn không hỗ trợ nghe nhạc âm thanh"
+
+# @ qode
+#: comments.php:2
+msgid "No Comments"
+msgstr "Không có bình luận"
+
+# @ qode
+#: comments.php:5
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Bài đăng này được bảo vệ bởi mật khẩu. Nhập mật khẩu để xem bất cứ bình luận nào."
+
+# @ qode
+#: comments.php:29
+msgid "Sorry, the comment form is closed at this time."
+msgstr "Xin lỗi, bình luận đã bị khóa."
+
+# @ qode
+#: comments.php:42
+msgid "Post A Comment"
+msgstr "Đăng lời bình"
+
+# @ qode
+#: comments.php:43
+#, php-format
+msgid "Post A Reply to %s"
+msgstr "Đăng Đáp lại%s"
+
+# @ qode
+#: comments.php:44
+msgid "Cancel Reply"
+msgstr "Hủy lời nhắn"
+
+# @ qode
+# @ wordpress-importer
+#: comments.php:45 includes/import/class.wordpress-importer.php:286
+msgid "Submit"
+msgstr "Gửi"
+
+# @ qode
+#: contact-page.php:97 contact-page.php:160
+msgid "Contact Us"
+msgstr "Liên Hệ Chúng Tôi"
+
+# @ qode
+#: contact-page.php:187
+msgid "This is a required field"
+msgstr "Đây là mục bắt buộc"
+
+# @ qode
+#: contact-page.php:195
+msgid "Please enter a valid email address."
+msgstr "Vui lòng nhập một địa chỉ email hợp lệ."
+
+# @ qode
+#: contact-page.php:225
+msgid "THANK YOU!"
+msgstr "Chân thành cảm ơn!"
+
+# @ qode
+#: contact-page.php:225
+msgid "Your email was successfully sent. We will contact you as soon as possible."
+msgstr "Email của bạn đã được gửi thành công. Chúng tôi sẽ liên hệ với bạn ngay khi có thể."
+
+# @ qode
+#: contact-page.php:234
+msgid "Invalid Captcha"
+msgstr "Mã xác nhận không hợp lệ"
+
+# @ qode
+#: contact-page.php:239
+msgid "Email server problem"
+msgstr "vấn đề máy chủ email"
+
+# @ qode
+#: export/qode-export.php:299
+msgid "Qode Export"
+msgstr "Qode xuất khẩu"
+
+# @ qode
+#: extendvc/extend-vc.php:1963
+msgid "Please insert margin in format: 0px 0px 1px 0px"
+msgstr "Xin vui lòng chèn lề trong định dạng: 0px 0px 0px 1px"
+
+# @ qode
+# @ tgmpa
+#: extendvc/extend-vc.php:4268 includes/nav_menu/edit_custom_walker.php:207
+#: includes/plugins/class-tgm-plugin-activation.php:1390
+msgid "Type"
+msgstr "Loại"
+
+# @ qode
+#: functions.php:455
+msgid "Top Navigation"
+msgstr "Menu Top"
+
+# @ qode
+#: functions.php:1569 header.php:451 header.php:474 header.php:497
+#: header.php:921 header.php:943 header.php:966 header.php:1112
+msgid "Search"
+msgstr "Kết quả tìm kiếm cho &#8220;%s&#8221;"
+
+# @ qode
+#: includes/comment/comment.php:21
+msgid "Your comment is awaiting moderation."
+msgstr "Bình luận của bạn đang chờ kiểm duyệt."
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:143
+#: includes/import/class.wordpress-importer.php:194
+#: includes/import/class.wordpress-importer.php:198
+#: includes/import/class.wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr "Xin lỗi, đã xuất hiện một lỗi."
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:178
+msgid "All done."
+msgstr "Xong."
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:178
+msgid "Have fun!"
+msgstr "Chúc vui!"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Nhớ cập nhật mật khẩu và vai trò người dùng đã được nhập."
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:199
+#, php-format
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr "Các tập tin xuất ra không được tìm thấy ở <code>%s</code>. Dường như nó xảy ra bởi một vấn đề về quyền hạn."
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:215
+#, php-format
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr "Tập tin WXR này (Phiên bản %s) có thể không được hỗ trợ bởi phiên bản của the importer. Xui lòng xem lại cập nhật"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:240
+#, php-format
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr "Không thể nhập tác giả %s. Bài viết của họ sẽ được gán cho người dùng hiện tại"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr "Gán các Tác giả"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:267
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr "Để làm cho nó dễ dàng hơn cho bạn để chỉnh sửa và lưu các nội dung nhập vào, bạn có thể muốn gán tác giả của mục nhập đến một người dùng hiện tại của trang web này. Ví dụ, bạn có thể muốn nhập tất cả các mục như mục của <code> admin </ code>."
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:269
+#, php-format
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr "Nếu một tài khoản mới được lập bởi WordPress, một mật khẩu mới sẽ được tạo ngẫu nhiên và vài trò của họ sẽ được gán như %s. Chỉnh thông tin tài khoản mới thủ công là cần thiết."
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr "Nhập File đính Kèm"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr "Tải và nhập tập đính kèm"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:299
+msgid "Import author:"
+msgstr "Nhập tác giả:"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr "hoặc lập tài khoản mới với tên đăng nhập:"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:313
+msgid "as a new user:"
+msgstr "như là tài khoản mới:"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr "gán bài đăng tới một tài khoản đã tồn tại:"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr "hoặc gán bài đăng cho một tài khoản đã tồn tại:"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:324
+msgid "- Select -"
+msgstr "- Chọn -"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:374
+#, php-format
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr "Tạo tài khoản mới cho %s thất bại. Bài đăng của họ sẽ được gán cho tài khoản hiện tại."
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Nhập thể loại %s không thành công"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Nhập thẻ %s không thành công"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:511
+#: includes/import/class.wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "Nhập %s %s không thành công"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "Không thể nhập &#8220;%s&#8221;: Thẻ loại bài không hợp lệ %s"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; đã tồn tại."
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Nhập không thành công %s &#8220;%s&#8221;"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Mục trình đơn đã bị bỏ qua vì thiếu slug trình đơn"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Mục trình đơn đã bị bỏ qua vì slug trình đơn không hợp lệ:%s"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:856
+msgid "Fetching attachments is not enabled"
+msgstr "Lấy tệp đính kèm không được kích hoạt"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:869
+msgid "Invalid file type"
+msgstr "Loại tệp không đúng"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:913
+msgid "Remote server did not respond"
+msgstr "Máy chủ từ xa không phản hồi"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:919
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Máy chủ từ xa trả về lỗi %1$d %2$s"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:926
+msgid "Remote file is incorrect size"
+msgstr "Tập tin từ xa không đúng kích cỡ"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:931
+msgid "Zero size file downloaded"
+msgstr "Tập tin không kích cỡ đã được tải về"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:937
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Tập tin từ xa quá lớn, giới hạn là %s"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1038
+msgid "Import WordPress"
+msgstr "Nhập Wordpress"
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1045
+#, php-format
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr "Có phiên bản mới của import. Hãy cập nhật phiên bản %s để đảm bảo sự tương thích với các tập tin import mới."
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1060
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr "Howdy! Tải lên WordPress của bạn eXtended RSS (WXR) tập tin và chúng tôi sẽ nhập khẩu các bài viết, các trang, ý kiến, lĩnh vực tùy chỉnh, chuyên mục, và các thẻ vào trang web này."
+
+# @ wordpress-importer
+#: includes/import/class.wordpress-importer.php:1061
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "Chọn một WXR (.xml) tập tin tải lên, sau đó nhấp vào tập tin tải lên, nhập khẩu."
+
+# @ wordpress-importer
+#: includes/import/parsers.php:42 includes/import/parsers.php:77
+#: includes/import/parsers.php:85
+msgid "There was an error when reading this WXR file"
+msgstr "Có lỗi khi đọc tập tin WXR này"
+
+# @ wordpress-importer
+#: includes/import/parsers.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "Các chi tiết được trình bày ở trên. Trình nhập bây giờ sẽ thử một lần nữa với một cú pháp khác..."
+
+# @ wordpress-importer
+#: includes/import/parsers.php:89 includes/import/parsers.php:94
+#: includes/import/parsers.php:284 includes/import/parsers.php:473
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "Đây có vẻ không phải là tập win WXR, số phiên bản WXR bị mất/không hợp lệ"
+
+# @ qode
+#: framework/_qode-import.php:41 framework/_qode-import.php:62
+#: includes/import/qode-import.php:41 includes/import/qode-import.php:62
+msgid "Content imported successfully"
+msgstr "Nội dung nhập thành công"
+
+# @ qode
+#: framework/_qode-import.php:59 includes/import/qode-import.php:59
+msgid "An Error Occurred During Import"
+msgstr "Có lỗi xảy ra Trong thời nhập khẩu"
+
+# @ qode
+#: framework/_qode-import.php:66 includes/import/qode-import.php:66
+msgid "Error loading files"
+msgstr "Lỗi khi tải"
+
+# @ qode
+#: framework/_qode-import.php:77 includes/import/qode-import.php:77
+msgid "Widgets imported successfully"
+msgstr "Widgets nhập thành công"
+
+# @ qode
+#: framework/_qode-import.php:96 includes/import/qode-import.php:96
+msgid "Custom sidebars imported successfully"
+msgstr "sidebars tùy chỉnh nhập thành công"
+
+# @ qode
+#: framework/_qode-import.php:102 includes/import/qode-import.php:102
+msgid "Options imported successfully"
+msgstr "Tùy chọn nhập thành công"
+
+# @ qode
+#: framework/_qode-import.php:135
+msgid "File doesn't exist"
+msgstr "Tập tin không tồn tại"
+
+# @ qode
+#: framework/_qode-import.php:179 includes/import/qode-import.php:160
+msgid "Qode Import"
+msgstr "Qode nhập"
+
+# @ qode
+#: framework/_qode-import.php:199
+msgid "Import"
+msgstr "Nhập"
+
+# @ qode
+#: framework/_qode-import.php:255 includes/import/qode-import.php:347
+msgid "Import attachments"
+msgstr "Nhập  tập tin đính kèm"
+
+# @ qode
+#: framework/_qode-import.php:282 includes/import/qode-import.php:374
+msgid "The import process may take some time. Please be patient."
+msgstr "Quá trình nhập khẩu có thể mất một thời gian. Làm ơn hãy kiên nhẫn."
+
+# @ qode
+#: framework/_qode-import.php:293 includes/import/qode-import.php:385
+msgid "Important notes:"
+msgstr "Lưu ý quan trọng"
+
+# @ qode
+#: framework/_qode-import.php:295 includes/import/qode-import.php:389
+msgid "Please note that import process will take time needed to download all attachments from demo web site."
+msgstr "Xin lưu ý rằng quá trình nhập khẩu sẽ mất thời gian cần thiết để tải về tất cả các file đính kèm từ trang web demo."
+
+# @ qode
+#: framework/_qode-import.php:296 includes/import/qode-import.php:390
+msgid "If you plan to use shop, please install WooCommerce before you run import."
+msgstr "Nếu bạn có kế hoạch để sử dụng cửa hàng, hãy cài đặt WooCommerce trước khi bạn chạy nhập khẩu."
+
+# @ qode
+#. translators: %s: title of menu item which is invalid
+#: includes/nav_menu/edit_custom_walker.php:78
+#, php-format
+msgid "%s (Invalid)"
+msgstr "%s (Không đúng)"
+
+# @ qode
+#. translators: %s: title of menu item in draft status
+#: includes/nav_menu/edit_custom_walker.php:82
+#, php-format
+msgid "%s (Pending)"
+msgstr "%s (Chờ xét duyệt)"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:107
+msgid "Move up"
+msgstr "Chuyển lên"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:120
+msgid "Move down"
+msgstr "Chuyển xuống"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:122
+#: includes/nav_menu/edit_custom_walker.php:124
+msgid "Edit Menu Item"
+msgstr "Sửa mục trình đơn"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:133
+msgid "URL"
+msgstr "URL"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:140
+msgid "Navigation Label"
+msgstr "Nhãn điều hướng"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:146
+msgid "Title Attribute"
+msgstr "Thuộc tính tiêu đề"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:153
+msgid "Open link in a new window/tab"
+msgstr "Mở đường dẫn trong một cửa sổ/tab mới"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:158
+msgid "CSS Classes (optional)"
+msgstr "Lớp CSS (tùy chọn)"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:164
+msgid "Link Relationship (XFN)"
+msgstr "Liên kết mối quan hệ  (XFN)"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:170
+msgid "Description"
+msgstr "Miêu tả chi tiết"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:172
+msgid "The description will be displayed in the menu if the current theme supports it."
+msgstr "Các mô tả sẽ được hiển thị trong menu nếu chủ đề hiện tại hỗ trợ nó."
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:181
+msgid "Anchor"
+msgstr "Đường dẫn liên kết"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:192
+msgid "Don't link"
+msgstr "Không liên kết"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:202
+msgid "Don't show"
+msgstr "Không hiển thị"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:217
+msgid "Wide menu position"
+msgstr "Vị trí menu"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:259
+msgid "Icon"
+msgstr "Icon"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:248
+msgid "Only with \"wide with icons\" menu type"
+msgstr "Chỉ với \"rộng với các biểu tượng\" kiểu đơn"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:280
+msgid "Custom widget area"
+msgstr "Khu vực widget"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:291
+msgid "Only with \"wide & wide with icons\" menu type"
+msgstr "Chỉ với \"rộng và rộng với các biểu tượng\" kiểu đơn"
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:300
+#, php-format
+msgid "Original: %s"
+msgstr "Nguyên gốc: %s"
+
+# @ qode
+#: framework/lib/qode.layout.php:692 framework/lib/qode.layout.php:2085
+#: framework/lib/qode.layout.php:2136 framework/lib/qode.layout.php:2246
+#: framework/lib/qode.layout.php:2298 framework/lib/qode.layout.php:2572
+#: framework/lib/qode.layout.php:2642
+#: includes/nav_menu/edit_custom_walker.php:313
+msgid "Remove"
+msgstr "Xoá"
+
+# @ qode
+# @ woocommerce
+#: includes/nav_menu/edit_custom_walker.php:314
+#: woocommerce/myaccount/my-orders.php:92
+msgid "Cancel"
+msgstr "Huỷ"
+
+# @ tgmpa
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:161
+#: includes/plugins/envato-wordpress-toolkit.php:55
+#: includes/plugins/instagram-widget.php:58
+#: includes/plugins/layer-slider.php:65 includes/plugins/visual-composer.php:55
+msgid "Install Required Plugins"
+msgstr "Cài đặt plugin cần dùng"
+
+# @ tgmpa
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:162
+#: includes/plugins/envato-wordpress-toolkit.php:56
+#: includes/plugins/instagram-widget.php:59
+#: includes/plugins/layer-slider.php:66 includes/plugins/visual-composer.php:56
+msgid "Install Plugins"
+msgstr "Cài đặt plugin"
+
+# @ tgmpa
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:163
+#: includes/plugins/envato-wordpress-toolkit.php:57
+#: includes/plugins/instagram-widget.php:60
+#: includes/plugins/layer-slider.php:67 includes/plugins/visual-composer.php:57
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Đang cài Plugin: %s"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr "Có gì đó không đúng."
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:165
+#: includes/plugins/envato-wordpress-toolkit.php:59
+#: includes/plugins/instagram-widget.php:62
+#: includes/plugins/layer-slider.php:69 includes/plugins/visual-composer.php:59
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:166
+#: includes/plugins/envato-wordpress-toolkit.php:60
+#: includes/plugins/instagram-widget.php:63
+#: includes/plugins/layer-slider.php:70 includes/plugins/visual-composer.php:60
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:167
+#: includes/plugins/envato-wordpress-toolkit.php:61
+#: includes/plugins/instagram-widget.php:64
+#: includes/plugins/layer-slider.php:71 includes/plugins/visual-composer.php:61
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:168
+#: includes/plugins/envato-wordpress-toolkit.php:62
+#: includes/plugins/instagram-widget.php:65
+#: includes/plugins/layer-slider.php:72 includes/plugins/visual-composer.php:62
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:169
+#: includes/plugins/envato-wordpress-toolkit.php:63
+#: includes/plugins/instagram-widget.php:66
+#: includes/plugins/layer-slider.php:73 includes/plugins/visual-composer.php:63
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:170
+#: includes/plugins/envato-wordpress-toolkit.php:64
+#: includes/plugins/instagram-widget.php:67
+#: includes/plugins/layer-slider.php:74 includes/plugins/visual-composer.php:64
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:171
+#: includes/plugins/envato-wordpress-toolkit.php:65
+#: includes/plugins/instagram-widget.php:68
+#: includes/plugins/layer-slider.php:75 includes/plugins/visual-composer.php:65
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:172
+#: includes/plugins/envato-wordpress-toolkit.php:66
+#: includes/plugins/instagram-widget.php:69
+#: includes/plugins/layer-slider.php:76 includes/plugins/visual-composer.php:66
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:173
+#: includes/plugins/envato-wordpress-toolkit.php:67
+#: includes/plugins/instagram-widget.php:70
+#: includes/plugins/layer-slider.php:77 includes/plugins/visual-composer.php:67
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ qode
+#: includes/plugins/envato-wordpress-toolkit.php:68
+#: includes/plugins/instagram-widget.php:71
+#: includes/plugins/layer-slider.php:78 includes/plugins/visual-composer.php:68
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tgmpa
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:175
+#: includes/plugins/envato-wordpress-toolkit.php:69
+#: includes/plugins/instagram-widget.php:72
+#: includes/plugins/layer-slider.php:79 includes/plugins/visual-composer.php:69
+msgid "Return to Required Plugins Installer"
+msgstr "Quay lại trình cài đặt phần mở rộng yêu cầu"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr "Trở về bang điều khiển"
+
+# @ tgmpa
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:177
+#: includes/plugins/class-tgm-plugin-activation.php:1956
+#: includes/plugins/envato-wordpress-toolkit.php:70
+#: includes/plugins/instagram-widget.php:73
+#: includes/plugins/layer-slider.php:80 includes/plugins/visual-composer.php:70
+msgid "Plugin activated successfully."
+msgstr "Ứng dung kích hoạt thành công"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tất cả các phần mở rộng đã được cài đặt và kích hoạt thành công. %1$s"
+
+# @ qode
+# @ tgmpa
+#: framework/qode-framework.php:415
+#: includes/plugins/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr "Loại bỏ thông báo này"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1167
+#: includes/plugins/class-tgm-plugin-activation.php:1348
+msgid "Private Repository"
+msgstr "Kho lưu trữ cá nhân"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1170
+#: includes/plugins/class-tgm-plugin-activation.php:1351
+msgid "Pre-Packaged"
+msgstr "Đóng gói sẵn"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1175
+msgid "WordPress Repository"
+msgstr "Kho lưu trữ Wordpress"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1178
+msgid "Required"
+msgstr "*"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1178
+msgid "Recommended"
+msgstr "Đề xuất"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1181
+msgid "Not Installed"
+msgstr "Không được cài đặt"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1183
+msgid "Installed But Not Activated"
+msgstr "Đã cài nhưng chưa kích hoạt"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1372
+#, php-format
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr "Không có phần mở rộng nào để cài đặt hoặc kích hoạt. <a href=\"%1$s\" title=\"Quay lại bảng điều khiển\">Quay lại bảng điều khiển</a>"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1388
+msgid "Plugin"
+msgstr "Phần mở rộng"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1389
+msgid "Source"
+msgstr "Nguồn"
+
+# @ tgmpa
+# @ woocommerce
+#: includes/plugins/class-tgm-plugin-activation.php:1391
+#: woocommerce/myaccount/my-orders.php:27
+msgid "Status"
+msgstr "Trạng thái"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1288
+#: includes/plugins/class-tgm-plugin-activation.php:1409
+msgid "Install"
+msgstr "Cài đặt"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1312
+#: includes/plugins/class-tgm-plugin-activation.php:1410
+msgid "Activate"
+msgstr "Kích hoạt"
+
+# @ tgmpa
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: includes/plugins/class-tgm-plugin-activation.php:1644
+#: includes/plugins/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1939
+msgid "Install package not available."
+msgstr "Gói cài đặt không có sẵn."
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1940
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Tải về gói cài đặt từ <span class=\"code\">%s</span>&#8230;"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1941
+msgid "Unpacking the package&#8230;"
+msgstr "Giải nén gói&#8230;"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1942
+msgid "Installing the plugin&#8230;"
+msgstr "Cài đặt phần mở rộng&#8230;"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1943
+msgid "Plugin install failed."
+msgstr "Cài phần mở rộng thất bại"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1944
+msgid "Plugin installed successfully."
+msgstr "Cài phần mở rộng thành công"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:1955
+msgid "Plugin activation failed."
+msgstr "Kích hoạt phần mở rộng thất bại"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2069
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Quá trình cài đặt và kích hoạt đã bắt đầu. Quá trình này có thể mất một thời gian trên một số máy chủ, vì vậy hãy kiên nhẫn."
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s đã cài đặt và kích hoạt thành công."
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2070
+#: includes/plugins/class-tgm-plugin-activation.php:2079
+msgid "Show Details"
+msgstr "Hiện thông tin"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2070
+#: includes/plugins/class-tgm-plugin-activation.php:2079
+msgid "Hide Details"
+msgstr "Ẩn thông tin chi tiết"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2071
+msgid "All installations and activations have been completed."
+msgstr "Tất cả các cài đặt và kích hoạt đã hoàn tất."
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Cài và kích hoạt phần mở rộng %1$s (%2$d/%3$d)"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2076
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Tiến trình cài đặt đang bắt đầu. "
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Một lỗi xảy ra khi cài đặt %1$s: <strong>%2$s</strong>."
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2078
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Quá trình cài đặt của %1$s thất bại."
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s đã cài thành công."
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2080
+msgid "All installations have been completed."
+msgstr "Tất cả các cài đặt đã hoàn tất."
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:2081
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Đang cài phần mở rộng %1$s (%2$d/%3$d)"
+
+# @ tgmpa
+#: includes/plugins/class-tgm-plugin-activation.php:532
+#: includes/plugins/class-tgm-plugin-activation.php:2173
+msgid "Return to the Dashboard"
+msgstr "Trở về Dashboard"
+
+# @ qode
+#: includes/plugins/envato-wordpress-toolkit.php:58
+#: includes/plugins/instagram-widget.php:61
+#: includes/plugins/layer-slider.php:68 includes/plugins/visual-composer.php:58
+msgid "Something went wrong with the plugin API."
+msgstr "Có gì đó không đúng với API phần mở rộng"
+
+# @ qode
+#: includes/plugins/envato-wordpress-toolkit.php:71
+#: includes/plugins/instagram-widget.php:74
+#: includes/plugins/layer-slider.php:81 includes/plugins/visual-composer.php:71
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Tất cả các phần mở rộng đã được cài đặt và kích hoạt thành công. %s"
+
+# @ qode
+#: includes/qode-breadcrumbs.php:15
+msgid "Home"
+msgstr "Trang chính"
+
+# @ qode
+#: includes/qode-breadcrumbs.php:122
+msgid "Page"
+msgstr "Trang"
+
+# @ qode
+#: includes/qode-custom-post-types.php:18
+msgid "Portfolio"
+msgstr "Portfolio"
+
+# @ qode
+#: includes/qode-custom-post-types.php:19
+msgid "Portfolio Item"
+msgstr "Dự án"
+
+# @ qode
+#: includes/qode-custom-post-types.php:20
+msgid "New Portfolio Item"
+msgstr "Túi sản phẩm mới"
+
+# @ qode
+#: includes/qode-custom-post-types.php:21
+msgid "Add New Portfolio Item"
+msgstr "Thêm túi sản phẩm mới"
+
+# @ qode
+#: includes/qode-custom-post-types.php:22
+msgid "Edit Portfolio Item"
+msgstr "Sửa túi sản phẩm"
+
+# @ qode
+#: includes/qode-custom-post-types.php:36
+msgid "Testimonials"
+msgstr "Cảm nhận"
+
+# @ qode
+#: includes/qode-custom-post-types.php:37
+msgid "Testimonial"
+msgstr "Xem cảm nhận"
+
+# @ qode
+#: includes/qode-custom-post-types.php:38
+msgid "New Testimonial"
+msgstr "Giấy chứng nhận mới"
+
+# @ qode
+#: includes/qode-custom-post-types.php:39
+msgid "Add New Testimonial"
+msgstr "Thêm giấy chứng nhận mới"
+
+# @ qode
+#: includes/qode-custom-post-types.php:40
+msgid "Edit Testimonial"
+msgstr "Sửa giấy chứng nhận"
+
+# @ qode
+#: includes/qode-custom-post-types.php:56
+#: includes/qode-custom-post-types.php:57
+msgid "Qode Slider"
+msgstr "Qode Slider"
+
+# @ qode
+#: includes/qode-custom-post-types.php:58
+msgid "Slides"
+msgstr "Những Slide"
+
+# @ qode
+#: includes/qode-custom-post-types.php:59
+#: includes/qode-custom-post-types.php:62
+msgid "Add New Slide"
+msgstr "Thêm slide mới"
+
+# @ qode
+#: includes/qode-custom-post-types.php:60
+msgid "Slide"
+msgstr "Trình chiếu"
+
+# @ qode
+#: includes/qode-custom-post-types.php:61
+msgid "New Slide"
+msgstr "Slide mới"
+
+# @ qode
+#: includes/qode-custom-post-types.php:63
+msgid "Edit Slide"
+msgstr "Sửa slide"
+
+# @ qode
+#: includes/qode-custom-post-types.php:80
+#: includes/qode-custom-post-types.php:81
+msgid "Qode Carousel"
+msgstr "Qode Carousel"
+
+# @ qode
+#: includes/qode-custom-post-types.php:82
+msgid "Carousel Items"
+msgstr "Items Carousel"
+
+# @ qode
+#: includes/qode-custom-post-types.php:83
+#: includes/qode-custom-post-types.php:86
+msgid "Add New Carousel Item"
+msgstr "Thêm mới Carousel mục"
+
+# @ qode
+#: includes/qode-custom-post-types.php:84
+msgid "Carousel Item"
+msgstr "Carousel mục"
+
+# @ qode
+#: includes/qode-custom-post-types.php:85
+msgid "New Carousel Item"
+msgstr "New Carousel mục"
+
+# @ qode
+#: includes/qode-custom-post-types.php:87
+msgid "Edit Carousel Item"
+msgstr "Sửa Carousel mục"
+
+# @ qode
+#: includes/qode-custom-post-types.php:125
+#: includes/qode-custom-post-types.php:135
+msgid "Portfolio Categories"
+msgstr "Danh mục tiện ích"
+
+# @ qode
+#: includes/qode-custom-post-types.php:126
+msgid "Portfolio Category"
+msgstr "Danh mục Portfolio"
+
+# @ qode
+#: includes/qode-custom-post-types.php:127
+msgid "Search Portfolio Categories"
+msgstr "Tìm kiếm Danh mục Portfolio"
+
+# @ qode
+#: includes/qode-custom-post-types.php:128
+msgid "All Portfolio Categories"
+msgstr "Danh mục tiện ích"
+
+# @ qode
+#: includes/qode-custom-post-types.php:129
+msgid "Parent Portfolio Category"
+msgstr "Chánh Portfolio loại"
+
+# @ qode
+#: includes/qode-custom-post-types.php:130
+msgid "Parent Portfolio Category:"
+msgstr "Chánh Portfolio Thể loại:"
+
+# @ qode
+#: includes/qode-custom-post-types.php:131
+msgid "Edit Portfolio Category"
+msgstr "Sửa danh mục portfolio"
+
+# @ qode
+#: includes/qode-custom-post-types.php:132
+msgid "Update Portfolio Category"
+msgstr "Cập nhật danh mục portfolio"
+
+# @ qode
+#: includes/qode-custom-post-types.php:133
+msgid "Add New Portfolio Category"
+msgstr "+ Thêm danh mục portfolio"
+
+# @ qode
+#: includes/qode-custom-post-types.php:134
+msgid "New Portfolio Category Name"
+msgstr "Tên danh mục portfolio mới"
+
+# @ qode
+#: includes/qode-custom-post-types.php:173
+#: includes/qode-custom-post-types.php:183
+msgid "Testimonials Categories"
+msgstr "Chứng Categories"
+
+# @ qode
+#: includes/qode-custom-post-types.php:174
+msgid "Testimonial Category"
+msgstr "Danh mục ý kiến"
+
+# @ qode
+#: includes/qode-custom-post-types.php:175
+msgid "Search Testimonials Categories"
+msgstr "Tìm kiếm Chứng Categories"
+
+# @ qode
+#: includes/qode-custom-post-types.php:176
+msgid "All Testimonials Categories"
+msgstr "Tất cả Chứng Categories"
+
+# @ qode
+#: includes/qode-custom-post-types.php:177
+msgid "Parent Testimonial Category"
+msgstr "Chánh Testimonial loại"
+
+# @ qode
+#: includes/qode-custom-post-types.php:178
+msgid "Parent Testimonial Category:"
+msgstr "Chánh Testimonial Thể loại:"
+
+# @ qode
+#: includes/qode-custom-post-types.php:179
+msgid "Edit Testimonials Category"
+msgstr "Sửa Chứng Thể loại"
+
+# @ qode
+#: includes/qode-custom-post-types.php:180
+msgid "Update Testimonials Category"
+msgstr "Cập nhật Chứng Thể loại"
+
+# @ qode
+#: includes/qode-custom-post-types.php:181
+msgid "Add New Testimonials Category"
+msgstr "Thêm New Chứng Thể loại"
+
+# @ qode
+#: includes/qode-custom-post-types.php:182
+msgid "New Testimonials Category Name"
+msgstr "New Chứng Category Name"
+
+# @ qode
+#: includes/qode-custom-post-types.php:200
+#: includes/qode-custom-post-types.php:210
+msgid "Sliders"
+msgstr "sliders"
+
+# @ qode
+#: includes/qode-custom-post-types.php:201
+msgid "Slider"
+msgstr "Nút trượt"
+
+# @ qode
+#: includes/qode-custom-post-types.php:202
+msgid "Search Sliders"
+msgstr "Tìm kiếm Sliders"
+
+# @ qode
+#: includes/qode-custom-post-types.php:203
+msgid "All Sliders"
+msgstr "Tất cả các Sliders"
+
+# @ qode
+#: includes/qode-custom-post-types.php:204
+msgid "Parent Slider"
+msgstr "Slider Cha"
+
+# @ qode
+#: includes/qode-custom-post-types.php:205
+msgid "Parent Slider:"
+msgstr "Slider Cha"
+
+# @ qode
+#: includes/qode-custom-post-types.php:206
+msgid "Edit Slider"
+msgstr "Sửa Slider"
+
+# @ qode
+#: includes/qode-custom-post-types.php:207
+msgid "Update Slider"
+msgstr "cập nhật Slider"
+
+# @ qode
+#: includes/qode-custom-post-types.php:208
+msgid "Add New Slider"
+msgstr "Thêm Slider"
+
+# @ qode
+#: includes/qode-custom-post-types.php:209
+msgid "New Slider Name"
+msgstr "Slider mới"
+
+# @ qode
+#: includes/qode-custom-post-types.php:225
+#: includes/qode-custom-post-types.php:235
+msgid "Carousels"
+msgstr "carousels"
+
+# @ qode
+#: includes/qode-custom-post-types.php:226
+msgid "Carousel"
+msgstr "Carousel"
+
+# @ qode
+#: includes/qode-custom-post-types.php:227
+msgid "Search Carousels"
+msgstr "Tìm kiếm carousels"
+
+# @ qode
+#: includes/qode-custom-post-types.php:228
+msgid "All Carousels"
+msgstr "Tất cả carousels"
+
+# @ qode
+#: includes/qode-custom-post-types.php:229
+msgid "Parent Carousel"
+msgstr "Carousel mẹ"
+
+# @ qode
+#: includes/qode-custom-post-types.php:230
+msgid "Parent Carousel:"
+msgstr "Carousel phụ huynh:"
+
+# @ qode
+#: includes/qode-custom-post-types.php:231
+msgid "Edit Carousel"
+msgstr "Sửa Carousel"
+
+# @ qode
+#: includes/qode-custom-post-types.php:232
+msgid "Update Carousel"
+msgstr "cập nhật Carousel"
+
+# @ qode
+#: includes/qode-custom-post-types.php:233
+msgid "Add New Carousel"
+msgstr "Thêm mới Carousel"
+
+# @ qode
+#: includes/qode-custom-post-types.php:234
+msgid "New Carousel Name"
+msgstr "Mới Tên Carousel"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:10
+msgid "Effect on header (dark/light style)"
+msgstr "Tác dụng trên tiêu đề (tối / phong cách ánh sáng)"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:254
+msgid "Slider shortcode"
+msgstr "Slider shortcode"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:258
+msgid "Use this shortcode to insert it on page"
+msgstr "Sử dụng shortcode này để chèn nó vào trang"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:288
+msgid "Name"
+msgstr "Họ tên"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:289
+msgid "Shortcode"
+msgstr "Shortcode"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:291
+msgid "Slug"
+msgstr "Slug"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:292
+msgid "Posts"
+msgstr "Bài chia sẻ"
+
+# @ qode
+#: includes/qode-like.php:123
+msgid "Like this"
+msgstr "Categories bạn bạn muốn sử dụng, mỗi loại trên một dòng."
+
+# @ qode
+#: includes/qode-like.php:126
+msgid "You already like this!"
+msgstr "Bạn đã thích điều này!"
+
+# @ qode
+#: framework/qode-framework.php:189 framework/qode-framework.php:250
+msgid "Save Changes"
+msgstr "Lưu thay đổi"
+
+# @ qode
+# @ js_composer
+#: includes/qode-custom-taxonomy-field.php:52
+#: includes/qode-custom-taxonomy-field.php:82
+#: includes/qode-custom-taxonomy-field.php:112
+#: includes/qode-custom-taxonomy-field.php:142
+#: includes/qode-custom-taxonomy-field.php:172
+#: includes/qode-custom-taxonomy-field.php:202
+#: includes/qode-custom-taxonomy-field.php:232
+#: vc_templates/vc_text_separator.php:4
+msgid "Title"
+msgstr "Tiêu đề"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:56
+#: includes/qode-custom-taxonomy-field.php:86
+#: includes/qode-custom-taxonomy-field.php:116
+#: includes/qode-custom-taxonomy-field.php:146
+#: includes/qode-custom-taxonomy-field.php:176
+#: includes/qode-custom-taxonomy-field.php:206
+#: includes/qode-custom-taxonomy-field.php:236
+msgid "Subtitle"
+msgstr "Phụ Đề"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:60
+#: includes/qode-custom-taxonomy-field.php:90
+#: includes/qode-custom-taxonomy-field.php:120
+#: includes/qode-custom-taxonomy-field.php:150
+#: includes/qode-custom-taxonomy-field.php:180
+#: includes/qode-custom-taxonomy-field.php:210
+#: includes/qode-custom-taxonomy-field.php:240
+msgid "Text"
+msgstr "Văn bản"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:1771
+#: includes/shortcodes/shortcodes.php:1943
+#: includes/shortcodes/shortcodes.php:1969
+#: includes/shortcodes/shortcodes.php:7157
+msgid "No comment"
+msgstr "Không có bình luận"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:2619
+#: includes/shortcodes/shortcodes.php:2936
+#: includes/shortcodes/shortcodes.php:3285
+#: includes/shortcodes/shortcodes.php:3316 templates/masonry-filter.php:28
+msgid "All"
+msgstr "Tất cả"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:2924
+#: includes/shortcodes/shortcodes.php:3263
+#: includes/shortcodes/shortcodes.php:3730
+#: includes/shortcodes/shortcodes.php:3909
+#: includes/shortcodes/shortcodes.php:4991
+#: includes/shortcodes/shortcodes.php:6488
+#: includes/shortcodes/shortcodes.php:6634
+#: includes/shortcodes/shortcodes.php:7300
+#: includes/shortcodes/shortcodes.php:7529
+msgid "Sorry, no posts matched your criteria."
+msgstr "Xin lỗi, không có bài viết nào thỏa mãn yêu cầu của bạn."
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:3271
+#: includes/shortcodes/shortcodes.php:3738 templates/blog-structure.php:136
+#: templates/blog-structure.php:141
+msgid "Show more"
+msgstr "Xem chi tiết"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:4373
+msgid "Share"
+msgstr "Chia sẻ"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:6469
+msgid "Sorry, no slides matched your criteria."
+msgstr "Xin lỗi, không có slide phù hợp tiêu chí của bạn."
+
+# @ qode
+#: includes/sidebar/qode-custom-sidebar.php:18
+msgid "Custom Widget Area"
+msgstr "Khu vực widget"
+
+# @ default
+#: includes/sidebar/qode-custom-sidebar.php:42
+msgid "Enter Name of the new Widget Area"
+msgstr "Nhập tên của Widget Area mới tại đây"
+
+# @ default
+#: includes/sidebar/qode-custom-sidebar.php:43
+msgid "Add Widget Area"
+msgstr "Thêm mô-đun"
+
+# @ qode
+#: js/default_dynamic.php:22
+msgid "Comment has been sent!"
+msgstr "Bình luận đã được gửi đi!"
+
+# @ qode
+#: searchform.php:3
+msgid "Search Here"
+msgstr "Tìm tại đây..."
+
+# @ qode
+# @ woocommerce
+#: templates/portfolio-loop.php:231 templates/portfolio-loop.php:409
+#: templates/portfolio-loop.php:589 templates/portfolio-loop.php:808
+#: templates/portfolio-loop.php:1030 templates/portfolio-loop.php:1216
+#: woocommerce/myaccount/my-orders.php:26
+msgid "Date"
+msgstr "Ngày tháng"
+
+# @ qode
+#: templates/portfolio-loop.php:242 templates/portfolio-loop.php:420
+#: templates/portfolio-loop.php:600 templates/portfolio-loop.php:819
+#: templates/portfolio-loop.php:1041 templates/portfolio-loop.php:1227
+msgid "Category "
+msgstr "Thể loại"
+
+# @ qode
+#: templates/portfolio-loop.php:274 templates/portfolio-loop.php:453
+#: templates/portfolio-loop.php:554 templates/portfolio-loop.php:773
+#: templates/portfolio-loop.php:995 templates/portfolio-loop.php:1181
+msgid "About This Project"
+msgstr "THÔNG TIN VỀ DỰ ÁN"
+
+# @ qode
+#: functions.php:1609
+msgid "Archive"
+msgstr "Lưu trữ"
+
+# @ js_composer
+#: vc_templates/vc_accordion_tab.php:5
+msgid "Section"
+msgstr "Bộ phận"
+
+# @ js_composer
+#: vc_templates/vc_accordion_tab.php:45 vc_templates/vc_tab.php:9
+msgid "Empty section. Edit page to add content here."
+msgstr "Mục rỗng. Sửa trang để thêm nội dung vào đây."
+
+# @ js_composer
+#: vc_templates/vc_tabs.php:68
+msgid "Previous slide"
+msgstr "Ảnh chiếu lùi"
+
+# @ js_composer
+#: vc_templates/vc_tabs.php:68
+msgid "Next slide"
+msgstr "Slide tiếp theo"
+
+# @ qode
+#: widgets/call_to_action_widget.php:8
+msgid "Call to Action Widget"
+msgstr "Kêu gọi hành động Widget"
+
+# @ qode
+#: widgets/call_to_action_widget.php:97
+msgid "Text:"
+msgstr "Văn bản"
+
+# @ qode
+#: widgets/call_to_action_widget.php:102
+msgid "Text Color:"
+msgstr "Màu chữ"
+
+# @ qode
+#: widgets/call_to_action_widget.php:107
+msgid "Text Size:"
+msgstr "Kích thước chữ"
+
+# @ qode
+#: widgets/call_to_action_widget.php:134
+msgid "Background Color:"
+msgstr "Màu nền"
+
+# @ qode
+#: widgets/call_to_action_widget.php:154
+msgid "Show Button:"
+msgstr "Hiện Button:"
+
+# @ qode
+#: widgets/call_to_action_widget.php:167
+msgid "Button Text:"
+msgstr "Nội dung nút"
+
+# @ qode
+#: widgets/call_to_action_widget.php:202
+msgid "Button Border Color:"
+msgstr "Nút Màu đường viền:"
+
+# @ qode
+#: widgets/call_to_action_widget.php:162
+msgid "Button Link:"
+msgstr "Nút liên kết"
+
+# @ qode
+#: widgets/call_to_action_widget.php:172
+msgid "Button Target:"
+msgstr "URL đích của nút"
+
+# @ qode
+#: widgets/latest_posts_menu.php:8
+msgid "Menu Latest Posts"
+msgstr "Bài viết mới nhất"
+
+# @ qode
+#: widgets/latest_posts_menu.php:50
+msgid "Posted in"
+msgstr "Đã đăng tại"
+
+# @ qode
+#: widgets/latest_posts_menu.php:51
+msgid " by"
+msgstr "bởi"
+
+# @ qode
+#: widgets/latest_posts_menu.php:83 widgets/relate_posts_widget.php:75
+msgid "Title:"
+msgstr "Tiêu đề"
+
+# @ qode
+#: widgets/latest_posts_menu.php:87 widgets/relate_posts_widget.php:79
+msgid "Number of posts:"
+msgstr "Số bài viết:"
+
+# @ qode
+#: widgets/latest_posts_menu.php:91
+msgid "Category:"
+msgstr "Danh mục"
+
+# @ qode
+#: widgets/relate_posts_widget.php:8
+msgid "Related Posts Widget"
+msgstr "Bài viết liên quan Widget"
+
+# @ qode
+#: widgets/relate_posts_widget.php:15
+msgid "Related Posts"
+msgstr "Cùng chuyên mục"
+
+# @ qode
+#: widgets/woocommerce-dropdown-cart.php:8
+msgid "Woocommerce Dropdown Cart"
+msgstr "Woocommerce Dropdown Giỏ hàng"
+
+# @ woocommerce
+#: widgets/woocommerce-dropdown-cart.php:64
+msgid "No products in the cart."
+msgstr "Không có sản phẩm trong giỏ "
+
+# @ woocommerce
+#: widgets/woocommerce-dropdown-cart.php:74
+msgid "Cart"
+msgstr "Giỏ hàng"
+
+# @ woocommerce
+#: widgets/woocommerce-dropdown-cart.php:76 woocommerce/cart/cart-totals.php:78
+#: woocommerce/cart/cart.php:30 woocommerce/myaccount/my-orders.php:28
+msgid "Total"
+msgstr "Tổng"
+
+# @ woocommerce
+#: woocommerce/cart/cart-empty.php:19
+msgid "Your cart is currently empty."
+msgstr "Chưa có sản phẩm nào trong giỏ hàng."
+
+# @ woocommerce
+#: woocommerce/cart/cart-empty.php:23
+msgid "Return To Shop"
+msgstr "Quay lại cửa hàng"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:27
+msgid "Product"
+msgstr "Sản phẩm"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:28
+msgid "Price"
+msgstr "Chi phí"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:29
+msgid "Quantity"
+msgstr "Số lượng"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:47
+msgid "Remove this item"
+msgstr "Xóa mục này"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:76
+msgid "Available on backorder"
+msgstr "Có sẵn trên backorder"
+
+# @ woocommerce
+#: woocommerce/global/quantity-input.php:24
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Số lượng"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:122
+msgid "Coupon"
+msgstr "Giảm giá"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:122 woocommerce/checkout/form-coupon.php:26
+msgid "Apply Coupon"
+msgstr "Áp dụng mã giảm giá"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:129
+msgid "Update Cart"
+msgstr "Cập nhật giỏ hàng"
+
+# @ woocommerce
+#: woocommerce/checkout/form-coupon.php:18
+msgid "Have a coupon?"
+msgstr "Bạn có mã giảm giá?"
+
+# @ woocommerce
+#: woocommerce/checkout/form-coupon.php:18
+msgid "Click here to enter your code"
+msgstr "Nhấn vào đây để điền mã giảm giá."
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:18
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction."
+msgstr "Thật không may đặt hàng của bạn không thể được xử lý vì ngân hàng thanh toán không  nguồn gốc / thương gia đã từ chối giao dịch của bạn."
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:22
+msgid "Please attempt your purchase again or go to your account page."
+msgstr "Hãy cố gắng mua hàng của bạn một lần nữa hoặc đi đến trang tài khoản của bạn."
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:24
+msgid "Please attempt your purchase again."
+msgstr "Hãy cố gắng mua hàng của bạn một lần nữa."
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:28 woocommerce/myaccount/my-orders.php:84
+msgid "Pay"
+msgstr "Trả tiền"
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:30
+msgid "My Account"
+msgstr "Tài khoản của tôi"
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:36 woocommerce/checkout/thankyou.php:70
+msgid "Thank you. Your order has been received."
+msgstr "Cảm ơn quý khách. Chúng tôi sẽ liên lạc lại với quý khách."
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:40
+msgid "Order:"
+msgstr "Đơn hang:"
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:44
+msgid "Date:"
+msgstr "Ngày tháng"
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:48
+msgid "Total:"
+msgstr "Tổng số:"
+
+# @ woocommerce
+#: woocommerce/checkout/thankyou.php:53
+msgid "Payment method:"
+msgstr "Phương thức thanh toán:"
+
+# @ woocommerce
+#: woocommerce/loop/add-to-cart.php:27
+msgid "Out of stock"
+msgstr "Hết hàng"
+
+# @ woocommerce
+#: woocommerce/loop/result-count.php:30
+msgid "Showing the single result"
+msgstr "Hiển thị một kết quả"
+
+# @ woocommerce
+#: woocommerce/loop/result-count.php:32
+#, php-format
+msgid "Showing all %d results"
+msgstr "Hiển thị tất cả %d kết quả"
+
+# @ woocommerce
+#: woocommerce/loop/result-count.php:34
+#, php-format
+msgctxt "%1$d = first, %2$d = last, %3$d = total"
+msgid "%1$d–%2$d of %3$d results"
+msgstr "Hiển thị %1$d–%2$d của %3$d kết quả"
+
+# @ woocommerce
+#: woocommerce/loop/sale-flash.php:19
+#: woocommerce/single-product/sale-flash.php:19
+msgid "Sale"
+msgstr "Khuyến mại"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-lost-password.php:31
+#: woocommerce/myaccount/form-lost-password.php:32
+msgid "New password"
+msgstr "Mật khẩu mới"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-lost-password.php:35
+#: woocommerce/myaccount/form-lost-password.php:36
+msgid "Re-enter new password"
+msgstr "Nhập lại mật khẩu mới"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-lost-password.php:48
+msgid "Save"
+msgstr "Lưu lại"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:19
+#: woocommerce/myaccount/my-address.php:25
+msgid "Billing Address"
+msgstr "Địa chỉ"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:20
+msgid "Shipping Address"
+msgstr "Địa chỉ nhận hàng"
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:39 woocommerce/myaccount/form-login.php:28
+#: woocommerce/myaccount/form-login.php:45
+msgid "Login"
+msgstr "Đăng nhập"
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:28 woocommerce/myaccount/form-login.php:35
+#: woocommerce/myaccount/form-lost-password.php:24
+msgid "Username or email"
+msgstr "Tên người dùng hoặc E-mail"
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:31 woocommerce/myaccount/form-login.php:38
+#: woocommerce/myaccount/form-login.php:83
+msgid "Password"
+msgstr "Mật khẩu"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:46
+msgid "Lost Password?"
+msgstr "Quên mật khẩu?"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:62
+#: woocommerce/myaccount/form-login.php:96
+msgid "Register"
+msgstr "Đăng ký"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:71
+msgid "Username"
+msgstr "Tên đăng nhập"
+
+# @ woocommerce
+# @ qode
+#: woocommerce/myaccount/form-login.php:77
+#: woocommerce/woocommerce_configuration.php:77
+msgid "Email"
+msgstr "Email"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-lost-password.php:22
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "Quên mật khẩu? Vui lòng nhập tên đăng nhập của bạn hoặc địa chỉ email. Bạn sẽ nhận được một liên kết để tạo ra một mật khẩu mới qua email."
+
+# @ woocommerce
+#: woocommerce/myaccount/form-lost-password.php:28
+msgid "Enter a new password below."
+msgstr "Nhập mật khẩu mới dưới đây."
+
+# @ woocommerce
+#: woocommerce/myaccount/form-lost-password.php:48
+msgid "Reset Password"
+msgstr "Đặt lại mật khẩu"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:17
+msgid "My Addresses"
+msgstr "Địa chỉ của tôi"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:23
+msgid "My Address"
+msgstr "Địa chỉ của tôi"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:35
+msgid "The following addresses will be used on the checkout page by default."
+msgstr "Các địa chỉ sau đây sẽ được sử dụng trên các trang thanh toán theo mặc định."
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:45
+msgid "Edit"
+msgstr "Sửa"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-address.php:64
+msgid "You have not set up this type of address yet."
+msgstr "Bạn chưa thiết lập loại địa chỉ được nêu ra."
+
+# @ woocommerce
+#: woocommerce/myaccount/my-orders.php:42
+msgid "Recent Orders"
+msgstr "Những đơn đặt hàng gần đây"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-orders.php:25
+msgid "Order"
+msgstr "Đơn hàng"
+
+# @ woocommerce
+#: woocommerce/myaccount/my-orders.php:77
+#, php-format
+msgid "%s for %s item"
+msgid_plural "%s for %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ woocommerce
+#: woocommerce/myaccount/my-orders.php:88
+msgid "View"
+msgstr "Có một phiên bản mới của %1$s. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Xem phiên bản %3$s chi tiết</a> hoặc <a href=\"%4$s\">nâng cấp</a>."
+
+# @ woocommerce
+#: woocommerce/single-product/tabs/additional-information.php:16
+msgid "Additional Information"
+msgstr "Thông tin bổ sung"
+
+# @ woocommerce
+#: woocommerce/single-product/tabs/description.php:16
+msgid "Product Description"
+msgstr "Mô tả Sản phẩm"
+
+# @ woocommerce
+#: woocommerce/woocommerce_configuration.php:225
+msgid "Search for:"
+msgstr "Kết quả tìm kiếm cho &#8220;%s&#8221;"
+
+# @ woocommerce
+#: woocommerce/woocommerce_configuration.php:226
+msgid "Search Products"
+msgstr "Bạn cần sản phẩm gì?"
+
+# @ qode
+#: 404.php:15
+msgid "The page you are looking for does not exist. It may have been moved, or removed altogether. Perhaps you can return back to the site’s homepage and see if you can find what you are looking for."
+msgstr "Trang bạn đang tìm kiếm không tồn tại. Nó có thể đã được di chuyển, hoặc xóa bỏ hoàn toàn. Có lẽ bạn có thể trở lại trang chủ của trang web và xem nếu bạn có thể tìm thấy những gì bạn đang tìm kiếm."
+
+# @ qode
+#: comments.php:46
+msgid "Write your comment here..."
+msgstr "Viết một bình luận"
+
+# @ qode
+#: comments.php:50
+msgid "Your full name"
+msgstr "Họ và Tên"
+
+# @ qode
+#: comments.php:51
+msgid "E-mail address"
+msgstr "E-mail"
+
+# @ qode
+#: comments.php:52 contact-page.php:128
+msgid "Website"
+msgstr "Trang chủ"
+
+# @ qode
+#: contact-page.php:79
+msgid "Get in touch with us"
+msgstr "Hãy liên lạc với chúng tôi"
+
+# @ qode
+#: contact-page.php:102
+msgid "First Name *"
+msgstr "Họ đệm"
+
+# @ qode
+#: contact-page.php:108
+msgid "Last Name *"
+msgstr "Họ và đệm *"
+
+# @ qode
+#: contact-page.php:114 contact-page.php:122
+msgid "Email *"
+msgstr "Email của bạn..."
+
+# @ qode
+#: contact-page.php:133
+msgid "Message"
+msgstr "Tin nhắn không gửi được"
+
+# @ default
+#: extendvc/extend-vc.php:3744
+msgid "Select Yes if you want to use custom icon size and margin"
+msgstr "Chọn Yes nếu bạn muốn sử dụng kích thước biểu tượng tùy chỉnh và lợi nhuận"
+
+# @ qode
+#: includes/comment/comment.php:12 templates/blog_large_image-loop.php:54
+#: templates/blog_large_image-loop.php:97
+#: templates/blog_large_image-loop.php:151
+#: templates/blog_large_image-loop.php:188
+#: templates/blog_large_image-loop.php:225
+#: templates/blog_large_image-loop.php:271
+#: templates/blog_large_image_whole_post-loop.php:54
+#: templates/blog_large_image_whole_post-loop.php:97
+#: templates/blog_large_image_whole_post-loop.php:134
+#: templates/blog_large_image_whole_post-loop.php:190
+#: templates/blog_large_image_whole_post-loop.php:227
+#: templates/blog_large_image_whole_post-loop.php:273
+#: templates/blog_search-loop.php:31 templates/blog_single-loop.php:52
+#: templates/blog_single-loop.php:89 templates/blog_single-loop.php:121
+#: templates/blog_single-loop.php:175 templates/blog_single-loop.php:208
+#: templates/blog_single-loop.php:251 templates/blog_small_image-loop.php:54
+#: templates/blog_small_image-loop.php:98
+#: templates/blog_small_image-loop.php:142
+#: templates/blog_small_image-loop.php:195
+#: templates/blog_small_image-loop.php:239
+#: templates/blog_small_image-loop.php:285
+msgid "Posted at"
+msgstr "đăng lúc"
+
+# @ qode
+#: includes/qode-like.php:76 includes/qode-like.php:100
+msgid " Likes"
+msgstr "Thích"
+
+# @ qode
+#: includes/qode-like.php:78 includes/qode-like.php:102
+msgid " Like"
+msgstr "Categories bạn bạn muốn sử dụng, mỗi loại trên một dòng."
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:2770
+#: includes/shortcodes/shortcodes.php:3111
+#: includes/shortcodes/shortcodes.php:3463
+#: includes/shortcodes/shortcodes.php:3515
+#: includes/shortcodes/shortcodes.php:3892
+msgid "zoom"
+msgstr "Phóng"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:2773
+#: includes/shortcodes/shortcodes.php:3114
+#: includes/shortcodes/shortcodes.php:3466
+#: includes/shortcodes/shortcodes.php:3518
+#: includes/shortcodes/shortcodes.php:3895 templates/portfolio-related.php:38
+msgid "view"
+msgstr "Có một phiên bản mới của %1$s. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Xem phiên bản %3$s chi tiết</a> hoặc <a href=\"%4$s\">nâng cấp</a>."
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:4519
+msgid "Share on: "
+msgstr "Chia sẻ lên"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:4531
+#: includes/shortcodes/shortcodes.php:4534
+msgid "Share on Facebook"
+msgstr "Chia sẻ trên facebook"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:4555
+#: includes/shortcodes/shortcodes.php:4558
+msgid "Share on Twitter"
+msgstr "Chia sẻ lên Twitter"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:4573
+msgid "Share on Google+"
+msgstr "Chia sẻ lên Google+"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:4585
+msgid "Share on LinkedIn"
+msgstr "Chia sẻ Linkedln"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:4597
+msgid "Share on Tumblr"
+msgstr "Chia sẻ lên Tumblr"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:4610
+msgid "Share on Pinterest"
+msgstr "Chia sẻ lên Pinterest"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:4623
+msgid "Share on VK"
+msgstr "Chia sẻ lên Vk"
+
+# @ qode
+#: js/default_dynamic.php:115
+msgid "Loading new posts..."
+msgstr "TẢI BÀI VIẾT"
+
+# @ qode
+#: js/default_dynamic.php:119
+msgid "No more posts"
+msgstr "Hết bài viết"
+
+# @ qode
+#: templates/blog_large_image-loop.php:54
+#: templates/blog_large_image-loop.php:97
+#: templates/blog_large_image-loop.php:151
+#: templates/blog_large_image-loop.php:188
+#: templates/blog_large_image-loop.php:225
+#: templates/blog_large_image-loop.php:271
+#: templates/blog_large_image_whole_post-loop.php:54
+#: templates/blog_large_image_whole_post-loop.php:97
+#: templates/blog_large_image_whole_post-loop.php:134
+#: templates/blog_large_image_whole_post-loop.php:190
+#: templates/blog_large_image_whole_post-loop.php:227
+#: templates/blog_large_image_whole_post-loop.php:273
+#: templates/blog_search-loop.php:31 templates/blog_single-loop.php:52
+#: templates/blog_single-loop.php:89 templates/blog_single-loop.php:121
+#: templates/blog_single-loop.php:175 templates/blog_single-loop.php:208
+#: templates/blog_single-loop.php:251 templates/blog_small_image-loop.php:54
+#: templates/blog_small_image-loop.php:98
+#: templates/blog_small_image-loop.php:142
+#: templates/blog_small_image-loop.php:195
+#: templates/blog_small_image-loop.php:239
+#: templates/blog_small_image-loop.php:285
+msgid "h"
+msgstr "h"
+
+# @ qode
+#: functions.php:1580
+msgid "404 - Page not found"
+msgstr "Lôi 404 Không tìm được trang"
+
+# @ qode
+#: widgets/call_to_action_widget.php:81
+msgid "Full Width:"
+msgstr "Toàn màn hình"
+
+# @ qode
+#: framework/lib/qode.layout.php:965 framework/lib/qode.layout.php:1005
+#: framework/lib/qode.layout.php:1111 framework/lib/qode.layout.php:1166
+#: framework/lib/qode.layout.php:1276 framework/lib/qode.layout.php:1331
+#: framework/lib/qode.layout.php:1386 framework/lib/qode.layout.php:1441
+#: framework/lib/qode.layout.php:1496 framework/lib/qode.layout.php:1551
+#: widgets/call_to_action_widget.php:83 widgets/call_to_action_widget.php:91
+#: widgets/call_to_action_widget.php:156
+msgid "Yes"
+msgstr "Được"
+
+# @ qode
+#: framework/lib/qode.layout.php:967 framework/lib/qode.layout.php:1007
+#: framework/lib/qode.layout.php:1113 framework/lib/qode.layout.php:1168
+#: framework/lib/qode.layout.php:1278 framework/lib/qode.layout.php:1333
+#: framework/lib/qode.layout.php:1388 framework/lib/qode.layout.php:1443
+#: framework/lib/qode.layout.php:1498 framework/lib/qode.layout.php:1553
+#: widgets/call_to_action_widget.php:84 widgets/call_to_action_widget.php:92
+#: widgets/call_to_action_widget.php:157
+msgid "No"
+msgstr "Không"
+
+# @ qode
+#: widgets/call_to_action_widget.php:89
+msgid "Content In Grid:"
+msgstr "Nội dung Trong Grid:"
+
+# @ qode
+#: widgets/call_to_action_widget.php:126
+msgid "Type:"
+msgstr "Loại:"
+
+# @ qode
+#: widgets/call_to_action_widget.php:128
+msgid "Normal"
+msgstr "Bình thường"
+
+# @ qode
+#: widgets/call_to_action_widget.php:129
+msgid "With Icon"
+msgstr "với biểu tượng"
+
+# @ qode
+#: widgets/call_to_action_widget.php:182
+msgid "Button Text Color:"
+msgstr "Mầu chữ Nút"
+
+# @ qode
+#: widgets/call_to_action_widget.php:187
+msgid "Button Hover Text Color:"
+msgstr "Màu chữ của nút menu khi chuột trỏ đến"
+
+# @ qode
+#: widgets/call_to_action_widget.php:192
+msgid "Button Background Color:"
+msgstr "Mầu nền Nút bấm"
+
+# @ qode
+#: widgets/call_to_action_widget.php:197
+msgid "Button Hover Background Color:"
+msgstr "Mầu nền Nút bấm khi hơ chuột"
+
+# @ qode
+#: widgets/call_to_action_widget.php:207
+msgid "Button Hover Border Color:"
+msgstr "Nút Hover Màu đường viền:"
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:129
+msgid "Proceed to Checkout"
+msgstr "Gọi món"
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:24
+msgid "Calculate Shipping"
+msgstr "Tính vận chuyển"
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:30
+msgid "Select a country&hellip;"
+msgstr "Chọn một quôc gia"
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:47
+#: woocommerce/cart/shipping-calculator.php:53
+#: woocommerce/cart/shipping-calculator.php:65
+msgid "State / county"
+msgstr "Quận, huyện"
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:54
+msgid "Select a state&hellip;"
+msgstr "Chọn một Tỉnh/Thành phố&hellip;"
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:74
+msgid "City"
+msgstr "Thành phố / Tỉnh"
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:82
+msgid "Postcode / Zip"
+msgstr "Mã bưu điện/ Zip"
+
+# @ woocommerce
+#: woocommerce/cart/shipping-calculator.php:87
+msgid "Update Totals"
+msgstr "Cập nhật tổng tất cả hóa Đơn"
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:40
+msgid "Lost your password?"
+msgstr "Quên mật khẩu?"
+
+# @ woocommerce
+#: woocommerce/global/form-login.php:43 woocommerce/myaccount/form-login.php:48
+msgid "Remember me"
+msgstr "Ghi nhớ"
+
+# @ woocommerce
+#: woocommerce/myaccount/form-login.php:89
+msgid "Anti-spam"
+msgstr "Chống Spam"
+
+# @ woocommerce
+#: woocommerce/single-product/add-to-cart/variable.php:31
+msgid "This product is currently out of stock and unavailable."
+msgstr "Sản phẩm này hiện đang hết hàng và không có sẵn."
+
+# @ woocommerce
+#: woocommerce/single-product/related.php:42
+msgid "Related Products"
+msgstr "Sản phẩm liên quan"
+
+# @ woocommerce
+#: woocommerce/single-product/up-sells.php:43
+msgid "You may also like&hellip;"
+msgstr "Bạn cũng sẽ thích&hellip;"
+
+# @ qode
+#: woocommerce/woocommerce_configuration.php:73
+#: woocommerce/woocommerce_configuration.php:84
+msgid "First name"
+msgstr "Họ"
+
+# @ qode
+#: woocommerce/woocommerce_configuration.php:74
+#: woocommerce/woocommerce_configuration.php:85
+msgid "Last name"
+msgstr "Tên đệm"
+
+# @ qode
+#: woocommerce/woocommerce_configuration.php:75
+#: woocommerce/woocommerce_configuration.php:86
+msgid "Company name"
+msgstr "Tên công ty"
+
+# @ qode
+#: woocommerce/woocommerce_configuration.php:76
+#: woocommerce/woocommerce_configuration.php:87
+msgid "Address"
+msgstr "Địa chỉ"
+
+# @ qode
+#: woocommerce/woocommerce_configuration.php:78
+msgid "Phone"
+msgstr "Số điện thoại"
+
+# @ qode
+#: woocommerce/woocommerce_configuration.php:79
+#: woocommerce/woocommerce_configuration.php:88
+msgid "Postcode / ZIP"
+msgstr "Mã bưu điện"
+
+# @ qode
+#: templates/portfolio-loop.php:266 templates/portfolio-loop.php:444
+#: templates/portfolio-loop.php:624 templates/portfolio-loop.php:843
+#: templates/portfolio-loop.php:1065 templates/portfolio-loop.php:1251
+msgid "Tags"
+msgstr "Thẻ"
+
+# @ qode
+#: contact-page.php:82
+msgid "Say Hello! Don’t be shy."
+msgstr "Say Hello! Đừng e ngại."
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:22
+msgid "Parallax effect"
+msgstr "hiệu ứng thị sai"
+
+# @ default
+#: extendvc/extend-vc.php:7524
+msgid "Speed of slide animation in milliseconds"
+msgstr "Tốc độ của phim hoạt hình trượt trong mili giây"
+
+# @ qode
+#: extendvc/extend-vc.php:1971
+msgid "Please insert border radius(Rounded corners) in px. For example: 4 "
+msgstr "Xin vui lòng chèn bán kính biên giới (góc tròn) trong px. Ví dụ: 4"
+
+# @ qode
+#: functions.php:462
+msgid "Fullscreen Navigation"
+msgstr "Toàn màn hình Navigation"
+
+# @ qode
+#: includes/qode-custom-post-types.php:149
+#: includes/qode-custom-post-types.php:159
+msgid "Portfolio Tags"
+msgstr "Thẻ Thiết Kế Mẫu"
+
+# @ qode
+#: includes/qode-custom-post-types.php:150
+msgid "Portfolio Tag"
+msgstr "danh mục đầu tư Tag"
+
+# @ qode
+#: includes/qode-custom-post-types.php:151
+msgid "Search Portfolio Tags"
+msgstr "Tìm kiếm Danh mục khóa"
+
+# @ qode
+#: includes/qode-custom-post-types.php:152
+msgid "All Portfolio Tags"
+msgstr "Thẻ Thiết Kế Mẫu"
+
+# @ qode
+#: includes/qode-custom-post-types.php:153
+msgid "Parent Portfolio Tag"
+msgstr "Chánh Portfolio Tag"
+
+# @ qode
+#: includes/qode-custom-post-types.php:154
+msgid "Parent Portfolio Tags:"
+msgstr "Chánh Portfolio Tags:"
+
+# @ qode
+#: includes/qode-custom-post-types.php:155
+msgid "Edit Portfolio Tag"
+msgstr "chỉnh sửa danh mục"
+
+# @ qode
+#: includes/qode-custom-post-types.php:156
+msgid "Update Portfolio Tag"
+msgstr "Cập nhật danh mục đầu tư Tag"
+
+# @ qode
+#: includes/qode-custom-post-types.php:157
+msgid "Add New Portfolio Tag"
+msgstr "Thêm mới Portfolio"
+
+# @ qode
+#: includes/qode-custom-post-types.php:158
+msgid "New Portfolio Tag Name"
+msgstr "New Portfolio Name Tag"
+
+# @ qode
+#: widgets/call_to_action_widget.php:139
+msgid "Border Color:"
+msgstr "Màu đường viền"
+
+# @ qode
+#: widgets/call_to_action_widget.php:144
+msgid "Padding Top (px):"
+msgstr "Padding Top (px):"
+
+# @ qode
+#: widgets/call_to_action_widget.php:149
+msgid "Padding Bottom (px):"
+msgstr "Dưới Padding (px):"
+
+# @ qode
+#: functions.php:1551
+msgid "Author:"
+msgstr "Tác giả"
+
+# @ qode
+#: widgets/call_to_action_widget.php:112
+msgid "Text Letter Spacing:"
+msgstr "Giãn cách chữ lớn"
+
+# @ qode
+#: widgets/call_to_action_widget.php:117
+msgid "Text Font Weight:"
+msgstr "Text Font Weight:"
+
+# @ qode
+#: extendvc/extend-vc.php:8031
+msgid "Qode Elements Holder"
+msgstr "Qode Elements Chủ"
+
+# @ qode
+#: extendvc/extend-vc.php:8103
+msgid "Qode Elements Holder Item"
+msgstr "Qode Elements Chủ hàng"
+
+# @ qode
+#: 404.php:14
+msgid "The page you are looking for is not found"
+msgstr "Trang bạn đang tìm kiếm không được tìm thấy"
+
+# @ default
+#: extendvc/extend-vc.php:3753
+msgid "Enter just number, omit px"
+msgstr "Nhập chỉ số, bỏ qua px"
+
+# @ default
+#: extendvc/extend-vc.php:3763
+msgid "Enter just number, omit px. Applied only for circle or square icon type"
+msgstr "Nhập chỉ số, bỏ qua px. Chỉ áp dụng cho hình tròn hoặc loại biểu tượng hình vuông"
+
+# @ default
+#: extendvc/extend-vc.php:3773
+msgid "Spacing between icon and text (for left icon/margin position). Enter just number, omit px"
+msgstr "Khoảng cách giữa các biểu tượng và văn bản (đối với biểu tượng vị trí trái / margin). Nhập chỉ số, bỏ qua px"
+
+# @ qode
+#: functions.php:469
+msgid "Left Top Navigation"
+msgstr "Menu Top"
+
+# @ qode
+#: functions.php:475
+msgid "Right Top Navigation"
+msgstr "Ngay Top Navigation"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:3272
+#: includes/shortcodes/shortcodes.php:3739 templates/blog-structure.php:137
+msgid "Loading..."
+msgstr "Tải..."
+
+# @ qode
+#: export/qode-export.php:319
+msgid "Export"
+msgstr "Xuất "
+
+# @ qode
+#: extendvc/extend-vc.php:8533
+msgid "Qode Vertical Split Slider"
+msgstr "Qode Chia dọc Slider"
+
+# @ qode
+#: extendvc/extend-vc.php:8547
+msgid "Left Sliding Panel"
+msgstr "Còn lại Bảng điều chỉnh trượt"
+
+# @ qode
+#: extendvc/extend-vc.php:8562
+msgid "Right Sliding Panel"
+msgstr "Bảng điều chỉnh trượt phải"
+
+# @ qode
+#: extendvc/extend-vc.php:8577
+msgid "Slide Content Item"
+msgstr "Trượt Content Item"
+
+# @ js_composer
+#: extendvc/extend-vc.php:9046
+msgid "Content"
+msgstr "Nội dung"
+
+# @ qode
+#: framework/_qode-import.php:192 includes/import/qode-import.php:173
+msgid "Bridge — One-Click Import"
+msgstr "Bridge - One-Click nhập"
+
+# @ default
+#: framework/lib/qode.layout.php:689 framework/lib/qode.layout.php:690
+#: framework/lib/qode.layout.php:2082 framework/lib/qode.layout.php:2083
+#: framework/lib/qode.layout.php:2133 framework/lib/qode.layout.php:2134
+#: framework/lib/qode.layout.php:2243 framework/lib/qode.layout.php:2244
+#: framework/lib/qode.layout.php:2295 framework/lib/qode.layout.php:2296
+#: framework/lib/qode.layout.php:2569 framework/lib/qode.layout.php:2570
+#: framework/lib/qode.layout.php:2639 framework/lib/qode.layout.php:2640
+msgid "Select Image"
+msgstr "Vui lòng chọn ảnh"
+
+# @ default
+#: framework/lib/qode.layout.php:690 framework/lib/qode.layout.php:1995
+#: framework/lib/qode.layout.php:2083 framework/lib/qode.layout.php:2134
+#: framework/lib/qode.layout.php:2244 framework/lib/qode.layout.php:2296
+#: framework/lib/qode.layout.php:2570 framework/lib/qode.layout.php:2640
+msgid "Upload"
+msgstr "Tải lên"
+
+# @ qode
+#: framework/lib/qode.layout.php:1056
+msgid "On"
+msgstr "Bật"
+
+# @ qode
+#: framework/lib/qode.layout.php:1058
+msgid "Off"
+msgstr "Tắt"
+
+# @ qode
+#: framework/lib/qode.layout.php:1221
+msgid "Image"
+msgstr "Ảnh"
+
+# @ qode
+#: framework/lib/qode.layout.php:1223
+msgid "Video"
+msgstr "Video"
+
+# @ default
+#: framework/lib/qode.layout.php:1997
+msgid "Remove All"
+msgstr "Bỏ tất cả"
+
+# @ qode
+#: functions.php:2141
+msgid ""
+"Note that writing permissions aren't set for folders containing css and js files on your server.\n"
+"\t\t\t\t\tWe recommend setting writing permissions in order to optimize your site performance.\n"
+"\t\t\t\t\tFor further instructions, please refer to our <a target=\"_blank\" href=\"http://demo.qodeinteractive.com/bridge-new-help/#!/getting_started\">documentation</a>."
+msgstr "Lưu ý rằng quyền bằng văn bản không được thiết lập cho thư mục chứa css và js tập tin trên máy chủ của bạn. Chúng tôi khuyên bạn nên thiết quyền bằng văn bản để tối ưu hóa hiệu suất trang web của bạn. Để được hướng dẫn thêm, vui lòng tham khảo của chúng tôi <a target=\"_blank\" href=\"http://demo.qodeinteractive.com/bridge-new-help/#!/getting_started\">tài liệu</a> ."
+
+# @ qode
+#: header.php:1385
+msgid "Search:"
+msgstr "Kết quả tìm kiếm cho &#8220;%s&#8221;"
+
+# @ qode
+#: includes/import/qode-import.php:180
+msgid "Demo Site"
+msgstr "Site Demo"
+
+# @ qode
+#: includes/import/qode-import.php:325
+msgid "Import Type"
+msgstr "Loại nhập khẩu"
+
+# @ qode
+#: includes/import/qode-import.php:387
+msgid "Delete all menus from Appearance > Menus before importing a new demo."
+msgstr "Xóa tất cả các menu từ Appearance> Menus trước khi nhập khẩu một bản demo mới."
+
+# @ qode
+#: includes/import/qode-import.php:388
+msgid "All options will be overwritten by the options for the demo you are importing."
+msgstr "Tất cả các tùy chọn này sẽ được ghi đè bởi các tùy chọn cho demo bạn đang nhập khẩu."
+
+# @ qode
+#: includes/nav_menu/edit_custom_walker.php:242
+msgid "Icon Pack"
+msgstr "icon Pack"
+
+# @ qode
+#: includes/plugins/class-tgm-plugin-activation.php:174
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ qode
+#: includes/qode-custom-post-types.php:104
+msgid "Masonry Gallery"
+msgstr "Masonry Gallery"
+
+# @ qode
+#: includes/qode-custom-post-types.php:105
+msgid "Masonry Gallery Items"
+msgstr "Masonry Gallery mục"
+
+# @ qode
+#: includes/qode-custom-post-types.php:106
+msgid "Masonry Gallery Item"
+msgstr "Masonry Gallery mục"
+
+# @ qode
+#: includes/qode-custom-post-types.php:107
+msgid "New Masonry Gallery Item"
+msgstr "New Masonry Gallery mục"
+
+# @ qode
+#: includes/qode-custom-post-types.php:108
+msgid "Add New Masonry Gallery Item"
+msgstr "Thêm mới Masonry Gallery mục"
+
+# @ qode
+#: includes/qode-custom-post-types.php:109
+msgid "Edit Masonry Gallery Item"
+msgstr "Sửa Masonry Gallery mục"
+
+# @ taxonomy general name
+# @ qode
+#: includes/qode-custom-post-types.php:249
+#: includes/qode-custom-post-types.php:259
+msgid "Masonry Gallery Categories"
+msgstr "Masonry Gallery Categories"
+
+# @ taxonomy singular name
+#: includes/qode-custom-post-types.php:250
+msgid "Masonry Gallery Category"
+msgstr "Masonry Gallery Thể loại"
+
+# @ qode
+#: includes/qode-custom-post-types.php:251
+msgid "Search Masonry Gallery Categories"
+msgstr "Tìm thể loại triển lãm"
+
+# @ qode
+#: includes/qode-custom-post-types.php:252
+msgid "All Masonry Gallery Categories"
+msgstr "Tất cả Masonry Gallery Categories"
+
+# @ qode
+#: includes/qode-custom-post-types.php:253
+msgid "Parent Masonry Gallery Category"
+msgstr "Danh mục bộ sưu tập cha"
+
+# @ qode
+#: includes/qode-custom-post-types.php:254
+msgid "Parent Masonry Gallery Category:"
+msgstr "Danh mục bộ sưu tập cha:"
+
+# @ qode
+#: includes/qode-custom-post-types.php:255
+msgid "Edit Masonry Gallery Category"
+msgstr "Sửa Masonry Gallery Thể loại"
+
+# @ qode
+#: includes/qode-custom-post-types.php:256
+msgid "Update Masonry Gallery Category"
+msgstr "Cập nhật thể loại triển lãm"
+
+# @ qode
+#: includes/qode-custom-post-types.php:257
+msgid "Add New Masonry Gallery Category"
+msgstr "Thêm thể loại triển lãm mới"
+
+# @ qode
+#: includes/qode-custom-post-types.php:258
+msgid "New Masonry Gallery Category Name"
+msgstr "Tên danh mục bộ sưu tập mới"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:33
+msgid "Advanced responsiveness"
+msgstr "đáp ứng nâng cao"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:44
+msgid "Breakpoint Coefficients 1 (values: 0-1, default value: 1)"
+msgstr "Điểm dừng hệ số 1 (giá trị: 0-1, giá trị mặc định: 1)"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:48
+#: includes/qode-custom-taxonomy-field.php:78
+#: includes/qode-custom-taxonomy-field.php:108
+#: includes/qode-custom-taxonomy-field.php:138
+#: includes/qode-custom-taxonomy-field.php:168
+#: includes/qode-custom-taxonomy-field.php:198
+#: includes/qode-custom-taxonomy-field.php:228
+msgid "Graphic"
+msgstr "Biểu đồ"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:64
+#: includes/qode-custom-taxonomy-field.php:94
+#: includes/qode-custom-taxonomy-field.php:124
+#: includes/qode-custom-taxonomy-field.php:154
+#: includes/qode-custom-taxonomy-field.php:184
+#: includes/qode-custom-taxonomy-field.php:214
+#: includes/qode-custom-taxonomy-field.php:244
+msgid "Button"
+msgstr "Nút bấm"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:69
+msgid "screen width > 1600px for 'set1' and 'set2'"
+msgstr "chiều rộng màn hình> 1600px cho 'set1' và 'set2'"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:74
+msgid "Breakpoint Coefficients 2 (values: 0-1, default value: 1)"
+msgstr "Điểm dừng hệ số 2 (giá trị: 0-1, giá trị mặc định: 1)"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:99
+msgid "screen width = [1200px,1600px] for 'set1', screen width = [1300px,1600px] for 'set2'"
+msgstr "chiều rộng màn hình = [1200px, 1600px] cho 'set1', màn hình rộng = [1300px, 1600px] cho 'set2'"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:104
+msgid "Breakpoint Coefficients 3 (values: 0-1, default value: 0.8)"
+msgstr "Breakpoint Hệ số 3 (giá trị: 0-1, giá trị mặc định: 0,8)"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:129
+msgid "screen width = [900px,1200px] for 'set1', screen width = [1000px,1300px] for 'set2'"
+msgstr "chiều rộng màn hình = [900px, 1200px] cho 'set1', màn hình rộng = [1000px, 1300px] cho 'set2'"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:134
+msgid "Breakpoint Coefficients 4 (values: 0-1, default value: 0.7)"
+msgstr "Breakpoint Hệ số 4 (giá trị: 0-1, giá trị mặc định: 0,7)"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:159
+msgid "screen width = [650px,900px] for 'set1', screen width = [768px,1000px] for 'set2'"
+msgstr "chiều rộng màn hình = [650px, 900px] cho 'set1', màn hình rộng = [768px, 1000px] cho 'set2'"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:164
+msgid "Breakpoint Coefficients 5 (values: 0-1, default value: 0.6)"
+msgstr "Breakpoint Hệ số 5 (giá trị: 0-1, giá trị mặc định: 0,6)"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:189
+msgid "screen width = [500px,650px] for 'set1', screen width = [567px,768px] for 'set2'"
+msgstr "chiều rộng màn hình = [500px, 650px] cho 'set1', màn hình rộng = [567px, 768px] cho 'set2'"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:194
+msgid "Breakpoint Coefficients 6 (values: 0-1, default value: 0.5)"
+msgstr "Breakpoint Hệ số 6 (giá trị: 0-1, giá trị mặc định: 0,5)"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:219
+msgid "screen width = [320px,500px] for 'set1', screen width = [320px,567px] for 'set2'"
+msgstr "chiều rộng màn hình = [320px, 500px] cho 'set1', màn hình rộng = [320px, 567px] cho 'set2'"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:224
+msgid "Breakpoint Coefficients 7 (values: 0-1, default value: 0.4)"
+msgstr "Breakpoint Hệ số 7 (giá trị: 0-1, giá trị mặc định: 0,4)"
+
+# @ qode
+#: includes/qode-custom-taxonomy-field.php:249
+msgid "screen width < 320px for 'set1' and 'set2'"
+msgstr "chiều rộng màn hình <320px cho 'set1' và 'set2'"
+
+# @ qode
+#: includes/shortcodes/shortcodes.php:2852
+#: includes/shortcodes/shortcodes.php:3193
+#: includes/shortcodes/shortcodes.php:3240
+#: includes/shortcodes/shortcodes.php:3628
+#: includes/shortcodes/shortcodes.php:3676
+msgid "Go to Project"
+msgstr "Tới Project"
+
+# @ qode
+#: templates/blog_single-loop.php:280
+msgid "Tags:"
+msgstr "Thẻ:"
+
+# @ qode
+#: templates/blog_vertical-loop.php:103 templates/blog_vertical-loop.php:173
+#: templates/blog_vertical-loop.php:247 templates/blog_vertical-loop.php:316
+#: templates/blog_vertical-loop.php:393 templates/blog_vertical-loop.php:462
+msgid "See More"
+msgstr "Hơn nữa"
+
+# @ qode
+#: templates/portfolio-loop.php:1169
+msgid "Print page"
+msgstr "In trang"
+
+# @ qode
+#: templates/portfolio-related.php:19
+msgid "Related Projects"
+msgstr "Tiện ích liên quan"
+
+# @ woocommerce
+#: woocommerce/cart/cart-shipping.php:47
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr "Chi phí vận chuyển sẽ được tính toán căn cứ vào địa chỉ của bạn."
+
+# @ woocommerce
+#: woocommerce/cart/cart-shipping.php:49
+msgid "There are no shipping methods available. Please double check your address, or contact us if you need any help."
+msgstr "Không có phương pháp vận chuyển nào có sẵn. Vui lòng kiểm tra địa chỉ của bạn, hoặc liên hệ với chúng tôi nếu bạn cần bất kỳ sự trợ giúp nào."
+
+# @ woocommerce
+#: woocommerce/cart/cart-totals.php:19
+msgid "Cart Totals"
+msgstr "Tổng cộng đơn hàng"
+
+# @ woocommerce
+#: woocommerce/cart/cart-totals.php:24
+msgid "Subtotal"
+msgstr "Tổng"
+
+# @ woocommerce
+#: woocommerce/cart/cart-totals.php:46
+msgid "Shipping"
+msgstr "Vận chuyển"
+
+# @ woocommerce
+#: woocommerce/cart/cart-totals.php:90
+#, php-format
+msgid " (taxes estimated for %s)"
+msgstr " (thuế ước tính khoảng %s)"
+
+# @ woocommerce
+#: woocommerce/cart/cart-totals.php:93
+#, php-format
+msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgstr "Lưu ý: Vận chuyển và thuế ước tính %s và sẽ được cập nhật trong thời gian thanh toán trên cơ sở thanh toán và thông tin vận chuyển."
+
+# @ woocommerce
+#: woocommerce/cart/cart.php:122 woocommerce/checkout/form-coupon.php:25
+msgid "Coupon code"
+msgstr "Mã giảm giá"
+
+# @ woocommerce
+#: woocommerce/single-product/add-to-cart/variable.php:42
+msgid "Clear"
+msgstr "Xóa"
+
+# @ qode
+#: framework/lib/qode.layout.php:2742
+msgid "You have successfully connected with your Instagram account. If you have any issues fetching data from Instagram try reconnecting."
+msgstr "Bạn đã kết nối thành công với tài khoản Instagram của bạn. Nếu bạn có bất kỳ vấn đề lấy dữ liệu từ Instagram thử kết nối lại."
+
+# @ qode
+#: framework/lib/qode.layout.php:2749
+msgid "Re-connect with Instagram"
+msgstr "Tái kết nối với Instagram"
+
+# @ qode
+#: framework/lib/qode.layout.php:2749 framework/lib/qode.layout.php:2760
+msgid "Connect with Instagram"
+msgstr "Kết nối với Instagram"
+
+# @ qode
+#: framework/lib/qode.layout.php:2762
+msgid "Connecting with Instagram will enable you to show your latest photos on your site"
+msgstr "Kết nối với Instagram sẽ cho phép bạn hiển thị hình ảnh mới nhất của bạn trên trang web của bạn"
+
+# @ qode
+#: widgets/social_icon_widget.php:8
+msgid "Qode Social Icon Widget"
+msgstr "Qode Biểu tượng Widget Xã hội"
+
+# @ qode
+#: includes/qode-breadcrumbs.php:45
+msgid "Search results for \""
+msgstr "Kết quả tìm kiếm cho \""
+
+# @ qode
+#: includes/qode-breadcrumbs.php:104
+msgid "Posts tagged \""
+msgstr "Đánh dấu bài đăng"
+
+# @ qode
+#: includes/qode-breadcrumbs.php:109
+msgid "Articles posted by "
+msgstr "Bài viết được đăng bởi"
+
+# @ qode
+#: includes/qode-breadcrumbs.php:112
+msgid "Error 404"
+msgstr "Lỗi 404"

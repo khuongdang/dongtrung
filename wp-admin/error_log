@@ -1,0 +1,250 @@
+[15-Jul-2016 07:52:26 UTC] WordPress database error Unknown system variable 'OPTION' for query SET OPTION SQL_BIG_SELECTS = 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WooCommerce->init, do_action('woocommerce_init'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->wc_crm_install, WooCommerce_Customer_Relationship_Manager->get_user_sql
+[15-Jul-2016 07:52:26 UTC] WordPress database error Unknown system variable 'OPTION' for query SET OPTION SQL_BIG_SELECTS = 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WooCommerce->init, do_action('woocommerce_init'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->wc_crm_install, WooCommerce_Customer_Relationship_Manager->get_cust_sql
+[15-Jul-2016 07:52:26 UTC] WordPress database error Unknown system variable 'OPTION' for query SET OPTION SQL_BIG_SELECTS = 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WooCommerce->init, do_action('woocommerce_init'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->wc_crm_install, WooCommerce_Customer_Relationship_Manager->get_guest_sql
+[15-Jul-2016 11:26:30 UTC] WordPress database error Unknown system variable 'OPTION' for query SET OPTION SQL_BIG_SELECTS = 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WooCommerce->init, do_action('woocommerce_init'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->wc_crm_install, WooCommerce_Customer_Relationship_Manager->get_user_sql
+[15-Jul-2016 11:26:30 UTC] WordPress database error Unknown system variable 'OPTION' for query SET OPTION SQL_BIG_SELECTS = 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WooCommerce->init, do_action('woocommerce_init'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->wc_crm_install, WooCommerce_Customer_Relationship_Manager->get_cust_sql
+[15-Jul-2016 11:26:30 UTC] WordPress database error Unknown system variable 'OPTION' for query SET OPTION SQL_BIG_SELECTS = 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WooCommerce->init, do_action('woocommerce_init'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->wc_crm_install, WooCommerce_Customer_Relationship_Manager->get_guest_sql
+[15-Jul-2016 11:28:43 UTC] WordPress database error Table 'mishkaco_trgsih.trgsih_wc_crm_customers' doesn't exist for query SELECT * FROM trgsih_wc_crm_customers WHERE email = 'admin@truongsinh.mishka.com.vn' made by require_once('wp-admin/admin.php'), do_action('admin_init'), call_user_func_array, WPReset->admin_init, wp_install, wp_create_user, wp_insert_user, do_action('user_register'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->update_customer_table_user
+[15-Jul-2016 11:28:43 UTC] WordPress database error Unknown system variable 'OPTION' for query SET OPTION SQL_BIG_SELECTS = 1 made by require_once('wp-admin/admin.php'), do_action('admin_init'), call_user_func_array, WPReset->admin_init, wp_install, wp_create_user, wp_insert_user, do_action('user_register'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->update_customer_table_user, WooCommerce_Customer_Relationship_Manager->get_user_sql
+[15-Jul-2016 11:28:43 UTC] WordPress database error Unknown system variable 'OPTION' for query SET OPTION SQL_BIG_SELECTS = 1 made by require_once('wp-admin/admin.php'), do_action('admin_init'), call_user_func_array, WPReset->admin_init, wp_install, wp_create_user, wp_insert_user, do_action('user_register'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->update_customer_table_user, WooCommerce_Customer_Relationship_Manager->get_cust_sql
+[15-Jul-2016 11:28:43 UTC] WordPress database error Table 'mishkaco_trgsih.trgsih_wc_crm_customers' doesn't exist for query INSERT INTO trgsih_wc_crm_customers (email, user_id, capabilities, first_name, last_name, nicename, status, phone, city, state, country, categories, brands, order_id, last_order_date, num_orders, total_spent, find_orders)
+        SELECT * FROM (          
+              SELECT 
+              trgsih_users.user_email as user_email,
+              trgsih_users.ID as user_id,
+              usermeta_role.meta_value as crm_capabilities,
+              usermeta_fn.meta_value as crm_first_name,
+              usermeta_ln.meta_value as crm_last_name,
+              trgsih_users.user_login as crm_nicename,
+              IF(usermeta_status.meta_value IS NULL, 'Customer', usermeta_status.meta_value) as crm_status,
+              usermeta_phone.meta_value as crm_phone,
+              usermeta_city.meta_value as crm_city,
+              usermeta_state.meta_value as crm_state,
+              usermeta_country.meta_value as crm_country,
+              usermeta_categories.meta_value as crm_categories,
+              usermeta_brands.meta_value as crm_brands,
+              max(trgsih_posts.ID) as crm_order_id,
+              max(trgsih_posts.post_date) as crm_last_order_date,
+              SUM( if(trgsih_posts.post_status IN('wc-completed'), 1, 0)) as crm_num_orders,
+              SUM(meta_amount.meta_value) as crm_total_spent,
+              COUNT(trgsih_posts.ID) as crm_find_orders
+             
+          FROM trgsih_posts
+
+          inner JOIN trgsih_postmeta posts_meta
+                ON (posts_meta.post_id=trgsih_posts.ID AND posts_meta.meta_key = '_customer_user' AND posts_meta.meta_value > 0 AND trgsih_posts.post_type =  'shop_order' )
+                
+          LEFT JOIN trgsih_users  ON (trgsih_users.ID = posts_meta.meta_value)
+
+          LEFT JOIN trgsih_usermeta usermeta_role
+                ON (usermeta_role.user_id=trgsih_users.ID AND usermeta_role.meta_key = 'trgsih_capabilities')
+                
+          LEFT JOIN trgsih_usermeta usermeta_fn
+                ON (usermeta_fn.user_id=trgsih_users.ID AND usermeta_fn.meta_key = 'first_name')
+          
+          LEFT JOIN trgsih_usermeta usermeta_ln
+                ON (usermeta_ln.user_id=trgsih_users.ID AND usermeta_ln.meta_key = 'last_name')
+                
+          LEFT JOIN trgsih_usermeta usermeta_status
+                ON (usermeta_status.user_id=trgsih_users.ID AND usermeta_status.meta_key = 'customer_status')
+                
+          LEFT JOIN trgsih_usermeta usermeta_phone
+                ON (usermeta_phone.user_id=trgsih_users.ID AND usermeta_phone.meta_key = 'billing_phone')
+                
+          LEFT JOIN trgsih_usermeta usermeta_city
+                ON (usermeta_city.user_id=trgsih_users.ID AND usermeta_city.meta_key = 'billing_city')
+          
+          LEFT JOIN trgsih_usermeta usermeta_country
+                ON (usermeta_country.user_id=trgsih_users.ID AND usermeta_country.meta_key='billing_country')
+                
+          LEFT JOIN trgsih_usermeta usermeta_state
+                ON (usermeta_state.user_id=trgsih_users.ID AND usermeta_state.meta_key = 'billing_state')
+
+          LEFT JOIN trgsih_usermeta usermeta_categories
+                ON (usermeta_categories.user_id=trgsih_users.ID AND usermeta_categories.meta_key = 'customer_categories')
+
+          LEFT JOIN trgsih_usermeta usermeta_brands
+                ON (usermeta_brands.user_id=trgsih_users.ID AND usermeta_brands.meta_key = 'customer_brands')
+
+          LEFT JOIN trgsih_postmeta meta_amount
+                      ON(trgsih_posts.post_status IN('wc-completed') AND meta_amount.post_id = trgsih_posts.ID AND meta_amount.meta_key='_order_total' )
+            
+          WHERE 1=1
+          AND trgsih_users.user_email != ''
+            
+          group by user_email 
+        ) as crm_table
+        
+        ON DUPLICATE KEY UPDATE capabilities = crm_table.crm_capabilities,
+               first_name = crm_table.crm_first_name,
+               last_name = crm_table.crm_last_name,
+               nicename = crm_table.crm_nicename,
+               status = IF(crm_table.crm_status IS NULL, 'Customer', crm_table.crm_status),
+               phone = crm_table.crm_phone,
+               city = crm_table.crm_city,
+               state = crm_table.crm_state,
+               country = crm_table.crm_country,
+               categories = crm_table.crm_categories,
+               brands = crm_table.crm_brands,
+               order_id = crm_table.crm_order_id,
+               last_order_date = crm_table.crm_last_order_date,
+               num_orders = crm_table.crm_num_orders,
+               total_spent = crm_table.crm_total_spent made by require_once('wp-admin/admin.php'), do_action('admin_init'), call_user_func_array, WPReset->admin_init, wp_install, wp_create_user, wp_insert_user, do_action('user_register'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->update_customer_table_user
+[15-Jul-2016 11:28:43 UTC] WordPress database error Table 'mishkaco_trgsih.trgsih_wc_crm_customers' doesn't exist for query INSERT INTO trgsih_wc_crm_customers (email, user_id, capabilities, first_name, last_name, nicename, status, phone, city, state, country, categories, brands, order_id, last_order_date, num_orders, total_spent, find_orders)
+        SELECT * FROM (          
+              SELECT 
+              trgsih_users.user_email as user_email,
+              trgsih_users.ID as user_id,
+              usermeta_role.meta_value as crm_capabilities,
+              usermeta_fn.meta_value as crm_first_name,
+              usermeta_ln.meta_value as crm_last_name,
+              trgsih_users.user_login as crm_nicename,
+              IF(usermeta_status.meta_value IS NULL, 'Customer', usermeta_status.meta_value) as crm_status,
+              usermeta_phone.meta_value as crm_phone,
+              usermeta_city.meta_value as crm_city,
+              usermeta_state.meta_value as crm_state,
+              usermeta_country.meta_value as crm_country,
+              usermeta_categories.meta_value as crm_categories,
+              usermeta_brands.meta_value as crm_brands,
+              NULL as crm_order_id,
+              NULL as crm_last_order_date,
+              0 as crm_num_orders,
+              0 as crm_total_spent,
+              0 as crm_find_orders
+             
+          FROM trgsih_users
+
+          LEFT JOIN trgsih_postmeta posts_meta
+                ON ( posts_meta.meta_key = '_customer_user' AND posts_meta.meta_value = trgsih_users.ID )
+
+          LEFT JOIN trgsih_usermeta usermeta_role
+                ON (usermeta_role.user_id=trgsih_users.ID AND usermeta_role.meta_key = 'trgsih_capabilities')
+                
+          LEFT JOIN trgsih_usermeta usermeta_fn
+                ON (usermeta_fn.user_id=trgsih_users.ID AND usermeta_fn.meta_key = 'first_name')
+          
+          LEFT JOIN trgsih_usermeta usermeta_ln
+                ON (usermeta_ln.user_id=trgsih_users.ID AND usermeta_ln.meta_key = 'last_name')
+                
+          LEFT JOIN trgsih_usermeta usermeta_status
+                ON (usermeta_status.user_id=trgsih_users.ID AND usermeta_status.meta_key = 'customer_status')
+                
+          LEFT JOIN trgsih_usermeta usermeta_phone
+                ON (usermeta_phone.user_id=trgsih_users.ID AND usermeta_phone.meta_key = 'billing_phone')
+                
+          LEFT JOIN trgsih_usermeta usermeta_city
+                ON (usermeta_city.user_id=trgsih_users.ID AND usermeta_city.meta_key = 'billing_city')
+          
+          LEFT JOIN trgsih_usermeta usermeta_country
+                ON (usermeta_country.user_id=trgsih_users.ID AND usermeta_country.meta_key='billing_country')
+                
+          LEFT JOIN trgsih_usermeta usermeta_state
+                ON (usermeta_state.user_id=trgsih_users.ID AND usermeta_state.meta_key = 'billing_state')
+
+          LEFT JOIN trgsih_usermeta usermeta_categories
+                ON (usermeta_categories.user_id=trgsih_users.ID AND usermeta_categories.meta_key = 'customer_categories')
+
+          LEFT JOIN trgsih_usermeta usermeta_brands
+                ON (usermeta_brands.user_id=trgsih_users.ID AND usermeta_brands.meta_key = 'customer_brands')
+            
+          WHERE 1=1
+          AND usermeta_role.meta_value LIKE '%customer%'
+          AND posts_meta.meta_value IS NULL
+          AND trgsih_users.user_email != ''
+            
+          group by user_email 
+        ) as crm_table
+        
+        ON DUPLICATE KEY UPDATE capabilities = crm_table.crm_capabilities,
+               first_name = crm_table.crm_first_name,
+               last_name = crm_table.crm_last_name,
+               nicename = crm_table.crm_nicename,
+               status = IF(crm_table.crm_status IS NULL, 'Customer', crm_table.crm_status),
+               phone = crm_table.crm_phone,
+               city = crm_table.crm_city,
+               state = crm_table.crm_state,
+               country = crm_table.crm_country,
+               categories = crm_table.crm_categories,
+               brands = crm_table.crm_brands,
+               order_id = NULL,
+               last_order_date = NULL,
+               num_orders = 0,
+               total_spent = 0 made by require_once('wp-admin/admin.php'), do_action('admin_init'), call_user_func_array, WPReset->admin_init, wp_install, wp_create_user, wp_insert_user, do_action('user_register'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->update_customer_table_user
+[15-Jul-2016 11:28:43 UTC] WordPress database error Table 'mishkaco_trgsih.trgsih_wc_crm_customers' doesn't exist for query DELETE FROM trgsih_wc_crm_customers
+                WHERE (
+                  (user_id NOT IN (
+                    SELECT posts_user.meta_value 
+                    FROM trgsih_posts
+
+                    right JOIN trgsih_postmeta posts_user
+                      ON ( posts_user.post_id=trgsih_posts.ID  AND posts_user.meta_key = '_customer_user' AND posts_user.meta_value > 0)
+                    
+                    WHERE trgsih_posts.post_type = 'shop_order'
+                    )
+                  AND user_id IS NOT NULL ) 
+                  OR email = '')
+                AND capabilities NOT LIKE '%customer%'
+         made by require_once('wp-admin/admin.php'), do_action('admin_init'), call_user_func_array, WPReset->admin_init, wp_install, wp_create_user, wp_insert_user, do_action('user_register'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->update_customer_table_user, WooCommerce_Customer_Relationship_Manager->delete_empty_customers
+[15-Jul-2016 11:28:44 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in /home/mishkaco/public_html/truongsinh/wp-content/plugins/wp-reset/wp-reset.php on line 61 and defined in /home/mishkaco/public_html/truongsinh/wp-includes/wp-db.php on line 1246
+[15-Jul-2016 11:32:01 UTC] WordPress database error Duplicate key name 'location_type_code' for query ALTER TABLE trgsih_woocommerce_tax_rate_locations ADD KEY location_type_code (location_type(40),location_code(90)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[15-Jul-2016 11:32:01 UTC] WordPress database error Duplicate key name 'location_type_code' for query ALTER TABLE trgsih_woocommerce_shipping_zone_locations ADD KEY location_type_code (location_type(40),location_code(90)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[15-Jul-2016 11:32:01 UTC] WordPress database error Duplicate key name 'meta_key' for query ALTER TABLE trgsih_woocommerce_payment_tokenmeta ADD KEY meta_key (meta_key(191)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[18-Jul-2016 04:41:18 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in /home/mishkaco/public_html/truongsinh/wp-content/plugins/wp-reset/wp-reset.php on line 61 and defined in /home/mishkaco/public_html/truongsinh/wp-includes/wp-db.php on line 1246
+[18-Jul-2016 05:24:03 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:26:05 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:28:05 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:30:12 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:30:18 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:30:20 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:30:21 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:30:25 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:30:34 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:30:36 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:30:52 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:31:12 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:32:52 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:33:14 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:34:53 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:34:59 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:35:09 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:37:00 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:37:12 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:39:00 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:39:11 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:41:00 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:41:11 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:43:02 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 05:43:13 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 06:13:52 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 06:14:08 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 06:14:10 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 06:14:33 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 06:14:38 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 06:14:45 UTC] PHP Warning:  array_key_exists() expects parameter 2 to be array, string given in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/framework/lib/qode.framework.php on line 101
+[18-Jul-2016 06:14:46 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in /home/mishkaco/public_html/truongsinh/wp-content/plugins/wp-reset/wp-reset.php on line 61 and defined in /home/mishkaco/public_html/truongsinh/wp-includes/wp-db.php on line 1246
+[08-Aug-2016 10:33:48 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in /home/mishkaco/public_html/truongsinh/wp-content/plugins/wp-reset/wp-reset.php on line 61 and defined in /home/mishkaco/public_html/truongsinh/wp-includes/wp-db.php on line 1246
+[15-Aug-2016 13:55:18 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/mishkaco/public_html/truongsinh/wp-includes/update.php on line 123
+[24-Sep-2016 10:15:37 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in /home/mishkaco/public_html/truongsinh/wp-content/plugins/wp-reset/wp-reset.php on line 61 and defined in /home/mishkaco/public_html/truongsinh/wp-includes/wp-db.php on line 1285
+[04-Oct-2016 05:19:32 UTC] PHP Warning:  Missing argument 2 for wpdb::prepare(), called in /home/mishkaco/public_html/truongsinh/wp-content/plugins/wp-reset/wp-reset.php on line 61 and defined in /home/mishkaco/public_html/truongsinh/wp-includes/wp-db.php on line 1285
+[04-Oct-2016 05:24:52 UTC] WordPress database error Unknown system variable 'OPTION' for query SET OPTION SQL_BIG_SELECTS = 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WooCommerce->init, do_action('woocommerce_init'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->wc_crm_install, WooCommerce_Customer_Relationship_Manager->get_user_sql
+[04-Oct-2016 05:24:52 UTC] WordPress database error Unknown system variable 'OPTION' for query SET OPTION SQL_BIG_SELECTS = 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WooCommerce->init, do_action('woocommerce_init'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->wc_crm_install, WooCommerce_Customer_Relationship_Manager->get_cust_sql
+[04-Oct-2016 05:24:52 UTC] WordPress database error Unknown system variable 'OPTION' for query SET OPTION SQL_BIG_SELECTS = 1 made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WooCommerce->init, do_action('woocommerce_init'), call_user_func_array, WooCommerce_Customer_Relationship_Manager->wc_crm_install, WooCommerce_Customer_Relationship_Manager->get_guest_sql
+[04-Oct-2016 13:19:16 Asia/Bangkok] PHP Notice:  Constant WP_DEBUG already defined in /home/mishkaco/public_html/truongsinh/wp-config.php on line 89
+[04-Oct-2016 13:19:29 Asia/Bangkok] PHP Notice:  Constant WP_DEBUG already defined in /home/mishkaco/public_html/truongsinh/wp-config.php on line 89
+[04-Oct-2016 13:19:32 Asia/Bangkok] PHP Notice:  Constant WP_DEBUG already defined in /home/mishkaco/public_html/truongsinh/wp-config.php on line 89
+[04-Oct-2016 13:19:44 Asia/Bangkok] PHP Notice:  Constant WP_DEBUG already defined in /home/mishkaco/public_html/truongsinh/wp-config.php on line 89
+[04-Oct-2016 13:20:28 Asia/Bangkok] PHP Notice:  Constant WP_DEBUG already defined in /home/mishkaco/public_html/truongsinh/wp-config.php on line 89
+[04-Oct-2016 13:20:45 Asia/Bangkok] PHP Notice:  Constant WP_DEBUG already defined in /home/mishkaco/public_html/truongsinh/wp-config.php on line 89
+[04-Oct-2016 09:46:07 UTC] PHP Warning:  getimagesize(/home/mishkaco/public_html/truongsinh/bridge/wp-content/themes/bridge/img/logo_black.png): failed to open stream: No such file or directory in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/css/style_dynamic.php on line 1071
+[04-Oct-2016 09:46:30 UTC] PHP Warning:  getimagesize(/home/mishkaco/public_html/truongsinh/bridge/wp-content/themes/bridge/img/logo_black.png): failed to open stream: No such file or directory in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/css/style_dynamic.php on line 1071
+[04-Oct-2016 09:46:35 UTC] PHP Warning:  getimagesize(/home/mishkaco/public_html/truongsinh/bridge/wp-content/themes/bridge/img/logo_black.png): failed to open stream: No such file or directory in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/css/style_dynamic.php on line 1071
+[04-Oct-2016 09:46:39 UTC] PHP Warning:  getimagesize(/home/mishkaco/public_html/truongsinh/bridge/wp-content/themes/bridge/img/logo_black.png): failed to open stream: No such file or directory in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/css/style_dynamic.php on line 1071
+[04-Oct-2016 09:47:04 UTC] PHP Warning:  getimagesize(/home/mishkaco/public_html/truongsinh/bridge/wp-content/themes/bridge/img/logo_black.png): failed to open stream: No such file or directory in /home/mishkaco/public_html/truongsinh/wp-content/themes/bridge/css/style_dynamic.php on line 1071
+[05-Oct-2016 01:39:09 UTC] PHP Fatal error:  Class 'WPML_ST_Themes_And_Plugins_Settings' not found in /home/mishkaco/public_html/truongsinh/wp-content/plugins/sitepress-multilingual-cms/menu/theme-localization.php on line 45
+[05-Oct-2016 01:41:30 UTC] WordPress database error Duplicate entry '68e3dd7e14cd121b6994f443520df17b' for key 'uc_domain_name_context_md5' for query INSERT INTO `trgsih_icl_strings` (`language`, `context`, `gettext_context`, `domain_name_context_md5`, `name`, `value`, `status`) VALUES ('en', 'woocommerce', '', '68e3dd7e14cd121b6994f443520df17b', '4351cfebe4b61d8aa5efa1d020710005', 'View', '0') made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('wp_loaded'), call_user_func_array, wpml_st_initialize_basic_strings, WPML_ST_WP_Loaded_Action->run, WPML_String_Translation->scan_theme_for_strings, WPML_Theme_String_Scanner->scan, WPML_Theme_String_Scanner->scan_theme_files, WPML_Theme_String_Scanner->scan_theme_files, WPML_Theme_String_Scanner->scan_theme_files, _potx_process_file, _potx_find_t_calls_with_context, call_user_func, WPML_String_Scanner->store_results, WPML_String_Scanner->register_string, icl_register_string, WPML_Admin_String_Filter->register_string, WPML_Admin_String_Filter->save_string
+[05-Oct-2016 01:41:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Count not add String with arguments: value: View allow_empty_value: language: en' in /home/mishkaco/public_html/truongsinh/wp-content/plugins/wpml-string-translation/classes/filters/class-wpml-admin-string-filter.php:177
+Stack trace:
+#0 /home/mishkaco/public_html/truongsinh/wp-content/plugins/wpml-string-translation/classes/filters/class-wpml-admin-string-filter.php(117): WPML_Admin_String_Filter->save_string('View', false, 'en', 'woocommerce', '', '4351cfebe4b61d8...')
+#1 /home/mishkaco/public_html/truongsinh/wp-content/plugins/wpml-string-translation/inc/functions.php(265): WPML_Admin_String_Filter->register_string('woocommerce', '4351cfebe4b61d8...', 'View', false, '')
+#2 /home/mishkaco/public_html/truongsinh/wp-content/plugins/wpml-string-translation/inc/gettext/wpml-string-scanner.class.php(341): icl_register_string('woocommerce', '4351cfebe4b61d8...', 'View')
+#3 /home/mishkaco/public_html/truongsinh/wp-content/plugins/wpml-string-translation/inc/gettext/wpml- in /home/mishkaco/public_html/truongsinh/wp-content/plugins/wpml-string-translation/classes/filters/class-wpml-admin-string-filter.php on line 177

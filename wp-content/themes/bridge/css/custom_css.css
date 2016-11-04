@@ -1,0 +1,33 @@
+
+
+header.sticky.sticky_animate nav.main_menu.drop_down.right {
+    float: right;
+}
+
+.drop_down li.right_position .second {
+    left: 0;
+}
+
+.woocommerce .widget_price_filter .button, .woocommerce-page .widget_price_filter .button {
+    padding: 0 10px;
+}
+
+.header-top-custom{
+padding: 0px 15px;
+}
+
+.header_bottom.clearfix {
+    border-bottom: 2.5px solid #f37820 !important;
+}
+
+.footer_top .q_icon_with_title .icon_with_title_link {
+    margin: 0;
+}
+
+.footer_top .h5.icon_title {
+    display: none;
+}
+
+.footer_top .q_icon_with_title .icon_text_inner {
+    padding: 0;
+}

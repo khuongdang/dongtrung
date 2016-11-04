@@ -1,0 +1,1223 @@
+# Copyright (C) 2016 Contact Form DB
+# This file is distributed under the same license as the Contact Form DB package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Contact Form DB 2.10.19\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/contact-form-7-to-"
+"database-extension\n"
+"POT-Creation-Date: 2016-08-27 15:49+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-08-27 15:54+0700\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.8\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: vi\n"
+
+#: CF7DBOptionsManager.php:286 CF7DBPlugin.php:115 CF7DBPlugin.php:609
+#: ExportToGoogleLiveData.php:31
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Bạn không có đủ quyền truy cập trang này."
+
+#: CF7DBOptionsManager.php:354 CF7DBPlugin.php:136
+#: CFDBViewShortCodeBuilder.php:714 CFDBViewShortCodeBuilder.php:817
+#: CFDBViewShortCodeBuilder.php:828 CFDBViewShortCodeBuilder.php:890
+#: CFDBViewShortCodeBuilder.php:932
+msgid "true"
+msgstr "TRUE"
+
+#: CF7DBOptionsManager.php:355 CF7DBPlugin.php:138
+#: CFDBViewShortCodeBuilder.php:816 CFDBViewShortCodeBuilder.php:827
+#: CFDBViewShortCodeBuilder.php:891 CFDBViewShortCodeBuilder.php:933
+msgid "false"
+msgstr "sai"
+
+#: CF7DBPlugin.php:54
+msgid "Save Page Title from Contact Form 7 submissions"
+msgstr "Lưu Trang Tiêu đề từ Form Liên hệ 7 bài nộp"
+
+#: CF7DBPlugin.php:73
+msgid "Can See Submission data"
+msgstr "Có thể nhìn thấy dữ liệu thông tin"
+
+#: CF7DBPlugin.php:75
+msgid "Can See Submission when using shortcodes"
+msgstr "Có thể nhìn thấy thông tin khi sử dụng shortcodes"
+
+#: CF7DBPlugin.php:77
+msgid "Can Edit/Delete Submission data"
+msgstr "Thể Chỉnh sửa / Xóa dữ liệu thông tin"
+
+#: CF7DBPlugin.php:79
+msgid "Allow Any Function in Short Codes"
+msgstr "Cho phép Bất kỳ Chức năng trong Mã ngắn"
+
+#: CF7DBPlugin.php:80 CF7DBPlugin.php:83
+msgid "(Creates a security hole)"
+msgstr "(Tạo ra một lỗ hổng bảo mật)"
+
+#: CF7DBPlugin.php:81
+msgid "Allow only Administrators to see CFDB administration screens"
+msgstr "Chỉ cho phép quản trị viên để thấy màn hình chính quyền CFDB"
+
+#: CF7DBPlugin.php:82
+msgid "Allow RSS URLs"
+msgstr "Cho phép RSS URL"
+
+#: CF7DBPlugin.php:86
+msgid ""
+"Timezone to capture Submit Time. Blank will use WordPress Timezone setting. "
+"<a target=\"_blank\" href=\"http://www.php.net/manual/en/timezones.php"
+"\">Options</a>"
+msgstr ""
+"Múi giờ để nắm bắt Gửi Time. Trống sẽ sử dụng WordPress múi giờ thiết lập. "
+"<a target=\"_blank\" href=\"http://www.php.net/manual/en/timezones.php\">Tùy "
+"chọn</a>"
+
+#: CF7DBPlugin.php:87
+msgid "Do not save <u>fields</u> in DB named (comma-separated list, no spaces)"
+msgstr ""
+"Không lưu <u>trường</u> trong DB tên (danh sách bằng dấu phẩy, không có "
+"khoảng trắng)"
+
+#: CF7DBPlugin.php:88
+msgid "Do not save <u>forms</u> in DB named (comma-separated list, no spaces)"
+msgstr ""
+"Không lưu <u>mẫu</u> trong DB tên (danh sách bằng dấu phẩy, không có khoảng "
+"trắng)"
+
+#: CF7DBPlugin.php:89
+msgid "Save Cookie Data with Form Submissions"
+msgstr "Lưu dữ liệu với mẫu Submissions Cookie"
+
+#: CF7DBPlugin.php:90
+msgid ""
+"Save only cookies in DB named (comma-separated list, no spaces, and above "
+"option must be set to true)"
+msgstr ""
+"Chỉ lưu cookie trong DB tên (danh sách bằng dấu phẩy, không có không gian, "
+"và ở trên tùy chọn phải được thiết lập là true)"
+
+#: CF7DBPlugin.php:93
+msgid "Use Custom Date-Time Display Format (below)"
+msgstr "Sử dụng Custom Date-Time Display Format (bên dưới)"
+
+#: CF7DBPlugin.php:94
+msgid "Date-Time Display Format"
+msgstr "Date-Time Format Display"
+
+#: CF7DBPlugin.php:95
+msgid "Export URLs instead of file names for uploaded files"
+msgstr "Xuất URL thay vì tên tập tin cho các tập tin được tải lên"
+
+#: CF7DBPlugin.php:98
+msgid "Maximum number of rows to retrieve from the DB for the Admin display"
+msgstr "Số lượng tối đa của hàng để lấy từ DB cho màn hình quản trị"
+
+#: CF7DBPlugin.php:99
+msgid "#Rows (of maximum above) visible in the Admin datatable"
+msgstr "#Rows (Tối đa trên) có thể nhìn thấy trong các DataTable quản trị"
+
+#: CF7DBPlugin.php:100
+msgid "Use fixed width in Admin datatable"
+msgstr "Sử dụng chiều rộng cố định trong Admin DataTable"
+
+#: CF7DBPlugin.php:101
+msgid "Use Javascript-enabled tables in Admin Database page"
+msgstr ""
+"bảng trong trang cơ sở dữ liệu quản lý sử dụng được kích hoạt Javascript"
+
+#: CF7DBPlugin.php:102
+msgid "Show line breaks in submitted data table"
+msgstr "Hiện ngắt dòng trong bảng dữ liệu đã nộp"
+
+#: CF7DBPlugin.php:103
+msgid "Show the query used to display results"
+msgstr "Các truy vấn được sử dụng để hiển thị kết quả"
+
+#: CF7DBPlugin.php:106
+msgid "Error output file or email address"
+msgstr "Lỗi tập tin đầu ra hoặc địa chỉ email"
+
+#: CF7DBPlugin.php:107
+msgid "Drop this plugin's Database table on uninstall"
+msgstr "Thả bảng cơ sở dữ liệu của plugin này vào bỏ cài đặt"
+
+#: CF7DBPlugin.php:141 CFDBViewShortCodeBuilder.php:918
+msgid "Administrator"
+msgstr "Quản trị viên"
+
+#: CF7DBPlugin.php:143 CFDBViewShortCodeBuilder.php:919
+msgid "Editor"
+msgstr "Biên tập viên"
+
+#: CF7DBPlugin.php:145 CFDBViewShortCodeBuilder.php:920
+msgid "Author"
+msgstr "Tác giả"
+
+#: CF7DBPlugin.php:147 CFDBViewShortCodeBuilder.php:921
+msgid "Contributor"
+msgstr "Cộng tác viên"
+
+#: CF7DBPlugin.php:149 CFDBViewShortCodeBuilder.php:922
+msgid "Subscriber"
+msgstr "Thành viên"
+
+#: CF7DBPlugin.php:151 CFDBViewShortCodeBuilder.php:923
+msgid "Anyone"
+msgstr "Bất kỳ ai"
+
+#: CF7DBPlugin.php:615
+msgid "Missing form parameters"
+msgstr "Thiếu tham số hình thức"
+
+#: CF7DBPlugin.php:619
+msgid "No such file."
+msgstr "Tệp tin đính kèm"
+
+#: CF7DBPlugin.php:689
+msgid "Invalid: "
+msgstr "%s (Không đúng)"
+
+#: CF7DBPlugin.php:692
+msgid "Valid: "
+msgstr "Hợp lệ"
+
+#: CF7DBPlugin.php:710
+msgid "Checking for conflicting entries. This may take a few minutes."
+msgstr "Kiểm tra các mục xung đột. Có thể sẽ mất vài phút."
+
+#: CF7DBPlugin.php:715
+msgid "Phase 1 of 3..."
+msgstr "Giai đoạn 1 của 3 ..."
+
+#: CF7DBPlugin.php:717 CF7DBPlugin.php:723 CF7DBPlugin.php:729
+msgid "Database entries fixed: "
+msgstr "mục cơ sở dữ liệu cố định:"
+
+#: CF7DBPlugin.php:721
+msgid "Phase 2 of 3..."
+msgstr "Giai đoạn 2 của 3 ..."
+
+#: CF7DBPlugin.php:727
+msgid "Phase 3 of 3..."
+msgstr "Giai đoạn 3 của 3 ..."
+
+#. Plugin Name of the plugin/theme
+#: CF7DBPlugin.php:1014
+msgid "Contact Form DB"
+msgstr "Liên hệ"
+
+#: CF7DBPlugin.php:1069 CFDBViewShortCodeBuilder.php:86
+#: CFDBViewShortCodeBuilder.php:236
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: CF7DBPlugin.php:1077 CFDBViewImportCsv.php:75
+msgid "Import"
+msgstr "Nhập"
+
+#: CF7DBPlugin.php:1094
+msgid "Options"
+msgstr "Các tùy chọn"
+
+#: CF7DBPlugin.php:1158 ExportToHtmlTable.php:231
+msgid "Delete"
+msgstr "Xóa"
+
+#: CF7DBPlugin.php:1516
+msgid "Plugin should be updated: "
+msgstr "Plugin nên được cập nhật:"
+
+#: CF7DBPlugin.php:1517
+msgid "Current version: "
+msgstr "Phiên bản hiện tại"
+
+#: CF7DBPlugin.php:1518
+msgid "Minimum required version: "
+msgstr "Phiên bản tối thiểu cần thiết:"
+
+#: CF7DBPlugin.php:1519
+msgid "Download the latest version"
+msgstr "Tải về phiên bản mới nhất"
+
+#: CFDBCheckZendFramework.php:72
+msgid "Missing Zend Framework"
+msgstr "Thiếu Zend Framework"
+
+#: CFDBIntegrationFSCF.php:52
+msgid "Database"
+msgstr "Cơ sở dữ liệu"
+
+#: CFDBIntegrationFSCF.php:54
+msgid "Database Options"
+msgstr "Tùy chọn cơ sở dữ liệu"
+
+#: CFDBIntegrationFSCF.php:56
+msgid "Build Shortcode"
+msgstr "xây dựng sHORTCODE"
+
+#: CFDBIntegrationFSCF.php:58
+msgid "Reference"
+msgstr "Tài liệu tham khảo"
+
+#: CFDBShortcodeExportUrl.php:59 CFDBViewImportCsv.php:120
+#: CFDBViewOptions.php:69 CFDBViewShortCodeBuilder.php:89
+#: CFDBViewWhatsInDB.php:286
+msgid "Export"
+msgstr "Xuất "
+
+#: CFDBView.php:69
+msgid "Rate this Plugin"
+msgstr "Ứng dụng này"
+
+#: CFDBView.php:75 CFDBViewShortCodeBuilder.php:249
+#: CFDBViewShortCodeBuilder.php:975
+msgid "Documentation"
+msgstr "i"
+
+#: CFDBView.php:81
+msgid "Support"
+msgstr "Hỗ trợ"
+
+#: CFDBViewImportCsv.php:47
+msgid "Import CSV File into Form"
+msgstr "File CSV Import vào Form"
+
+#: CFDBViewImportCsv.php:52
+msgid "File"
+msgstr "Tải và nhập tập đính kèm"
+
+#: CFDBViewImportCsv.php:56
+msgid "New Form"
+msgstr "Tạo form"
+
+#: CFDBViewImportCsv.php:60
+msgid "Existing Form"
+msgstr "hiện Form"
+
+#: CFDBViewImportCsv.php:88
+msgid "Rename Form"
+msgstr "Đổi tên Form"
+
+#: CFDBViewImportCsv.php:99
+msgid "Rename"
+msgstr "Đổi tên"
+
+#: CFDBViewImportCsv.php:102
+msgid "Backup Form to CSV File"
+msgstr "Mẫu Backup để CSV file"
+
+#: CFDBViewImportCsv.php:104
+msgid ""
+"Backup a form into a CSV file that can be re-imported without loss of data."
+msgstr ""
+"Sao lưu một hình thức vào một tập tin CSV có thể được tái nhập khẩu mà không "
+"mất dữ liệu."
+
+#: CFDBViewImportCsv.php:105
+msgid "Limitation: this will not export file uploads."
+msgstr "Giới hạn: điều này sẽ không xuất khẩu tập tin tải lên."
+
+#: CFDBViewImportCsv.php:106
+msgid ""
+"Limitation: extremely large numbers of records in your form may cause the "
+"export operation on your server to run out of memory, thereby not giving you "
+"all the rows."
+msgstr ""
+"Giới hạn: số rất lớn các bản ghi trong mẫu của bạn có thể gây ra các hoạt "
+"động xuất khẩu trên máy chủ của bạn chạy ra khỏi bộ nhớ, do đó không đem lại "
+"cho bạn tất cả các hàng."
+
+#: CFDBViewImportCsv.php:122
+msgid "Data Cleanup"
+msgstr "Cleanup dữ liệu"
+
+#: CFDBViewImportCsv.php:123
+msgid "Clean up data that can cause incorrect behavior"
+msgstr "Dọn dẹp dữ liệu mà có thể gây ra hành vi không chính xác"
+
+#: CFDBViewImportCsv.php:125
+msgid "Clean up data"
+msgstr "Làm sạch dữ liệu"
+
+#: CFDBViewOptions.php:60
+msgid "Integrations"
+msgstr "Tích hợp"
+
+#: CFDBViewOptions.php:63 CFDBViewShortCodeBuilder.php:909
+msgid "Security"
+msgstr "Bảo vệ"
+
+#: CFDBViewOptions.php:66
+msgid "Saving"
+msgstr "Lưu lại"
+
+#: CFDBViewOptions.php:72
+msgid "Admin View"
+msgstr "Admin"
+
+#: CFDBViewOptions.php:75 CFDBViewOptions.php:218
+msgid "System"
+msgstr "Mạng lưới –System"
+
+#: CFDBViewOptions.php:79
+msgid "Capture form submissions from these plugins"
+msgstr "hình chụp dự thi từ các plugin"
+
+#: CFDBViewOptions.php:151 ExportToExcel.php:51
+msgid "PHP Upgrade Needed"
+msgstr "PHP nâng cấp cần thiết"
+
+#: CFDBViewOptions.php:152
+msgid "This page requires PHP 5.3 or later on your server."
+msgstr "Trang này đòi hỏi PHP 5.3 hoặc mới hơn trên máy chủ của bạn."
+
+#: CFDBViewOptions.php:154 ExportToExcel.php:54 contact-form-7-db.php:23
+msgid "Your server's PHP version: "
+msgstr "PHP phiên bản của máy chủ của bạn:"
+
+#: CFDBViewOptions.php:158 ExportToExcel.php:58
+msgid "See WordPress Recommended PHP Version"
+msgstr "Xem WordPress xuất Phiên bản PHP"
+
+#: CFDBViewOptions.php:190
+msgid "Save Changes"
+msgstr "Lưu thay đổi"
+
+#: CFDBViewOptions.php:226
+msgid "PHP Version"
+msgstr "Phiên bản PHP"
+
+#: CFDBViewOptions.php:231
+msgid ""
+"(WARNING: This plugin may not work properly with versions earlier than PHP "
+"5.2)"
+msgstr ""
+"(Chú ý: Plugin này có thể không hoạt động đúng với phiên bản trước đó hơn "
+"PHP 5.2)"
+
+#: CFDBViewOptions.php:238
+msgid "MySQL Version"
+msgstr "Phiên bản MySQL"
+
+#: CFDBViewOptions.php:243
+msgid ""
+"(WARNING: This plugin may not work properly with versions earlier than MySQL "
+"5.0)"
+msgstr ""
+"(Chú ý: Plugin này có thể không hoạt động đúng với phiên bản trước đó hơn so "
+"với MySQL 5.0)"
+
+#: CFDBViewShortCodeBuilder.php:70
+msgid "Shortcode and Export Builder"
+msgstr "Shortcode khẩu Builder"
+
+#: CFDBViewShortCodeBuilder.php:74
+msgid "Reset"
+msgstr "Đặt lại"
+
+#: CFDBViewShortCodeBuilder.php:104
+msgid "Form"
+msgstr "Biểu mẫu"
+
+#: CFDBViewShortCodeBuilder.php:107
+msgid "Columns"
+msgstr "Cột"
+
+#: CFDBViewShortCodeBuilder.php:110
+msgid "Rows"
+msgstr "Hàng"
+
+#: CFDBViewShortCodeBuilder.php:113 CFDBViewShortCodeBuilder.php:548
+msgid "Transform"
+msgstr "chuyển dạng"
+
+#: CFDBViewShortCodeBuilder.php:116
+msgid "Before/After"
+msgstr "Trước / Sau"
+
+#: CFDBViewShortCodeBuilder.php:119
+msgid "Shortcode Specific"
+msgstr "cụ shortcode"
+
+#: CFDBViewShortCodeBuilder.php:122
+msgid "Security/Performance"
+msgstr "Security / Hiệu suất"
+
+#: CFDBViewShortCodeBuilder.php:239
+msgid "* Select a short code *"
+msgstr "* Chọn một mã ngắn *"
+
+#: CFDBViewShortCodeBuilder.php:255
+msgid "Generated Shortcode:"
+msgstr "SHORTCODE tạo ra:"
+
+#: CFDBViewShortCodeBuilder.php:262
+msgid "(Did you know: you can create your own short code)"
+msgstr "(Bạn có biết: bạn có thể tạo mã ngắn của riêng bạn)"
+
+#: CFDBViewShortCodeBuilder.php:274
+msgid "Export File"
+msgstr "Từ tập tin xuất"
+
+#: CFDBViewShortCodeBuilder.php:278 CFDBViewShortCodeBuilder.php:856
+#: CFDBViewWhatsInDB.php:252
+msgid "Excel .xlsx"
+msgstr "Excel .xlsx"
+
+#: CFDBViewShortCodeBuilder.php:281 CFDBViewShortCodeBuilder.php:859
+#: CFDBViewWhatsInDB.php:255
+msgid "OpenDocument .ods"
+msgstr ".ods OpenDocument"
+
+#: CFDBViewShortCodeBuilder.php:284 CFDBViewShortCodeBuilder.php:862
+#: CFDBViewWhatsInDB.php:261
+msgid "Excel CSV (UTF8-BOM)"
+msgstr "Excel CSV (UTF8-BOM)"
+
+#: CFDBViewShortCodeBuilder.php:287 CFDBViewShortCodeBuilder.php:865
+#: CFDBViewWhatsInDB.php:264
+msgid "Excel TSV (UTF16LE-BOM)"
+msgstr "Excel TSV (UTF16LE-BOM)"
+
+#: CFDBViewShortCodeBuilder.php:290 CFDBViewShortCodeBuilder.php:868
+#: CFDBViewWhatsInDB.php:267
+msgid "Plain CSV (UTF-8)"
+msgstr "Plain CSV (UTF-8)"
+
+#: CFDBViewShortCodeBuilder.php:293 CFDBViewShortCodeBuilder.php:871
+#: CFDBViewWhatsInDB.php:270
+msgid "Excel CSV for Japanese (Shift-JIS)"
+msgstr "Excel CSV cho Nhật Bản (Shift-JIS)"
+
+#: CFDBViewShortCodeBuilder.php:296 CFDBViewShortCodeBuilder.php:874
+#: CFDBViewWhatsInDB.php:258
+msgid "Excel Internet Query"
+msgstr "Excel Internet Query"
+
+#: CFDBViewShortCodeBuilder.php:299 CFDBViewWhatsInDB.php:276
+msgid "Google Spreadsheet Live Data"
+msgstr "Google Spreadsheet Live Data"
+
+#: CFDBViewShortCodeBuilder.php:302
+msgid "RSS"
+msgstr "RSS"
+
+#: CFDBViewShortCodeBuilder.php:305 CFDBViewWhatsInDB.php:282
+msgid "JSON"
+msgstr "JavaScript Object Notation"
+
+#: CFDBViewShortCodeBuilder.php:309 CFDBViewShortCodeBuilder.php:878
+#: CFDBViewWhatsInDB.php:290
+msgid "CSV Delimiter"
+msgstr "CSV Delimiter"
+
+#: CFDBViewShortCodeBuilder.php:313
+msgid "Item Title"
+msgstr "Tiêu đề của bài"
+
+#: CFDBViewShortCodeBuilder.php:319
+msgid ""
+"Provide a WP login for the Google Spreadsheet to use to connect to your WP "
+"site"
+msgstr ""
+"Cung cấp một tên đăng nhập WP cho các bảng tính của Google sử dụng để kết "
+"nối với trang web của bạn WP"
+
+#: CFDBViewShortCodeBuilder.php:322
+msgid ""
+"Optional: provide a WP login for the link to work without being already "
+"logged in"
+msgstr ""
+"Tùy chọn: cung cấp một tên đăng nhập WP cho liên kết để làm việc mà không "
+"được đã được đăng nhập"
+
+#: CFDBViewShortCodeBuilder.php:325
+msgid "WP User"
+msgstr "WP tài"
+
+#: CFDBViewShortCodeBuilder.php:327
+msgid "WP Password"
+msgstr "WP Mật khẩu"
+
+#: CFDBViewShortCodeBuilder.php:330
+msgid "Hide Credentials"
+msgstr "Hide Credentials"
+
+#: CFDBViewShortCodeBuilder.php:334
+msgid "Generated Export Link:"
+msgstr "Xuất khẩu liên kết được tạo ra:"
+
+#: CFDBViewShortCodeBuilder.php:336
+msgid "Enter this function into a cell in your Google Spreadsheet:"
+msgstr "Nhập chức năng này vào một ô trong bảng tính Google của bạn:"
+
+#: CFDBViewShortCodeBuilder.php:339
+msgid "Generated Google Spreadsheet Function:"
+msgstr "Tạo ra chức năng bảng tính của Google:"
+
+#: CFDBViewShortCodeBuilder.php:340 ExportToGoogleLiveData.php:170
+msgid ""
+"Replace <strong>&lt;password&gt;</strong> with your <em>WordPress</em> "
+"password"
+msgstr ""
+"Thay <strong><mật khẩu></strong> với mật khẩu <em>WordPress</em> của bạn"
+
+#: CFDBViewShortCodeBuilder.php:342
+msgid "Requires code installed in your Google Spreadsheet script editor."
+msgstr ""
+"Yêu cầu cài đặt mã trong trình soạn thảo bảng tính kịch bản Google của bạn."
+
+#: CFDBViewShortCodeBuilder.php:344
+msgid "Get code"
+msgstr "Nhận mã"
+
+#: CFDBViewShortCodeBuilder.php:346
+msgid "See instructions."
+msgstr "Xem hướng dẫn."
+
+#: CFDBViewShortCodeBuilder.php:384
+msgid "* All Forms *"
+msgstr "Tất cả biểu mẫu"
+
+#: CFDBViewShortCodeBuilder.php:395
+msgid "Which fields/columns do you want to display?"
+msgstr "Lĩnh vực nào / cột bạn muốn hiển thị?"
+
+#: CFDBViewShortCodeBuilder.php:398
+msgid "show"
+msgstr "HIỂN THỊ"
+
+#: CFDBViewShortCodeBuilder.php:405 CFDBViewShortCodeBuilder.php:416
+#: CFDBViewShortCodeBuilder.php:534 CFDBViewShortCodeBuilder.php:632
+#: CFDBViewShortCodeBuilder.php:728
+msgid "field1,field2,field3"
+msgstr "field1, field2, field3"
+
+#: CFDBViewShortCodeBuilder.php:409
+msgid "hide"
+msgstr "— ẨN —"
+
+#: CFDBViewShortCodeBuilder.php:421
+msgid "Table Headers"
+msgstr "Headers bảng"
+
+#: CFDBViewShortCodeBuilder.php:425
+msgid "Include Header Row"
+msgstr "Bao gồm header Row"
+
+#: CFDBViewShortCodeBuilder.php:430
+msgid "headers"
+msgstr "Đầu trang"
+
+#: CFDBViewShortCodeBuilder.php:435
+msgid "display as"
+msgstr "hiển thị như"
+
+#: CFDBViewShortCodeBuilder.php:437
+msgid "display value"
+msgstr "giá trị hiển thị"
+
+#: CFDBViewShortCodeBuilder.php:441
+msgid "field1=Display Name 1,field2=Display Name 2"
+msgstr "field1 = Tên hiển thị 1, field2 = Tên hiển thị 2"
+
+#: CFDBViewShortCodeBuilder.php:452
+msgid "Which rows/submissions do you want to display?"
+msgstr "Mà hàng / đệ trình nào bạn muốn hiển thị?"
+
+#: CFDBViewShortCodeBuilder.php:455
+msgid "search"
+msgstr "Kết quả tìm kiếm cho &#8220;%s&#8221;"
+
+#: CFDBViewShortCodeBuilder.php:460 CFDBViewShortCodeBuilder.php:570
+msgid "search text"
+msgstr "văn bản tìm kiếm"
+
+#: CFDBViewShortCodeBuilder.php:464
+msgid "filter"
+msgstr "bộ lọc"
+
+#: CFDBViewShortCodeBuilder.php:487 CFDBViewShortCodeBuilder.php:597
+msgid "value"
+msgstr "value"
+
+#: CFDBViewShortCodeBuilder.php:491 CFDBViewShortCodeBuilder.php:601
+msgid "Validate submit_time"
+msgstr "Xác nhận SUBMIT_TIME"
+
+#: CFDBViewShortCodeBuilder.php:493 CFDBViewShortCodeBuilder.php:603
+msgid "Formats"
+msgstr "Định dạng"
+
+#: CFDBViewShortCodeBuilder.php:497 CFDBViewShortCodeBuilder.php:607
+msgid "filter expression"
+msgstr "Biểu thức lọc :"
+
+#: CFDBViewShortCodeBuilder.php:504
+msgid "limit"
+msgstr "Giới hạn:"
+
+#: CFDBViewShortCodeBuilder.php:508 CFDBViewShortCodeBuilder.php:615
+msgid "Num Rows"
+msgstr "Số hàng"
+
+#: CFDBViewShortCodeBuilder.php:510 CFDBViewShortCodeBuilder.php:513
+#: CFDBViewShortCodeBuilder.php:522 CFDBViewShortCodeBuilder.php:617
+#: CFDBViewShortCodeBuilder.php:620
+msgid "number"
+msgstr "bộ phận"
+
+#: CFDBViewShortCodeBuilder.php:511 CFDBViewShortCodeBuilder.php:618
+msgid "Start Row (0)"
+msgstr "Bắt đầu Row (0)"
+
+#: CFDBViewShortCodeBuilder.php:517
+msgid "random"
+msgstr "random"
+
+#: CFDBViewShortCodeBuilder.php:526
+msgid "orderby"
+msgstr "Sắp xếp bởi"
+
+#: CFDBViewShortCodeBuilder.php:532 CFDBViewShortCodeBuilder.php:630
+#: CFDBViewShortCodeBuilder.php:726
+msgid "field"
+msgstr "Vui lòng để trống trường này."
+
+#: CFDBViewShortCodeBuilder.php:537 CFDBViewShortCodeBuilder.php:635
+msgid "ASC"
+msgstr "Tăng"
+
+#: CFDBViewShortCodeBuilder.php:538 CFDBViewShortCodeBuilder.php:636
+msgid "DESC"
+msgstr "Giảm"
+
+#: CFDBViewShortCodeBuilder.php:551
+msgid "trans"
+msgstr "Trans"
+
+#: CFDBViewShortCodeBuilder.php:557
+msgid "PHP function or class"
+msgstr "PHP chức năng hoặc lớp"
+
+#: CFDBViewShortCodeBuilder.php:561
+msgid "transform expression"
+msgstr "chuyển đổi biểu"
+
+#: CFDBViewShortCodeBuilder.php:565
+msgid "tsearch"
+msgstr "tsearch"
+
+#: CFDBViewShortCodeBuilder.php:574
+msgid "tfilter"
+msgstr "tfilter"
+
+#: CFDBViewShortCodeBuilder.php:611
+msgid "tlimit"
+msgstr "tlimit"
+
+#: CFDBViewShortCodeBuilder.php:624
+msgid "torderby"
+msgstr "torderby"
+
+#: CFDBViewShortCodeBuilder.php:648
+msgid "Before"
+msgstr ""
+"Nếu bạn có kế hoạch để sử dụng cửa hàng, hãy cài đặt WooCommerce trước khi "
+"bạn chạy nhập khẩu."
+
+#: CFDBViewShortCodeBuilder.php:654
+msgid "Optional HTML/Javascript before the short code output"
+msgstr "HTML Tùy chọn / Javascript trước khi đầu ra mã ngắn"
+
+#: CFDBViewShortCodeBuilder.php:658
+msgid "After"
+msgstr "Sau"
+
+#: CFDBViewShortCodeBuilder.php:664
+msgid "Optional HTML/Javascript after the short code output"
+msgstr "HTML Tùy chọn / Javascript sau khi đầu ra mã ngắn"
+
+#: CFDBViewShortCodeBuilder.php:674
+msgid "HTML Table Formatting"
+msgstr "HTML Bảng Formatting"
+
+#: CFDBViewShortCodeBuilder.php:677
+msgid "id"
+msgstr "id"
+
+#: CFDBViewShortCodeBuilder.php:682
+msgid "HTML id"
+msgstr "id HTML"
+
+#: CFDBViewShortCodeBuilder.php:686
+msgid "class"
+msgstr "class"
+
+#: CFDBViewShortCodeBuilder.php:691
+msgid "HTML class"
+msgstr "lớp học HTML"
+
+#: CFDBViewShortCodeBuilder.php:695
+msgid "style"
+msgstr "Bạn cũng có thể sử dụng đoạn mã nhúng kiểu cũ này:"
+
+#: CFDBViewShortCodeBuilder.php:700
+msgid "CSS style"
+msgstr "phong cách CSS"
+
+#: CFDBViewShortCodeBuilder.php:705
+msgid "[cfdb-datatable] Options"
+msgstr "[Cfdb-DataTable] Tùy chọn"
+
+#: CFDBViewShortCodeBuilder.php:708
+msgid "edit"
+msgstr "Sửa"
+
+#: CFDBViewShortCodeBuilder.php:715
+msgid "cells"
+msgstr "Ô"
+
+#: CFDBViewShortCodeBuilder.php:720
+msgid "editcolumns"
+msgstr "editcolumns"
+
+#: CFDBViewShortCodeBuilder.php:732
+msgid "dt_options"
+msgstr "dt_options"
+
+#: CFDBViewShortCodeBuilder.php:737
+msgid "datatable options (JSON)"
+msgstr "tùy chọn DataTable (JSON)"
+
+#: CFDBViewShortCodeBuilder.php:742
+msgid "[cfdb-json] Options"
+msgstr "[Cfdb-json] Tùy chọn"
+
+#: CFDBViewShortCodeBuilder.php:745
+msgid "var"
+msgstr "VAR"
+
+#: CFDBViewShortCodeBuilder.php:750
+msgid "JS var name"
+msgstr "Tên var JS"
+
+#: CFDBViewShortCodeBuilder.php:754
+msgid "format"
+msgstr "Định dạng"
+
+#: CFDBViewShortCodeBuilder.php:760
+msgid "map"
+msgstr "bản đồ"
+
+#: CFDBViewShortCodeBuilder.php:761
+msgid "array"
+msgstr "mảng"
+
+#: CFDBViewShortCodeBuilder.php:762
+msgid "arraynoheader"
+msgstr "arraynoheader"
+
+#: CFDBViewShortCodeBuilder.php:768
+msgid "[cfdb-value] Options"
+msgstr "[Cfdb-value] Tùy chọn"
+
+#: CFDBViewShortCodeBuilder.php:771
+msgid "function"
+msgstr "hàm số"
+
+#: CFDBViewShortCodeBuilder.php:777
+msgid "min"
+msgstr "Phút"
+
+#: CFDBViewShortCodeBuilder.php:778
+msgid "max"
+msgstr "Tối đa"
+
+#: CFDBViewShortCodeBuilder.php:779
+msgid "sum"
+msgstr "tổng"
+
+#: CFDBViewShortCodeBuilder.php:780
+msgid "mean"
+msgstr "trung bình"
+
+#: CFDBViewShortCodeBuilder.php:781
+msgid "percent"
+msgstr "Phần trăm"
+
+#: CFDBViewShortCodeBuilder.php:786
+msgid "delimiter"
+msgstr "delimiter"
+
+#: CFDBViewShortCodeBuilder.php:795
+msgid "[cfdb-html] Options"
+msgstr "[Cfdb-html] Tùy chọn"
+
+#: CFDBViewShortCodeBuilder.php:798
+msgid "filelinks"
+msgstr "filelinks"
+
+#: CFDBViewShortCodeBuilder.php:804
+msgid "url"
+msgstr "URL"
+
+#: CFDBViewShortCodeBuilder.php:805
+msgid "name"
+msgstr "Họ tên"
+
+#: CFDBViewShortCodeBuilder.php:806
+msgid "link"
+msgstr "Liên kết mối quan hệ  (XFN)"
+
+#: CFDBViewShortCodeBuilder.php:807
+msgid "img"
+msgstr "img"
+
+#: CFDBViewShortCodeBuilder.php:810
+msgid "stripbr"
+msgstr "stripbr"
+
+#: CFDBViewShortCodeBuilder.php:821
+msgid "wpautop"
+msgstr "wpautop"
+
+#: CFDBViewShortCodeBuilder.php:833
+msgid "Template"
+msgstr "Bản gốc"
+
+#: CFDBViewShortCodeBuilder.php:841
+msgid "Per-entry HTML using ${field name} variables"
+msgstr "Mỗi lần nhập cảnh HTML sử dụng $ {} tên trường biến"
+
+#: CFDBViewShortCodeBuilder.php:846
+msgid "[cfdb-export-link] Options"
+msgstr "[Cfdb xuất-link] Tùy chọn"
+
+#: CFDBViewShortCodeBuilder.php:849
+msgid "enc"
+msgstr "enc"
+
+#: CFDBViewShortCodeBuilder.php:884
+msgid "urlonly"
+msgstr "urlonly"
+
+#: CFDBViewShortCodeBuilder.php:896
+msgid "linktext"
+msgstr "Văn bản liên kết"
+
+#: CFDBViewShortCodeBuilder.php:912
+msgid "role"
+msgstr "Vai trò"
+
+#: CFDBViewShortCodeBuilder.php:926
+msgid "permissionmsg"
+msgstr "permissionmsg"
+
+#: CFDBViewShortCodeBuilder.php:938
+msgid "Global Security Settings"
+msgstr "Cài đặt an ninh toàn cầu"
+
+#: CFDBViewShortCodeBuilder.php:943
+msgid "Performance"
+msgstr "Hiệu suất"
+
+#: CFDBViewShortCodeBuilder.php:946
+msgid "unbuffered"
+msgstr "không có bộ đệm"
+
+#: CFDBViewShortCodeBuilder.php:1125 CFDBViewShortCodeBuilder.php:1138
+msgid "Error: \""
+msgstr "Lỗi"
+
+#: CFDBViewShortCodeBuilder.php:1127 CFDBViewShortCodeBuilder.php:1140
+msgid "\" should not contain double-quotes (\")"
+msgstr "\"Không nên chứa hai dấu ngoặc kép (\")"
+
+#: CFDBViewShortCodeBuilder.php:1201
+msgid "Error: no form is chosen"
+msgstr "Lỗi: không có mẫu được chọn"
+
+#: CFDBViewShortCodeBuilder.php:1248
+msgid ""
+"Warning: \"search\" field ignored because FIELD is used (use one but not "
+"both)"
+msgstr ""
+"Cảnh báo: \"tìm kiếm\" lĩnh vực bị bỏ qua bởi vì lĩnh vực được sử dụng (sử "
+"dụng một trong nhưng không phải cả hai)"
+
+#: CFDBViewShortCodeBuilder.php:1269
+msgid ""
+"Error: \"FIELD\": if you provide a value for \"Start Row\" then you must "
+"also provide a value for \"Num Rows\""
+msgstr ""
+"Lỗi: \"FIELD\": nếu bạn cung cấp một giá trị cho \"Start Row\", sau đó bạn "
+"cũng phải cung cấp một giá trị cho \"Num Rows\""
+
+#: CFDBViewShortCodeBuilder.php:1274
+msgid "Error: \"FIELD\": \"Num Rows\" must be a positive integer"
+msgstr "Lỗi: \"FIELD\": \"Số dòng\" phải là một số nguyên dương"
+
+#: CFDBViewShortCodeBuilder.php:1282
+msgid "Error: \"FIELD\": \"Start Row\" must be a positive integer"
+msgstr "Lỗi: \"FIELD\": \"Bắt đầu Row\" phải là một số nguyên dương"
+
+#: CFDBViewShortCodeBuilder.php:1377
+msgid "Error: [cfdb-html] has empty Template. It will not output anything. "
+msgstr ""
+"Lỗi: [cfdb-html] có mẫu sản phẩm nào. Nó không phải bất cứ điều gì sẽ đầu ra."
+
+#: CFDBViewShortCodeBuilder.php:1378
+msgid "(Shortcode Specific option)"
+msgstr "(SHORTCODE cụ thể tùy chọn)"
+
+#: CFDBViewShortCodeBuilder.php:1452
+msgid "Error: \"edit=true\" will not work properly when setting \"headers\" "
+msgstr ""
+"Lỗi: \"chỉnh sửa = true\" sẽ không hoạt động đúng khi thiết lập \"tiêu đề\""
+
+#: CFDBViewShortCodeBuilder.php:1652
+msgid ""
+"Warning: the function includes your WP login information. Avoid sharing it."
+msgstr ""
+"Cảnh báo: các chức năng bao gồm các thông tin đăng nhập của bạn WP. Tránh "
+"chia sẻ nó."
+
+#: CFDBViewShortCodeBuilder.php:1659
+msgid ""
+"Error: WP User and Password are required for the Google Spreadsheet to pull "
+"data from your WordPress site."
+msgstr ""
+"Lỗi: WP dùng và mật khẩu được yêu cầu cho các bảng tính Google để kéo dữ "
+"liệu từ trang web WordPress của bạn."
+
+#: CFDBViewShortCodeBuilder.php:1662
+msgid ""
+"Because the generated URL would be too long, you must use this alternative "
+"function and add its script to your Google Spreadsheet"
+msgstr ""
+"Bởi vì các URL được tạo ra sẽ là quá dài, bạn phải sử dụng chức năng thay "
+"thế này và thêm kịch bản của mình cho Google Spreadsheet của bạn"
+
+#: CFDBViewWhatsInDB.php:44
+msgid "No form submissions in the database"
+msgstr "Không có hình thức đệ trình trong cơ sở dữ liệu"
+
+#: CFDBViewWhatsInDB.php:121
+msgid "* Select a form *"
+msgstr "* Chọn một hình thức *"
+
+#: CFDBViewWhatsInDB.php:181
+msgid "Google Login for Upload"
+msgstr "Google Đăng nhập để tải lên"
+
+#: CFDBViewWhatsInDB.php:190
+msgid "Cannot perform operation because jQuery is not loaded in this page"
+msgstr "Không thể thực hiện hoạt động vì jQuery không được tải trong trang này"
+
+#: CFDBViewWhatsInDB.php:194
+msgid ""
+"You will now be navigated to the builder page where it will generate a "
+"function to place in your Google Spreadsheet"
+msgstr ""
+"Bây giờ bạn sẽ được điều hướng đến các trang trình tạo nơi mà nó sẽ tạo ra "
+"một chức năng để đặt trong Google Spreadsheet của bạn"
+
+#: CFDBViewWhatsInDB.php:273
+msgid "Google Spreadsheet"
+msgstr "Google Spreadsheet"
+
+#: CFDBViewWhatsInDB.php:279
+msgid "HTML"
+msgstr "HTML"
+
+#: CFDBViewWhatsInDB.php:294
+msgid "Advanced Export"
+msgstr "nâng cao xuất khẩu"
+
+#: CFDBViewWhatsInDB.php:305
+msgid "Delete All This Form's Records"
+msgstr "Xóa tất cả hồ sơ của mẫu này"
+
+#: CFDBViewWhatsInDB.php:306
+msgid "Are you sure you want to delete all the data for this form?"
+msgstr "Bạn có chắc chắn bạn muốn xóa tất cả các dữ liệu cho hình thức này?"
+
+#: CFDBViewWhatsInDB.php:324
+msgid "Edit Data Mode"
+msgstr "Edit Mode dữ liệu"
+
+#: CFDBViewWhatsInDB.php:436
+msgid ""
+"Did you know: You can add this data to your posts and pages using these "
+"shortcodes:"
+msgstr ""
+"Bạn có biết: Bạn có thể thêm dữ liệu này cho bài viết và sử dụng các trang "
+"shortcodes của bạn:"
+
+#: CFDBViewWhatsInDB.php:450
+msgid "Would you like to help translate this plugin into your language?"
+msgstr "Bạn có muốn giúp dịch plugin này sang ngôn ngữ của bạn?"
+
+#: CFDBViewWhatsInDB.php:452
+msgid "How to create a translation"
+msgstr "Làm thế nào để tạo ra một bản dịch"
+
+#: CFDBViewWhatsInDB.php:463
+msgid "Query:"
+msgstr "Truy vấn:"
+
+#: CFDBViewWhatsInDB.php:485
+msgid "Cancel"
+msgstr "Huỷ"
+
+#: CFDBViewWhatsInDB.php:487
+msgid "Upload"
+msgstr "Tải lên"
+
+#: CFDBViewWhatsInDB.php:495
+msgid "Add Column"
+msgstr "Thêm cột"
+
+#: CFDBViewWhatsInDB.php:496
+msgid "Delete Column"
+msgstr "Xoá cột"
+
+#: CFDBViewWhatsInDB.php:513
+msgid "next »"
+msgstr "Kế tiếp"
+
+#: CFDBViewWhatsInDB.php:514
+msgid "« prev"
+msgstr "Về trước"
+
+#: CFDBViewWhatsInDB.php:533
+msgid "Returned entries %s to %s of %s entries in the database"
+msgstr "mục trở về%s đến%s của%s mục trong cơ sở dữ liệu"
+
+#: CFDBViewWhatsInDB.php:676 ExportToHtmlTable.php:138
+msgid "All"
+msgstr "Tất cả"
+
+#: ExportBase.php:339
+msgid "You do not have sufficient permissions to access this data."
+msgstr "Bạn không có đủ quyền truy cập trang này."
+
+#: ExportToExcel.php:52
+msgid "CFDB Excel file export requires PHP 5.4 or later on your server."
+msgstr ""
+"CFDB Excel tập tin xuất khẩu đòi hỏi PHP 5.4 hoặc mới hơn trên máy chủ của "
+"bạn."
+
+#: ExportToGoogleLiveData.php:74
+msgid ""
+"Setting up a Google Spreadsheet to pull in data from WordPress requires "
+"these manual steps:"
+msgstr ""
+"Thiết lập một bảng tính Google để lấy dữ liệu từ WordPress đòi hỏi các bước "
+"thủ công:"
+
+#: ExportToGoogleLiveData.php:89
+msgid "Log into Google Docs and create a new Google Spreadsheet"
+msgstr "Đăng nhập vào Google Docs và tạo ra một bảng tính mới của Google"
+
+#: ExportToGoogleLiveData.php:103
+msgid "Go to <strong>Tools</strong> menu -> <strong>Script Editor..."
+msgstr "Tới menu <strong>Tools</strong> -> <strong>Script Editor ...</strong>"
+
+#: ExportToGoogleLiveData.php:117
+msgid "Choose <strong>Spreadsheet</strong>"
+msgstr "Chọn <strong>bảng tính</strong>"
+
+#: ExportToGoogleLiveData.php:132
+msgid "Delete any text that is already there"
+msgstr "Xóa bất kỳ văn bản mà là đã có"
+
+#: ExportToGoogleLiveData.php:133
+msgid "<strong>Copy</strong> the text from "
+msgstr "<strong>Sao chép</strong> văn bản từ"
+
+#: ExportToGoogleLiveData.php:134
+msgid "THIS SCRIPT FILE"
+msgstr "FILE SCRIPT NÀY"
+
+#: ExportToGoogleLiveData.php:135
+msgid "and <strong>paste</strong> it into the Google script editor"
+msgstr "và <strong>dán</strong> nó vào trình soạn thảo kịch bản Google"
+
+#: ExportToGoogleLiveData.php:151
+msgid "<strong>Save</strong> the script"
+msgstr "<strong>Lưu</strong> script"
+
+#: ExportToGoogleLiveData.php:167
+msgid "Click on a cell A1 in the Spreadsheet (or any cell)"
+msgstr "Nhấp chuột vào một ô A1 trong bảng tính (hoặc bất kỳ tế bào)"
+
+#: ExportToGoogleLiveData.php:168
+msgid "Enter in the cell the formula:"
+msgstr "Nhập vào ô công thức:"
+
+#: ExportToGoogleLiveData.php:176
+msgid ""
+"Customize the output by creating a Google Spreadsheet Function call with "
+"additional options"
+msgstr ""
+"Tùy chỉnh đầu ra bằng cách tạo ra một cuộc gọi chức năng bảng tính Google có "
+"tùy chọn bổ sung"
+
+#: ExportToGoogleLiveData.php:189
+msgid "How to Set up Google Spreadsheet to pull data from WordPress"
+msgstr ""
+"Làm thế nào để Thiết lập Google Spreadsheet để kéo dữ liệu từ WordPress"
+
+#: ExportToGoogleSS.php:62
+msgid "Login Failed"
+msgstr "Đăng nhập thất bại."
+
+#: ExportToGoogleSS.php:101
+msgid "New Google Spreadsheet"
+msgstr "Bảng tính mới của Google"
+
+#: ExportToGoogleSS.php:110
+msgid "Error"
+msgstr "Lỗi"
+
+#: contact-form-7-db.php:21
+msgid ""
+"Error: plugin \"Contact Form to DB Extension\" requires a newer version of "
+"PHP to be running."
+msgstr ""
+"Lỗi: plugin \"Form Liên hệ để DB Extension\" đòi hỏi một phiên bản mới hơn "
+"của PHP để chạy."
+
+#: contact-form-7-db.php:22
+msgid "Minimal version of PHP required: "
+msgstr "phiên bản tối thiểu của PHP cần:"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"http://wordpress.org/extend/plugins/contact-form-7-to-database-extension/"
+msgstr ""
+"http://wordpress.org/extend/plugins/contact-form-7-to-database-extension/"
+
+#. Description of the plugin/theme
+msgid ""
+"Save form submissions to the database from <a href=\"http://wordpress.org/"
+"extend/plugins/contact-form-7/\">Contact Form 7</a>, <a href=\"http://"
+"wordpress.org/extend/plugins/si-contact-form/\">Fast Secure Contact Form</"
+"a>, <a href=\"http://wordpress.org/extend/plugins/jetpack/\">JetPack Contact "
+"Form</a> and <a href=\"http://www.gravityforms.com\">Gravity Forms</a>. "
+"Includes exports and short codes. | <a href=\"admin.php?"
+"page=CF7DBPluginSubmissions\">Data</a> | <a href=\"admin.php?"
+"page=CF7DBPluginShortCodeBuilder\">Short Codes</a> | <a href=\"admin.php?"
+"page=CF7DBPluginSettings\">Settings</a> | <a href=\"http://cfdbplugin.com/"
+"\">Reference</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Michael Simpson"
+msgstr "Michael Simpson"

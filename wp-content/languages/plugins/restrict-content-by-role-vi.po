@@ -1,0 +1,317 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: Restrict Content by Role\n"
+"POT-Creation-Date: 2016-09-06 14:45+0700\n"
+"PO-Revision-Date: 2016-09-06 14:47+0700\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: plugin.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: vi\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: php/class.AdminPermissionsMetaBox.php:39
+msgid "Admin Access"
+msgstr "Quyền quản trị viên"
+
+#: php/class.AdminPermissionsMetaBox.php:132
+#: php/class.PermissionsMetaBox.php:135
+msgid "Override Parent Permissions"
+msgstr "Quyền Override Chánh"
+
+#: php/class.AdminPermissionsMetaBox.php:136
+#: php/class.PermissionsMetaBox.php:139
+#, php-format
+msgid ""
+"%sWarning:%s This content of this item has been %srestricted by one of its "
+"parents%s."
+msgstr ""
+"%sWarning:%s nội dung này của mặt hàng này đã được%srestricted bởi một trong "
+"những bậc phụ huynh%s của nó."
+
+#: php/class.AdminPermissionsMetaBox.php:137
+#: php/class.PermissionsMetaBox.php:140
+#, php-format
+msgid ""
+"You can %sedit the parent content permissions%s, or choose an override "
+"option."
+msgstr "Bạn có thể%sedit quyền nội dung mẹ%s, hoặc chọn một tùy chọn ghi đè."
+
+#: php/class.AdminPermissionsMetaBox.php:143
+#: php/class.PermissionsMetaBox.php:146
+msgid "No override"
+msgstr "không ghi đè"
+
+#: php/class.AdminPermissionsMetaBox.php:149
+#: php/class.PermissionsMetaBox.php:152
+msgid "Grant Public Access (Override permissions set by parent)"
+msgstr "Grant truy cập công cộng (quyền ghi đè thiết lập bởi cha mẹ)"
+
+#: php/class.AdminPermissionsMetaBox.php:155
+#: php/class.PermissionsMetaBox.php:158
+msgid "Set New Permissions (Override permissions set by parent)"
+msgstr "Thiết Quyền mới (cho phép ghi đè thiết lập bởi cha mẹ)"
+
+#: php/class.AdminPermissionsMetaBox.php:167
+#: php/class.PermissionsMetaBox.php:170
+msgid "Restrict Access by User Role"
+msgstr "Hạn chế tiếp cận bởi người Role"
+
+#: php/class.AdminPermissionsMetaBox.php:172
+#, php-format
+msgid ""
+"Choose the User Role(s) that you wish to restrict. %sNote:%s You cannot "
+"restrict administrators."
+msgstr ""
+"Chọn vai trò người dùng (s) mà bạn muốn hạn chế. %sNote:%s Bạn không thể hạn "
+"chế các quản trị viên."
+
+#: php/class.AdminPermissionsMetaBox.php:191
+#: php/class.PermissionsMetaBox.php:194
+msgid "There are no user roles available."
+msgstr "Không có vai trò người dùng có sẵn."
+
+#: php/class.AdminPermissionsMetaBox.php:199
+#: php/class.PermissionsMetaBox.php:202
+msgid "Restrict Access to Sub Content"
+msgstr "Giới hạn truy cập nội dung Sub"
+
+#: php/class.AdminPermissionsMetaBox.php:203
+#: php/class.PermissionsMetaBox.php:206
+msgid "Choose how the content should be restricted."
+msgstr "Chọn cách nội dung nên được hạn chế."
+
+#: php/class.AdminPermissionsMetaBox.php:209
+#: php/class.PermissionsMetaBox.php:212
+msgid "Restrict Access to Content Only"
+msgstr "Giới hạn truy cập nội dung Chỉ"
+
+#: php/class.AdminPermissionsMetaBox.php:215
+#: php/class.PermissionsMetaBox.php:218
+msgid "Restrict Access to Content and Sub Content"
+msgstr "Giới hạn truy cập nội dung và nội dung Sub"
+
+#: php/class.AdminPermissionsMetaBox.php:221
+#: php/class.PermissionsMetaBox.php:224
+msgid "Restrict Access to Sub Content Only"
+msgstr "Giới hạn truy cập nội dung Sub Chỉ"
+
+#: php/class.LoginErrors.php:33 php/class.Options.php:290
+msgid "Please login to access that area of the website."
+msgstr "Hãy đăng nhập để truy cập vào khu vực của trang web."
+
+#: php/class.Options.php:45
+msgid "Choose Public Post Types"
+msgstr "Chọn công viết các loại"
+
+#: php/class.Options.php:46
+msgid "Choose Admin Post Types"
+msgstr "Chọn Quản trị bài viết các loại"
+
+#: php/class.Options.php:47
+msgid "Public Access Roles"
+msgstr "Vai trò truy cập công cộng"
+
+#: php/class.Options.php:48
+msgid "Admin Access Roles"
+msgstr "Vai trò truy cập quản trị"
+
+#: php/class.Options.php:49
+msgid "Prevent Restricted Content Child Pages"
+msgstr "Ngăn chặn hạn chế nội dung trang trẻ em"
+
+#: php/class.Options.php:50
+msgid "Restrict Message"
+msgstr "Giới hạn tin nhắn"
+
+#: php/class.Options.php:53
+msgid "Choose Public Post Types:"
+msgstr "Chọn công viết loại:"
+
+#: php/class.Options.php:54
+msgid "Choose Admin Post Types:"
+msgstr "Chọn Quản trị bài viết loại:"
+
+#: php/class.Options.php:55
+msgid "Exclude Public Roles:"
+msgstr "Loại trừ vai trò công cộng:"
+
+#: php/class.Options.php:56
+msgid "Exclude Admin Roles:"
+msgstr "Loại trừ Vai trò quản trị:"
+
+#: php/class.Options.php:57
+msgid "Prevent Child Pages:"
+msgstr "Ngăn chặn trang trẻ em:"
+
+#: php/class.Options.php:58
+msgid "Restriction Message:"
+msgstr "Tin Hạn chế:"
+
+#: php/class.Options.php:59
+msgid "Redirect to Orignal:"
+msgstr "Chuyển tới Orignal:"
+
+#: php/class.Options.php:60
+msgid "Redirect URL:"
+msgstr "Chuyển URL:"
+
+#: php/class.Options.php:68
+msgid ""
+"Select the Post Types that you wish to activate the Public Access meta box "
+"on."
+msgstr ""
+"Chọn loại bài viết mà bạn muốn kích hoạt các truy cập công cộng hộp meta "
+"trên."
+
+#: php/class.Options.php:77
+msgid ""
+"Select the Post Types that you wish to activate the Admin Access meta box on."
+msgstr ""
+"Chọn loại bài viết mà bạn muốn kích hoạt các quản trị truy cập hộp meta trên."
+
+#: php/class.Options.php:86
+msgid ""
+"Check the user roles that you do not wish to be available for selection via "
+"the Public Access metabox."
+msgstr ""
+"Kiểm tra các vai trò người sử dụng mà bạn không muốn có sẵn để lựa chọn "
+"thông qua các Metabox truy cập công cộng."
+
+#: php/class.Options.php:95
+msgid ""
+"Check the user roles that you do not wish to be available for selection via "
+"the Admin Access metabox."
+msgstr ""
+"Kiểm tra các vai trò người sử dụng mà bạn không muốn có sẵn để lựa chọn "
+"thông qua các Metabox quản Access."
+
+#: php/class.Options.php:104
+msgid ""
+"Check the box to prevent users from adding child pages to content that they "
+"are restricted from editing"
+msgstr ""
+"Kiểm tra hộp để ngăn người dùng thêm các trang con để nội dung mà họ bị hạn "
+"chế chỉnh sửa"
+
+#: php/class.Options.php:113
+msgid ""
+"Add the message that you wish to appear on the Login Page for restricted "
+"users. Or alternativly redirect the restricted user to a URL of your choice."
+msgstr ""
+"Thêm các thông điệp mà bạn muốn xuất hiện trên các trang đăng nhập cho người "
+"dùng bị hạn chế. Hoặc alternativly chuyển hướng người dùng giới hạn trong "
+"một URL của sự lựa chọn của bạn."
+
+#: php/class.Options.php:276
+msgid "Restrict child pages under restricted content"
+msgstr "Hạn chế các trang trẻ em dưới nội dung hạn chế"
+
+#: php/class.Options.php:297
+msgid "Message"
+msgstr "Tin nhắn không gửi được"
+
+#: php/class.Options.php:319
+msgid "Redirect Url"
+msgstr "Chuyển Url"
+
+#: php/class.Options.php:323
+msgid ""
+"Enter the full URL that you wish to redirect to. (Leave blank to redirect to "
+"login screen)."
+msgstr ""
+"Nhập URL đầy đủ mà bạn muốn chuyển hướng đến. (Để trống để chuyển hướng đến "
+"màn hình đăng nhập)."
+
+#: php/class.Options.php:344
+msgid "After login, redirect to the originally requested URL."
+msgstr "Sau khi đăng nhập, chuyển hướng đến URL yêu cầu ban đầu."
+
+#: php/class.Options.php:350
+msgid "Redirect to original page"
+msgstr "Chuyển đến trang gốc"
+
+#. Plugin Name of the plugin/theme
+#: php/class.Options.php:363 php/class.Options.php:372
+msgid "Restrict Content by Role"
+msgstr "Giới hạn nội dung bởi Vai trò"
+
+#: php/class.Options.php:386
+msgid "Settings"
+msgstr "Cài đặt"
+
+#: php/class.PermissionsColumn.php:88
+msgid "Public Access to Content"
+msgstr "Truy cập công cộng để Content"
+
+#: php/class.PermissionsColumn.php:100
+msgid "Restricted Access to Content"
+msgstr "Truy cập bị hạn chế nội"
+
+#: php/class.PermissionsColumn.php:110
+msgid "Restricted Access to Content and Sub Content"
+msgstr "Truy cập bị hạn chế đến Nội dung Nội dung và Sub"
+
+#: php/class.PermissionsColumn.php:119
+msgid "Restricted Access to Sub Content Only"
+msgstr "Truy cập bị hạn chế nội Sub Chỉ"
+
+#: php/class.PermissionsColumn.php:147 php/class.PermissionsColumn.php:156
+msgid "Restricted Access to Content (via Parent)"
+msgstr "Truy cập bị hạn chế nội (qua Chánh)"
+
+#: php/class.PermissionsColumn.php:172
+msgid "Public Access to Content (No permissions set)"
+msgstr "Truy cập công cộng để Content (Không có thiết lập cấp phép)"
+
+#: php/class.PermissionsMetaBox.php:39
+msgid "Public Access"
+msgstr "Truy cập công cộng"
+
+#: php/class.PermissionsMetaBox.php:175
+msgid "Choose the User Role(s) that you wish to restrict."
+msgstr "Chọn vai trò người dùng (s) mà bạn muốn hạn chế."
+
+#: php/class.PermissionsMetaBox.php:236
+msgid "Custom Redirect"
+msgstr "Tùy chỉnh URL chuyển hướng"
+
+#: php/class.PermissionsMetaBox.php:240
+msgid ""
+"Enter the full URL that you wish restricted users to redirect to. (Leave "
+"blank to use default redirect settings)."
+msgstr ""
+"Nhập URL đầy đủ mà bạn muốn người dùng giới hạn để chuyển hướng đến. (Để "
+"trống để sử dụng cài đặt chuyển hướng mặc định)."
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/mkdo/restrict-content-by-role"
+msgstr "https://github.com/mkdo/restrict-content-by-role"
+
+#. Description of the plugin/theme
+msgid ""
+"Restrict users with certain User Roles from accessing certain pieces of "
+"content and sub-content, both publicly and within the WordPress Dashboard "
+"(WP Admin)."
+msgstr ""
+"Giới hạn người dùng với một số vai trò người truy cập vào một số phần nào "
+"của nội dung và nội dung phụ, cả công khai và trong Bảng điều khiển "
+"WordPress (WP Admin)."
+
+#. Author of the plugin/theme
+msgid "Make Do <hello@makedo.net>"
+msgstr "Hãy Đỗ <hello@makedo.net>"
+
+#. Author URI of the plugin/theme
+msgid "http://www.makedo.net"
+msgstr "http://www.makedo.net"
